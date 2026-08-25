@@ -1,0 +1,59 @@
+{
+  "slice": "geography@yago",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 3,
+    "boundary": 0,
+    "total": 3
+  },
+  "constraints": [
+    {
+      "cid": "geo.yg.dom.containment",
+      "domain": "geography",
+      "kg": "yago",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(schema:containedInPlace) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"schema:Place\")] >"
+      },
+      "note": "SHACL: subject of containedInPlace is a schema:Place.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.yg.rng.containment",
+      "domain": "geography",
+      "kg": "yago",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "subset",
+      "containment": {
+        "phi": "< up(schema:containedInPlace) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"schema:Place\")] >"
+      },
+      "note": "SHACL: value of containedInPlace is a schema:Place.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.yg.req.country",
+      "domain": "geography",
+      "kg": "yago",
+      "kind": "requires_statement",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"schema:City\")] >",
+        "psi": "< down(schema:containedInPlace) >"
+      },
+      "note": "SHACL sh:minCount 1 on containedInPlace for City.",
+      "params": {},
+      "version": 1
+    }
+  ]
+}

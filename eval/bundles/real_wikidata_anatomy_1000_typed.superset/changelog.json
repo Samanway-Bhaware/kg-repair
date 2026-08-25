@@ -1,0 +1,104 @@
+{
+ "changelog": [
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q139329732",
+   "witness": "wd:Q139329732"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1620186",
+   "witness": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q9635",
+   "witness": "wd:Q9635"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q170494",
+   "witness": "wd:Q170494"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1784017",
+   "witness": "wd:Q1784017"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q23497974",
+   "witness": "wd:Q23497974"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q23852",
+   "witness": "wd:Q23852"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q5",
+   "witness": "wd:Q5"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q6151460",
+   "witness": "wd:Q6151460"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q7239",
+   "witness": "wd:Q7239"
+  }
+ ]
+}

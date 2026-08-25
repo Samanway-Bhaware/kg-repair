@@ -1,0 +1,77 @@
+{
+  "constraints": [
+    {
+      "cid": "geo.db.dom.country",
+      "containment": {
+        "phi": "< down(dbo:country) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Place\")] >"
+      },
+      "direction": "subset",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "existential_domain",
+      "note": "rdfs:domain of dbo:country is dbo:Place.",
+      "params": {},
+      "provenance": "given",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "geo.db.rng.country",
+      "containment": {
+        "phi": "< up(dbo:country) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Country\")] >"
+      },
+      "direction": "subset",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "existential_range",
+      "note": "rdfs:range of dbo:country is dbo:Country.",
+      "params": {},
+      "provenance": "given",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "geo.db.type.settlement",
+      "containment": {
+        "phi": "< down(dbo:country) > & < down(dbo:location) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Settlement\")] >"
+      },
+      "direction": "superset",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "typing_existence",
+      "note": "Infobox-derived places with country+location are typed Settlement.",
+      "params": {
+        "reference": "clean-dbpedia-place-slice",
+        "threshold": "0.98"
+      },
+      "provenance": "derived",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "geo.db.sym.border",
+      "containment": {
+        "phi": "< down(dbo:neighboringMunicipality) >",
+        "psi": "< up(dbo:neighboringMunicipality) >"
+      },
+      "direction": "report",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "symmetric",
+      "note": "neighbouring-municipality is symmetric; report only.",
+      "params": {},
+      "provenance": "given",
+      "tier": "boundary",
+      "version": 1
+    }
+  ],
+  "coverage": {
+    "boundary": 1,
+    "ptime_core": 3,
+    "total": 4
+  },
+  "slice": "geography@dbpedia"
+}

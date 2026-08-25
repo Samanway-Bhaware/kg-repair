@@ -1,0 +1,94 @@
+{
+  "config": {
+    "max_antecedent": 2,
+    "max_path": 2,
+    "min_confidence": 0.9,
+    "min_support": 10
+  },
+  "rows": [
+    {
+      "admitted": 249,
+      "atoms": 24,
+      "bodies": 99,
+      "edges": 1000,
+      "heads": 348,
+      "impact_all_candidates_s": 1.92,
+      "impact_per_candidate_s": 0.0077,
+      "impact_share_of_total": 0.966,
+      "memory_bytes": {
+        "bitsets": 3036,
+        "search": 269347
+      },
+      "near_misses": 1149,
+      "nodes": 725,
+      "rung": "1k (real)",
+      "search_total_s": 0.0677,
+      "timings": {
+        "impact:sample": 0.1545,
+        "lattice": 0.0002,
+        "scoring:heads": 0.0401,
+        "scoring:residual": 0.0238,
+        "traversals:atoms": 0.0014,
+        "traversals:vocabulary": 0.0022
+      },
+      "traversals": 411,
+      "widenings": 199
+    },
+    {
+      "admitted": 1548,
+      "atoms": 64,
+      "bodies": 495,
+      "edges": 10000,
+      "heads": 424,
+      "impact_all_candidates_s": 19.04,
+      "impact_per_candidate_s": 0.0123,
+      "impact_share_of_total": 0.958,
+      "memory_bytes": {
+        "bitsets": 22292,
+        "search": 2309218
+      },
+      "near_misses": 10373,
+      "nodes": 3707,
+      "rung": "10k (real)",
+      "search_total_s": 0.8353,
+      "timings": {
+        "impact:sample": 0.246,
+        "lattice": 0.0017,
+        "scoring:heads": 0.2662,
+        "scoring:residual": 0.5294,
+        "traversals:atoms": 0.0113,
+        "traversals:vocabulary": 0.0267
+      },
+      "traversals": 755,
+      "widenings": 6204
+    },
+    {
+      "admitted": 29,
+      "atoms": 11,
+      "bodies": 38,
+      "edges": 108660,
+      "heads": 27,
+      "impact_all_candidates_s": 747.87,
+      "impact_per_candidate_s": 25.7887,
+      "impact_share_of_total": 0.9994,
+      "memory_bytes": {
+        "bitsets": 49184,
+        "search": 13469
+      },
+      "near_misses": 12,
+      "nodes": 46667,
+      "rung": "100k (synthetic)",
+      "search_total_s": 0.4349,
+      "timings": {
+        "impact:sample": 515.7731,
+        "lattice": 0.0001,
+        "scoring:heads": 0.2144,
+        "scoring:residual": 0.0643,
+        "traversals:atoms": 0.115,
+        "traversals:vocabulary": 0.041
+      },
+      "traversals": 31,
+      "widenings": 7
+    }
+  ]
+}

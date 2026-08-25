@@ -1,0 +1,1145 @@
+{
+  "cells": {
+    "anatomy": {
+      "fixture": "real_wikidata_anatomy_1000_typed",
+      "mined_by_shape": {
+        "existential_domain": 7,
+        "existential_range": 7,
+        "requires_statement": 0,
+        "typing_existence": 7
+      },
+      "mined_generated": 61,
+      "mined_pruned_redundant": 40,
+      "mined_total": 21,
+      "status": "ok",
+      "versions": {
+        "v1": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 2,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 21,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            },
+            "relaxed": {
+              "authored": 2,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 21,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            }
+          }
+        },
+        "v2": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 7,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 2,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 21,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            },
+            "relaxed": {
+              "authored": 2,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 21,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            }
+          }
+        }
+      },
+      "vocab": {
+        "subclass_predicate": "wdt:P279",
+        "type_predicate": "wdt:P31"
+      }
+    },
+    "disease": {
+      "fixture": "real_wikidata_disease_1000",
+      "mined_by_shape": {
+        "existential_domain": 1,
+        "existential_range": 0,
+        "requires_statement": 1,
+        "typing_existence": 2
+      },
+      "mined_generated": 6,
+      "mined_pruned_redundant": 2,
+      "mined_total": 4,
+      "status": "ok",
+      "versions": {
+        "v1": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 2,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            },
+            "relaxed": {
+              "authored": 2,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 4,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            }
+          }
+        },
+        "v2": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 2,
+              "f1": 0.3333,
+              "matched_authored": 1,
+              "mined": 4,
+              "precision": 0.25,
+              "recall": 0.5,
+              "tp_mined": 1
+            },
+            "relaxed": {
+              "authored": 2,
+              "f1": 0.3333,
+              "matched_authored": 1,
+              "mined": 4,
+              "precision": 0.25,
+              "recall": 0.5,
+              "tp_mined": 1
+            }
+          }
+        }
+      },
+      "vocab": {
+        "subclass_predicate": "wdt:P279",
+        "type_predicate": "wdt:P31"
+      }
+    },
+    "geography": {
+      "fixture": "real_wikidata_geography_1000",
+      "mined_by_shape": {
+        "existential_domain": 0,
+        "existential_range": 1,
+        "requires_statement": 43,
+        "typing_existence": 3
+      },
+      "mined_generated": 71,
+      "mined_pruned_redundant": 24,
+      "mined_total": 47,
+      "status": "ok",
+      "versions": {
+        "v1": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0455,
+                "matched_authored": 1,
+                "mined": 43,
+                "precision": 0.0233,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0455,
+                "matched_authored": 1,
+                "mined": 43,
+                "precision": 0.0233,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 3,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 3,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 4,
+              "f1": 0.0785,
+              "matched_authored": 2,
+              "mined": 47,
+              "precision": 0.0426,
+              "recall": 0.5,
+              "tp_mined": 2
+            },
+            "relaxed": {
+              "authored": 4,
+              "f1": 0.0785,
+              "matched_authored": 2,
+              "mined": 47,
+              "precision": 0.0426,
+              "recall": 0.5,
+              "tp_mined": 2
+            }
+          }
+        },
+        "v2": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0455,
+                "matched_authored": 1,
+                "mined": 43,
+                "precision": 0.0233,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0455,
+                "matched_authored": 1,
+                "mined": 43,
+                "precision": 0.0233,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 3,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 3,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 4,
+              "f1": 0.0785,
+              "matched_authored": 2,
+              "mined": 47,
+              "precision": 0.0426,
+              "recall": 0.5,
+              "tp_mined": 2
+            },
+            "relaxed": {
+              "authored": 4,
+              "f1": 0.0785,
+              "matched_authored": 2,
+              "mined": 47,
+              "precision": 0.0426,
+              "recall": 0.5,
+              "tp_mined": 2
+            }
+          }
+        }
+      },
+      "vocab": {
+        "subclass_predicate": "wdt:P279",
+        "type_predicate": "wdt:P31"
+      }
+    },
+    "medication": {
+      "fixture": "real_wikidata_medication_1000_typed",
+      "mined_by_shape": {
+        "existential_domain": 4,
+        "existential_range": 8,
+        "requires_statement": 0,
+        "typing_existence": 2
+      },
+      "mined_generated": 26,
+      "mined_pruned_redundant": 12,
+      "mined_total": 14,
+      "status": "ok",
+      "versions": {
+        "v1": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 8,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 8,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 3,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 14,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            },
+            "relaxed": {
+              "authored": 3,
+              "f1": 0.0,
+              "matched_authored": 0,
+              "mined": 14,
+              "precision": 0.0,
+              "recall": 0.0,
+              "tp_mined": 0
+            }
+          }
+        },
+        "v2": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.2222,
+                "matched_authored": 1,
+                "mined": 8,
+                "precision": 0.125,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.2222,
+                "matched_authored": 1,
+                "mined": 8,
+                "precision": 0.125,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 0,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 2,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 3,
+              "f1": 0.1176,
+              "matched_authored": 1,
+              "mined": 14,
+              "precision": 0.0714,
+              "recall": 0.3333,
+              "tp_mined": 1
+            },
+            "relaxed": {
+              "authored": 3,
+              "f1": 0.1176,
+              "matched_authored": 1,
+              "mined": 14,
+              "precision": 0.0714,
+              "recall": 0.3333,
+              "tp_mined": 1
+            }
+          }
+        }
+      },
+      "vocab": {
+        "subclass_predicate": "wdt:P279",
+        "type_predicate": "wdt:P31"
+      }
+    },
+    "taxa": {
+      "fixture": "real_wikidata_taxa_1000",
+      "mined_by_shape": {
+        "existential_domain": 1,
+        "existential_range": 1,
+        "requires_statement": 1,
+        "typing_existence": 1
+      },
+      "mined_generated": 8,
+      "mined_pruned_redundant": 4,
+      "mined_total": 4,
+      "status": "ok",
+      "versions": {
+        "v1": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 3,
+              "f1": 0.5714,
+              "matched_authored": 2,
+              "mined": 4,
+              "precision": 0.5,
+              "recall": 0.6667,
+              "tp_mined": 2
+            },
+            "relaxed": {
+              "authored": 3,
+              "f1": 0.5714,
+              "matched_authored": 2,
+              "mined": 4,
+              "precision": 0.5,
+              "recall": 0.6667,
+              "tp_mined": 2
+            }
+          }
+        },
+        "v2": {
+          "by_shape": {
+            "existential_domain": {
+              "exact": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "existential_range": {
+              "exact": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 1.0,
+                "matched_authored": 1,
+                "mined": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "tp_mined": 1
+              }
+            },
+            "requires_statement": {
+              "exact": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 1,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            },
+            "typing_existence": {
+              "exact": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              },
+              "relaxed": {
+                "authored": 0,
+                "f1": 0.0,
+                "matched_authored": 0,
+                "mined": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "tp_mined": 0
+              }
+            }
+          },
+          "overall": {
+            "exact": {
+              "authored": 3,
+              "f1": 0.5714,
+              "matched_authored": 2,
+              "mined": 4,
+              "precision": 0.5,
+              "recall": 0.6667,
+              "tp_mined": 2
+            },
+            "relaxed": {
+              "authored": 3,
+              "f1": 0.5714,
+              "matched_authored": 2,
+              "mined": 4,
+              "precision": 0.5,
+              "recall": 0.6667,
+              "tp_mined": 2
+            }
+          }
+        }
+      },
+      "vocab": {
+        "subclass_predicate": "wdt:P279",
+        "type_predicate": "wdt:P31"
+      }
+    }
+  },
+  "config": {
+    "contamination_frac": 0.2,
+    "min_pca_confidence": 0.9,
+    "min_support": 5,
+    "min_typed_fraction": 0.5
+  }
+}

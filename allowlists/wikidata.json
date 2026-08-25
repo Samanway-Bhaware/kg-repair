@@ -1,0 +1,26 @@
+{
+  "allowlist_id": "wikidata-geo-taxa-bio-v1",
+  "source": "wikidata",
+  "note": "Level-0: whitelist only. Typing spine + geography/taxa/anatomy/disease/medication predicates matching the constraint files. Person/org-pointing predicates are absent by construction and asserted absent by the deny list.",
+  "prefixes": {
+    "wd": "http://www.wikidata.org/entity/",
+    "wdt": "http://www.wikidata.org/prop/direct/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/"
+  },
+  "predicates": [
+    "wdt:P31", "wdt:P279",
+    "wdt:P17", "wdt:P131", "wdt:P47", "wdt:P36", "wdt:P1376", "wdt:P30", "wdt:P206",
+    "wdt:P171", "wdt:P105", "wdt:P225",
+    "wdt:P361", "wdt:P527",
+    "wdt:P780", "wdt:P828",
+    "wdt:P2175", "wdt:P2176", "wdt:P636", "wdt:P769"
+  ],
+  "deny_predicates": [
+    "wdt:P35", "wdt:P6", "wdt:P108", "wdt:P169", "wdt:P488", "wdt:P112",
+    "wdt:P127", "wdt:P749", "wdt:P1830", "wdt:P22", "wdt:P25", "wdt:P26",
+    "wdt:P40", "wdt:P3373", "wdt:P937", "wdt:P39", "wdt:P102"
+  ],
+  "deny_note": "P35 head-of-state, P6 head-of-gov, P108 employer, P169 CEO, P488 chairperson, P112 founder, P127 owned-by, P749 parent-org, P1830 owner-of, P22/P25/P26/P40/P3373 family, P937 work-location, P39 position-held, P102 party."
+}

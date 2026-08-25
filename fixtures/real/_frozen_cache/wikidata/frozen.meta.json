@@ -1,0 +1,8 @@
+{
+  "source": "wikidata",
+  "url": "https://query.wikidata.org/sparql",
+  "query_text": "CONSTRUCT { wd:Q64 ?p ?o . ?o wdt:P279 ?sc } WHERE { VALUES ?p { wdt:P31 wdt:P131 wdt:P17 wdt:P47 } wd:Q64 ?p ?o . OPTIONAL { ?o wdt:P279 ?sc } }",
+  "query_hash": "frozenfixture01",
+  "content_hash": "frozenfixture01",
+  "retrieval_timestamp": "2026-07-06T00:00:00Z"
+}

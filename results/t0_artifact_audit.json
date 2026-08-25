@@ -1,0 +1,95 @@
+[
+  {
+    "cell": "wikidata geography 10000",
+    "V_slice": 3707,
+    "V_cache": 4503,
+    "queried_subjects": 1328,
+    "rows": [
+      {
+        "constraint": "geo.wd.dom.country",
+        "kind": "existential_domain",
+        "witnesses": 858,
+        "slice_artifact": 0,
+        "fetch_artifact": 0,
+        "genuine": 858
+      },
+      {
+        "constraint": "geo.wd.rng.country",
+        "kind": "existential_range",
+        "witnesses": 29,
+        "slice_artifact": 0,
+        "fetch_artifact": 24,
+        "genuine": 5
+      }
+    ],
+    "totals": {
+      "slice": 0,
+      "fetch": 24,
+      "genuine": 863,
+      "witnesses": 887
+    },
+    "artifact_fraction": 0.02705749718151071
+  },
+  {
+    "cell": "wikidata anatomy 1000",
+    "V_slice": 503,
+    "V_cache": 734,
+    "queried_subjects": 254,
+    "rows": [
+      {
+        "constraint": "ana.wd.dom.partof",
+        "kind": "existential_domain",
+        "witnesses": 69,
+        "slice_artifact": 0,
+        "fetch_artifact": 0,
+        "genuine": 69
+      },
+      {
+        "constraint": "ana.wd.rng.partof",
+        "kind": "existential_range",
+        "witnesses": 75,
+        "slice_artifact": 0,
+        "fetch_artifact": 37,
+        "genuine": 38
+      }
+    ],
+    "totals": {
+      "slice": 0,
+      "fetch": 37,
+      "genuine": 107,
+      "witnesses": 144
+    },
+    "artifact_fraction": 0.2569444444444444
+  },
+  {
+    "cell": "wikidata medication 1000",
+    "V_slice": 653,
+    "V_cache": 942,
+    "queried_subjects": 92,
+    "rows": [
+      {
+        "constraint": "med.wd.dom.treats",
+        "kind": "existential_domain",
+        "witnesses": 12,
+        "slice_artifact": 0,
+        "fetch_artifact": 0,
+        "genuine": 12
+      },
+      {
+        "constraint": "med.wd.rng.treats",
+        "kind": "existential_range",
+        "witnesses": 129,
+        "slice_artifact": 0,
+        "fetch_artifact": 105,
+        "genuine": 24
+      }
+    ],
+    "totals": {
+      "slice": 0,
+      "fetch": 105,
+      "genuine": 36,
+      "witnesses": 141
+    },
+    "artifact_fraction": 0.7446808510638298
+  }
+]

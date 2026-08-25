@@ -1,0 +1,66 @@
+{
+  "constraints": [
+    {
+      "cid": "ana.wd.dom.partof.v2",
+      "containment": {
+        "phi": "< down(wdt:P361) . [< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] > | < down(wdt:P31) . [val(\"wd:Q112826905\")] > | < down(wdt:P31) . [val(\"wd:Q103812529\")] > | < down(wdt:P31) . [val(\"wd:Q104027169\")] > | < down(wdt:P31) . [val(\"wd:Q103914748\")] > | < down(wdt:P31) . [val(\"wd:Q113147985\")] > | < down(wdt:P31) . [val(\"wd:Q139550381\")] > | < down(wdt:P31) . [val(\"wd:Q103843042\")] >] >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] > | < down(wdt:P31) . [val(\"wd:Q112826905\")] > | < down(wdt:P31) . [val(\"wd:Q103812529\")] > | < down(wdt:P31) . [val(\"wd:Q104027169\")] > | < down(wdt:P31) . [val(\"wd:Q103914748\")] > | < down(wdt:P31) . [val(\"wd:Q113147985\")] > | < down(wdt:P31) . [val(\"wd:Q139550381\")] > | < down(wdt:P31) . [val(\"wd:Q103843042\")] >"
+      },
+      "direction": "subset",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "note": "RC1+RC2 fix (D7/C1, results/rc_shape_trace.json): narrows the antecedent to require the P361 TARGET to already be (widened) anatomical -- excludes cross-domain P361 reuse (geographic/financial 'part of') -- and widens the consequent with 7 traced anatomy meta-classes (organ type, class of anatomical entity, ...). Supersedes ana.wd.dom.partof for the fix evaluation; v1 is untouched and independently loadable.",
+      "params": {
+        "baseline_cid": "ana.wd.dom.partof",
+        "fixes": "RC1,RC2",
+        "trace": "results/rc_shape_trace.json"
+      },
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 2
+    },
+    {
+      "cid": "ana.wd.rng.partof.v2",
+      "containment": {
+        "phi": "< up(wdt:P361) . [< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] > | < down(wdt:P31) . [val(\"wd:Q112826905\")] > | < down(wdt:P31) . [val(\"wd:Q103812529\")] > | < down(wdt:P31) . [val(\"wd:Q104027169\")] > | < down(wdt:P31) . [val(\"wd:Q103914748\")] > | < down(wdt:P31) . [val(\"wd:Q113147985\")] > | < down(wdt:P31) . [val(\"wd:Q139550381\")] > | < down(wdt:P31) . [val(\"wd:Q103843042\")] >] >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] > | < down(wdt:P31) . [val(\"wd:Q112826905\")] > | < down(wdt:P31) . [val(\"wd:Q103812529\")] > | < down(wdt:P31) . [val(\"wd:Q104027169\")] > | < down(wdt:P31) . [val(\"wd:Q103914748\")] > | < down(wdt:P31) . [val(\"wd:Q113147985\")] > | < down(wdt:P31) . [val(\"wd:Q139550381\")] > | < down(wdt:P31) . [val(\"wd:Q103843042\")] >"
+      },
+      "direction": "subset",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "note": "Symmetric analogue of ana.wd.dom.partof.v2: requires the P361 SOURCE to already be (widened) anatomical before flagging the target.",
+      "params": {
+        "baseline_cid": "ana.wd.rng.partof",
+        "fixes": "RC1,RC2",
+        "trace": "results/rc_shape_trace.json"
+      },
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 2
+    },
+    {
+      "cid": "ana.wd.inv.part_haspart",
+      "containment": {
+        "phi": "< down(wdt:P361) >",
+        "psi": "< up(wdt:P527) >"
+      },
+      "direction": "report",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "inverse",
+      "note": "P361 part-of is inverse of P527 has-part; report only.",
+      "params": {},
+      "provenance": "given",
+      "tier": "boundary",
+      "version": 1
+    }
+  ],
+  "coverage": {
+    "boundary": 1,
+    "ptime_core": 2,
+    "total": 3
+  },
+  "slice": "anatomy@wikidata.v2"
+}

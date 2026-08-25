@@ -1,0 +1,78 @@
+{
+  "slice": "geography@dbpedia",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 3,
+    "boundary": 1,
+    "total": 4
+  },
+  "constraints": [
+    {
+      "cid": "geo.db.dom.country",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(dbo:country) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Place\")] >"
+      },
+      "note": "rdfs:domain of dbo:country is dbo:Place.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.db.rng.country",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "subset",
+      "containment": {
+        "phi": "< up(dbo:country) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Country\")] >"
+      },
+      "note": "rdfs:range of dbo:country is dbo:Country.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.db.type.settlement",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "typing_existence",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(dbo:country) > & < down(dbo:location) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Settlement\")] >"
+      },
+      "note": "Infobox-derived places with country+location are typed Settlement.",
+      "params": {
+        "threshold": "0.98",
+        "reference": "clean-dbpedia-place-slice"
+      },
+      "version": 1
+    },
+    {
+      "cid": "geo.db.sym.border",
+      "domain": "geography",
+      "kg": "dbpedia",
+      "kind": "symmetric",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(dbo:neighboringMunicipality) >",
+        "psi": "< up(dbo:neighboringMunicipality) >"
+      },
+      "note": "neighbouring-municipality is symmetric; report only.",
+      "params": {},
+      "version": 1
+    }
+  ]
+}

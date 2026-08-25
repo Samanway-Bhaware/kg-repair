@@ -1,0 +1,80 @@
+[
+  {
+    "cid": "hornpca.medication.rng.P2175.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "PCA-confidence: 123/123=100.0% among entities that HAVE some type (CWA population was 129, 6 excluded as untyped-unknown)",
+    "pca_confidence": 1.0,
+    "support": 123
+  },
+  {
+    "cid": "hornpca.medication.rng.P2175.Q7048977",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q7048977\")] >"
+    },
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "PCA-confidence: 123/123=100.0% among entities that HAVE some type (CWA population was 129, 6 excluded as untyped-unknown)",
+    "pca_confidence": 1.0,
+    "support": 123
+  },
+  {
+    "cid": "hornpca.medication.rng.P2176.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P2176) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "PCA-confidence: 175/175=100.0% among entities that HAVE some type (CWA population was 176, 1 excluded as untyped-unknown)",
+    "pca_confidence": 1.0,
+    "support": 175
+  },
+  {
+    "cid": "hornpca.medication.rng.P361.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P361) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "PCA-confidence: 22/22=100.0% among entities that HAVE some type (CWA population was 22, 0 excluded as untyped-unknown)",
+    "pca_confidence": 1.0,
+    "support": 22
+  },
+  {
+    "cid": "hornpca.medication.rng.P769.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P769) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "PCA-confidence: 171/171=100.0% among entities that HAVE some type (CWA population was 171, 0 excluded as untyped-unknown)",
+    "pca_confidence": 1.0,
+    "support": 171
+  },
+  {
+    "cid": "hornpca.medication.rng.P780.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P780) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "PCA-confidence: 34/34=100.0% among entities that HAVE some type (CWA population was 37, 3 excluded as untyped-unknown)",
+    "pca_confidence": 1.0,
+    "support": 34
+  }
+]

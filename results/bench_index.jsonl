@@ -1,0 +1,3 @@
+{"bench": "preimage_selectivity", "total_edges": 200000, "a_edges": 199993, "a_fraction": 1.0, "preimage_ms": 17.059, "result_size": 49143}
+{"bench": "preimage_selectivity", "total_edges": 200000, "a_edges": 20000, "a_fraction": 0.1, "preimage_ms": 5.148, "result_size": 16467}
+{"bench": "preimage_selectivity", "total_edges": 200000, "a_edges": 2000, "a_fraction": 0.01, "preimage_ms": 3.989, "result_size": 1968}

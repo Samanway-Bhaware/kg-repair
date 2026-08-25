@@ -1,0 +1,1032 @@
+{
+  "constraints": {
+    "P105": [
+      {
+        "classes": [
+          "Q15707583",
+          "Q16521"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [
+          "Q427626"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P171"
+        ],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P225"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510859",
+        "properties": [],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P131": [
+      {
+        "classes": [
+          "Q15617994",
+          "Q15642541",
+          "Q19953632",
+          "Q245016",
+          "Q269528",
+          "Q30070324",
+          "Q56061",
+          "Q64034456",
+          "Q7275",
+          "Q852446"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P17"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P31"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510851",
+        "properties": [
+          "P1001",
+          "P1011",
+          "P1012",
+          "P1013",
+          "P10229",
+          "P1107",
+          "P12506",
+          "P131",
+          "P1310",
+          "P1319",
+          "P1326",
+          "P1480",
+          "P1534",
+          "P17",
+          "P2043",
+          "P2046",
+          "P2241",
+          "P276",
+          "P281",
+          "P2868",
+          "P3680",
+          "P3831",
+          "P4856",
+          "P5102",
+          "P518",
+          "P580",
+          "P582",
+          "P585",
+          "P6375",
+          "P6529",
+          "P654",
+          "P669",
+          "P670",
+          "P708",
+          "P7452",
+          "P805",
+          "P828",
+          "P8554",
+          "P8555",
+          "P92"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510864",
+        "properties": [
+          "P17"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52558054",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P1376": [
+      {
+        "classes": [
+          "Q137834788",
+          "Q20750954",
+          "Q23442",
+          "Q56061",
+          "Q64034456",
+          "Q702492"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P131"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P17"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P625"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510855",
+        "properties": [
+          "P36"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q25796498",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P17": [
+      {
+        "classes": [
+          "Q10711424",
+          "Q1145276",
+          "Q1151405",
+          "Q1250464",
+          "Q148837",
+          "Q15239622",
+          "Q15304003",
+          "Q161243",
+          "Q1620908",
+          "Q170156",
+          "Q182547",
+          "Q1896989",
+          "Q253836",
+          "Q2577883",
+          "Q28171280",
+          "Q3024240",
+          "Q3238337",
+          "Q3624078",
+          "Q3895768",
+          "Q43702",
+          "Q48349",
+          "Q59281",
+          "Q5982983",
+          "Q6256",
+          "Q678116",
+          "Q7275"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P279"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P8047"
+        ],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510851",
+        "properties": [
+          "P1001",
+          "P1013",
+          "P12506",
+          "P131",
+          "P1310",
+          "P1319",
+          "P1326",
+          "P13589",
+          "P1479",
+          "P1480",
+          "P1534",
+          "P1552",
+          "P17",
+          "P1706",
+          "P2241",
+          "P2348",
+          "P2868",
+          "P3680",
+          "P3831",
+          "P3842",
+          "P459",
+          "P5102",
+          "P518",
+          "P531",
+          "P580",
+          "P582",
+          "P585",
+          "P710",
+          "P7452",
+          "P7588",
+          "P805",
+          "P828",
+          "P8554",
+          "P8555"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510864",
+        "properties": [
+          "P30"
+        ],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52558054",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P171": [
+      {
+        "classes": [
+          "Q16521"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [
+          "Q16521"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P105"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21503247",
+        "properties": [
+          "P225"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P206": [
+      {
+        "classes": [
+          "Q15324",
+          "Q16500104",
+          "Q16615865",
+          "Q44782"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [
+          "Q27096213",
+          "Q3238337",
+          "Q3895768",
+          "Q618123",
+          "Q66661745",
+          "Q8205328",
+          "Q906512"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P2175": [
+      {
+        "classes": [
+          "Q113145171",
+          "Q119892838",
+          "Q28885102",
+          "Q30612",
+          "Q6554101",
+          "Q796194",
+          "Q930752"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [
+          "Q2057971"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510855",
+        "properties": [
+          "P2176"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P30": [
+      {
+        "classes": [
+          "Q17199338",
+          "Q5107",
+          "Q55833",
+          "Q855697"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [
+          "Q2221906",
+          "Q27096213",
+          "Q3694119",
+          "Q3895768",
+          "Q74817647"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "deprecated",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510851",
+        "properties": [
+          "P1319",
+          "P1326",
+          "P2241",
+          "P518",
+          "P580",
+          "P582",
+          "P7452",
+          "P8554",
+          "P8555"
+        ],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510859",
+        "properties": [],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52060874",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P36": [
+      {
+        "classes": [
+          "Q1048835",
+          "Q123349660",
+          "Q486972",
+          "Q5119",
+          "Q56061",
+          "Q64034456"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [
+          "Q1145276",
+          "Q1414991",
+          "Q1907114",
+          "Q20750954",
+          "Q23442",
+          "Q2775969",
+          "Q3024240",
+          "Q3327870",
+          "Q3591867",
+          "Q486972",
+          "Q56061",
+          "Q57663042",
+          "Q6266",
+          "Q64034456",
+          "Q82794"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510851",
+        "properties": [
+          "P1249",
+          "P1319",
+          "P1326",
+          "P1365",
+          "P1366",
+          "P1480",
+          "P1534",
+          "P2241",
+          "P3005",
+          "P3831",
+          "P459",
+          "P5102",
+          "P518",
+          "P580",
+          "P582",
+          "P585",
+          "P6375",
+          "P7452",
+          "P805",
+          "P8554",
+          "P8555"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510855",
+        "properties": [
+          "P1376"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q25796498",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52060874",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P361": [
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52558054",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P47": [
+      {
+        "classes": [
+          "Q15642541",
+          "Q2221906",
+          "Q3238337",
+          "Q3895768",
+          "Q4006",
+          "Q618123",
+          "Q8928"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [
+          "Q15642541",
+          "Q3238337",
+          "Q3895768",
+          "Q4006",
+          "Q618123",
+          "Q8928"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q21503252"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510851",
+        "properties": [
+          "P1013",
+          "P10663",
+          "P131",
+          "P1310",
+          "P1319",
+          "P1326",
+          "P1534",
+          "P2241",
+          "P3680",
+          "P4777",
+          "P5102",
+          "P518",
+          "P560",
+          "P580",
+          "P582",
+          "P625",
+          "P654",
+          "P7452",
+          "P805",
+          "P8554",
+          "P8555"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510862",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q25796498",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P527": [
+      {
+        "classes": [],
+        "constraint_type": "Q21502838",
+        "properties": [
+          "P31"
+        ],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q21510851",
+        "properties": [
+          "P1001",
+          "P1114",
+          "P13044",
+          "P1480",
+          "P1545",
+          "P1552",
+          "P1582",
+          "P2541",
+          "P2868",
+          "P361",
+          "P3831",
+          "P459",
+          "P488",
+          "P5102",
+          "P518",
+          "P527",
+          "P580",
+          "P582",
+          "P585",
+          "P7122"
+        ],
+        "rank": "deprecated",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52558054",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P780": [
+      {
+        "classes": [
+          "Q1441305",
+          "Q169872",
+          "Q179630",
+          "Q2057971"
+        ],
+        "constraint_type": "Q21510865",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [
+          "Q18596079",
+          "Q7189713"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q54554025",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ],
+    "P828": [
+      {
+        "classes": [
+          "Q2995644",
+          "Q35120",
+          "Q621184",
+          "Q67518978"
+        ],
+        "constraint_type": "Q21503250",
+        "properties": [],
+        "rank": "normal",
+        "relation": "Q30208840"
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52004125",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q52558054",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      },
+      {
+        "classes": [],
+        "constraint_type": "Q53869507",
+        "properties": [],
+        "rank": "normal",
+        "relation": null
+      }
+    ]
+  },
+  "endpoint": "https://www.wikidata.org/wiki/Special:EntityData/{}.json",
+  "failed": [],
+  "properties": [
+    "P105",
+    "P131",
+    "P1376",
+    "P17",
+    "P171",
+    "P206",
+    "P2175",
+    "P30",
+    "P36",
+    "P361",
+    "P47",
+    "P527",
+    "P780",
+    "P828"
+  ]
+}

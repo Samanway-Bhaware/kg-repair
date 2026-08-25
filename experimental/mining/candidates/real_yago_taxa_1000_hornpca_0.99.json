@@ -1,0 +1,15 @@
+[
+  {
+    "cid": "hornpca.taxa.dom.parentTaxon.Taxon",
+    "containment": {
+      "phi": "< down(schema:parentTaxon) >",
+      "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"schema:Taxon\")] >"
+    },
+    "domain": "taxa",
+    "kg": "yago",
+    "kind": "existential_domain",
+    "note": "PCA-confidence: 500/500=100.0% among entities that HAVE some type (CWA population was 500, 0 excluded as untyped-unknown)",
+    "pca_confidence": 1.0,
+    "support": 500
+  }
+]

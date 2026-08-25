@@ -1,0 +1,199 @@
+[
+  {
+    "domain": "taxa",
+    "kg": "yago",
+    "per_threshold": {
+      "0.90": {
+        "by_kind": {
+          "existential_domain": 1,
+          "requires_statement": 1
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 2
+        },
+        "candidates_file": "experimental/mining/candidates/real_yago_taxa_1000_0.90.json",
+        "fragment_passed": 2,
+        "fragment_rejected": 0,
+        "raw": 2
+      },
+      "0.95": {
+        "by_kind": {
+          "existential_domain": 1,
+          "requires_statement": 1
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 2
+        },
+        "candidates_file": "experimental/mining/candidates/real_yago_taxa_1000_0.95.json",
+        "fragment_passed": 2,
+        "fragment_rejected": 0,
+        "raw": 2
+      },
+      "0.99": {
+        "by_kind": {
+          "existential_domain": 1,
+          "requires_statement": 1
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 2
+        },
+        "candidates_file": "experimental/mining/candidates/real_yago_taxa_1000_0.99.json",
+        "fragment_passed": 2,
+        "fragment_rejected": 0,
+        "raw": 2
+      }
+    },
+    "run_id": "8f2104f36dc64bffa1577794d743b020",
+    "slice": "real_yago_taxa_1000"
+  },
+  {
+    "domain": "anatomy",
+    "kg": "wikidata",
+    "per_threshold": {
+      "0.90": {
+        "by_kind": {
+          "existential_domain": 27,
+          "existential_range": 38,
+          "typing_existence": 36
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 101
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_anatomy_1000_typed_0.90.json",
+        "fragment_passed": 101,
+        "fragment_rejected": 0,
+        "raw": 101
+      },
+      "0.95": {
+        "by_kind": {
+          "existential_domain": 22,
+          "existential_range": 35,
+          "typing_existence": 29
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 86
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_anatomy_1000_typed_0.95.json",
+        "fragment_passed": 86,
+        "fragment_rejected": 0,
+        "raw": 86
+      },
+      "0.99": {
+        "by_kind": {
+          "existential_domain": 13,
+          "existential_range": 35,
+          "typing_existence": 18
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 66
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_anatomy_1000_typed_0.99.json",
+        "fragment_passed": 66,
+        "fragment_rejected": 0,
+        "raw": 66
+      }
+    },
+    "run_id": "dc43d0708c60434b92de9aea9821998b",
+    "slice": "real_wikidata_anatomy_1000_typed"
+  },
+  {
+    "domain": "medication",
+    "kg": "wikidata",
+    "per_threshold": {
+      "0.90": {
+        "by_kind": {
+          "existential_range": 20
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 20
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_medication_1000_typed_0.90.json",
+        "fragment_passed": 20,
+        "fragment_rejected": 0,
+        "raw": 20
+      },
+      "0.95": {
+        "by_kind": {
+          "existential_range": 13
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 13
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_medication_1000_typed_0.95.json",
+        "fragment_passed": 13,
+        "fragment_rejected": 0,
+        "raw": 13
+      },
+      "0.99": {
+        "by_kind": {
+          "existential_range": 3
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 3
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_medication_1000_typed_0.99.json",
+        "fragment_passed": 3,
+        "fragment_rejected": 0,
+        "raw": 3
+      }
+    },
+    "run_id": "b544caf4042c40f285bd1f90a853abfa",
+    "slice": "real_wikidata_medication_1000_typed"
+  },
+  {
+    "domain": "geography",
+    "kg": "wikidata",
+    "per_threshold": {
+      "0.90": {
+        "by_kind": {
+          "requires_statement": 69
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 69
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_geography_10000_0.90.json",
+        "fragment_passed": 69,
+        "fragment_rejected": 0,
+        "raw": 69
+      },
+      "0.95": {
+        "by_kind": {
+          "requires_statement": 60
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 60
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_geography_10000_0.95.json",
+        "fragment_passed": 60,
+        "fragment_rejected": 0,
+        "raw": 60
+      },
+      "0.99": {
+        "by_kind": {
+          "requires_statement": 45
+        },
+        "by_tier": {
+          "boundary": 0,
+          "ptime_core": 45
+        },
+        "candidates_file": "experimental/mining/candidates/real_wikidata_geography_10000_0.99.json",
+        "fragment_passed": 45,
+        "fragment_rejected": 0,
+        "raw": 45
+      }
+    },
+    "run_id": "9ebbfd3e2be54d329c508bcba21d16c3",
+    "slice": "real_wikidata_geography_10000"
+  }
+]

@@ -1,0 +1,423 @@
+{
+  "additions_total": 67,
+  "checked": 40,
+  "checks": [
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": true,
+      "error": null,
+      "triple": [
+        "wd:Q1049",
+        "wdt:P31",
+        "wd:Q6256"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1055",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1055",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1085",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q142",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q145",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1492",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q155",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q17",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1731",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1731",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1741",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1748",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1794",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1794",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1899",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q20",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": true,
+      "error": null,
+      "triple": [
+        "wd:Q212",
+        "wdt:P31",
+        "wd:Q6256"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": true,
+      "error": null,
+      "triple": [
+        "wd:Q213",
+        "wdt:P31",
+        "wd:Q6256"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": true,
+      "error": null,
+      "triple": [
+        "wd:Q214",
+        "wdt:P31",
+        "wd:Q6256"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": true,
+      "error": null,
+      "triple": [
+        "wd:Q219060",
+        "wdt:P31",
+        "wd:Q6256"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q220",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q220",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q27",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q29",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q30",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q31",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q38",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q40",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q4093",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": true,
+      "error": null,
+      "triple": [
+        "wd:Q41",
+        "wdt:P31",
+        "wd:Q6256"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q45",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q55",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q60",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q64",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q64",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q65",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": true,
+      "error": null,
+      "triple": [
+        "wd:Q801",
+        "wdt:P31",
+        "wd:Q6256"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q84",
+        "wdt:P31",
+        "wd:Q2221906"
+      ]
+    },
+    {
+      "corroborated_entailed": true,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q90",
+        "wdt:P31",
+        "wd:Q515"
+      ]
+    }
+  ],
+  "confidence": "95 percent Wilson score interval",
+  "corroborated_entailed": 40,
+  "corroborated_exact": 7,
+  "interval_entailed": [
+    0.9124,
+    1.0
+  ],
+  "interval_exact": [
+    0.0875,
+    0.3195
+  ],
+  "note": "Agreement with the source, not truth. A triple the source does not assert may still be correct: the slice and the source can be incomplete in the same place. Read the entailed proportion as the headline for typing additions: the exact one asks whether the source states the same triple, which is too strict for a class test the source satisfies with a more specific type.",
+  "proportion_entailed": 1.0,
+  "proportion_exact": 0.175,
+  "sample_size": 40,
+  "sampling_rule": "simple random sample without replacement, seed 20260806, over the deduplicated sorted add_edge set",
+  "source": "wikidata"
+}

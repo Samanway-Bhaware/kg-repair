@@ -1,0 +1,126 @@
+{
+  "slice": "geography@wikidata",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 4,
+    "boundary": 3,
+    "total": 7
+  },
+  "constraints": [
+    {
+      "cid": "geo.wd.dom.country",
+      "domain": "geography",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(wdt:P17) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q2221906\")] >"
+      },
+      "note": "Every subject of P17 (country) is a geographic location.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.wd.rng.country",
+      "domain": "geography",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< up(wdt:P17) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6256\")] >"
+      },
+      "note": "Every value of P17 (country) is a country.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.wd.type.city",
+      "domain": "geography",
+      "kg": "wikidata",
+      "kind": "typing_existence",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(wdt:P17) > & < down(wdt:P131) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q515\")] >"
+      },
+      "note": "Entities with both country and located-in edges are typed City.",
+      "params": {
+        "threshold": "0.98",
+        "reference": "clean-wikidata-city-slice"
+      },
+      "version": 1
+    },
+    {
+      "cid": "geo.wd.req.city_country",
+      "domain": "geography",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q515\")] >",
+        "psi": "< down(wdt:P17) >"
+      },
+      "note": "Wikidata P2302 'item requires statement': City requires P17.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.wd.sym.border",
+      "domain": "geography",
+      "kg": "wikidata",
+      "kind": "symmetric",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(wdt:P47) >",
+        "psi": "< up(wdt:P47) >"
+      },
+      "note": "P47 shares-border-with is symmetric; as a PATH constraint this pushes subset repair to NP-complete (Thm 11), so report only.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.wd.inv.capital",
+      "domain": "geography",
+      "kg": "wikidata",
+      "kind": "inverse",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(wdt:P36) >",
+        "psi": "< up(wdt:P1376) >"
+      },
+      "note": "P36 capital is inverse of P1376 capital-of; report only.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "geo.wd.func.country",
+      "domain": "geography",
+      "kg": "wikidata",
+      "kind": "functional",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(wdt:P17) >",
+        "psi": "T"
+      },
+      "note": "P17 is single-value (functional); upper-bound needs negation, so report only (validated externally by counting successors).",
+      "params": {},
+      "version": 1
+    }
+  ]
+}

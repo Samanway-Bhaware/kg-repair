@@ -1,0 +1,54 @@
+{
+  "name": "real_wikidata_anatomy_1000",
+  "namespace": "real",
+  "slice_source": "wikidata",
+  "source": "real",
+  "domain": "anatomy",
+  "target_edges": 1000,
+  "seeds": [
+    "wd:Q1072",
+    "wd:Q1073",
+    "wd:Q1074",
+    "wd:Q40397",
+    "wd:Q483213",
+    "wd:Q712378",
+    "wd:Q712547",
+    "wd:Q7891",
+    "wd:Q9103",
+    "wd:Q9394",
+    "wd:Q9584",
+    "wd:Q9635",
+    "wd:Q9644",
+    "wd:Q9649"
+  ],
+  "frontier_rule": "sorted_bfs",
+  "allowlist_id": "wikidata-geo-taxa-bio-v1",
+  "allowlist_hash": "8fc57783e366ebba",
+  "cache_generation_hash": "945c14f78dccfaf4",
+  "query_hashes": [
+    "378d712c9418e27c",
+    "3f71ca2153664f5e",
+    "a193c17c20bf9b6c",
+    "a22392ccc8142703",
+    "b403507b2ef2d0be",
+    "d4b3a37b1465d303",
+    "f75cfa59ba1ee514"
+  ],
+  "V": 503,
+  "E": 1000,
+  "labels": 12,
+  "data_values": 195,
+  "content_hash": "805deea31ae505a5",
+  "violations": {
+    "ana.wd.dom.partof": 69,
+    "ana.wd.rng.partof": 75,
+    "ana.wd.inv.part_haspart": 31
+  },
+  "fetch_report": {
+    "source": "wikidata",
+    "domain": "anatomy",
+    "requests": 0,
+    "cached_edges": 1518,
+    "fetcher_requests": 0
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "clean_baseline_sanity": {
+    "checks": [
+      {
+        "V": 515,
+        "per_constraint": [
+          {
+            "cid": "mined.taxa.dom.parentTaxon.Taxon",
+            "witnesses": 0
+          },
+          {
+            "cid": "mined.taxa.req.Taxon.parentTaxon",
+            "witnesses": 0
+          }
+        ],
+        "role": "training slice (in-sample)",
+        "slice": "real_yago_taxa_1000",
+        "total_witnesses": 0
+      },
+      {
+        "V": 5475,
+        "per_constraint": [
+          {
+            "cid": "mined.taxa.dom.parentTaxon.Taxon",
+            "witnesses": 0
+          },
+          {
+            "cid": "mined.taxa.req.Taxon.parentTaxon",
+            "witnesses": 0
+          }
+        ],
+        "role": "held-out rung (out-of-sample)",
+        "slice": "real_yago_taxa_10000",
+        "total_witnesses": 0
+      }
+    ],
+    "mined_constraint_count": 2,
+    "run_id": "24bf4d96d7f24ba0bb5249e1de2b5c75"
+  },
+  "cross_source_transfer": {
+    "one_trivial_mapping_attempted": {
+      "constraint": {
+        "cid": "mapped.geo.req.settlement_country",
+        "containment": {
+          "phi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Settlement\")] >",
+          "psi": "< down(dbo:country) >"
+        },
+        "direction": "superset",
+        "domain": "geography",
+        "kg": "dbpedia",
+        "kind": "requires_statement",
+        "note": "hand-mapped from the ONE cleanly-recovered wikidata rule (City requires wdt:P17) -- wd:Q515->dbo:Settlement, wdt:P17->dbo:country",
+        "params": {},
+        "provenance": "mined+mapped",
+        "tier": "ptime_core",
+        "version": 1
+      },
+      "verdict": "4 witness(es) -- does NOT hold as-is on this DBpedia slice",
+      "witnesses_on_dbpedia": 4
+    },
+    "raw_transfer": {
+      "mined_constraint_count": 69,
+      "note": "every mined constraint uses wdt:/wd: identifiers; a DBpedia graph uses dbo:/dbr:/rdf:/rdfs: -- zero syntactic overlap is expected and is what near-zero witnesses here confirms, not evidence of DBpedia's own consistency",
+      "total_witnesses_on_dbpedia": 0
+    },
+    "run_id": "dfa1c03e774c4f309d7c734b25dc2869"
+  },
+  "synthetic_control": {
+    "by_threshold": {
+      "0.90": {
+        "mined_candidate_count": 23,
+        "recovered": 3,
+        "total_true_constraints": 4
+      },
+      "0.95": {
+        "mined_candidate_count": 19,
+        "recovered": 3,
+        "total_true_constraints": 4
+      },
+      "0.99": {
+        "mined_candidate_count": 6,
+        "recovered": 2,
+        "total_true_constraints": 4
+      }
+    },
+    "per_constraint": [
+      {
+        "cid": "syn.dom.country",
+        "kind": "existential_domain",
+        "recovered": true,
+        "threshold": "0.99"
+      },
+      {
+        "cid": "syn.rng.country",
+        "kind": "existential_range",
+        "recovered": false,
+        "threshold": "0.99"
+      },
+      {
+        "cid": "syn.type.city",
+        "kind": "typing_existence",
+        "recovered": false,
+        "threshold": "0.99"
+      },
+      {
+        "cid": "syn.req.city_country",
+        "kind": "requires_statement",
+        "recovered": true,
+        "threshold": "0.99"
+      },
+      {
+        "cid": "syn.dom.country",
+        "kind": "existential_domain",
+        "recovered": true,
+        "threshold": "0.95"
+      },
+      {
+        "cid": "syn.rng.country",
+        "kind": "existential_range",
+        "recovered": false,
+        "threshold": "0.95"
+      },
+      {
+        "cid": "syn.type.city",
+        "kind": "typing_existence",
+        "recovered": true,
+        "threshold": "0.95"
+      },
+      {
+        "cid": "syn.req.city_country",
+        "kind": "requires_statement",
+        "recovered": true,
+        "threshold": "0.95"
+      },
+      {
+        "cid": "syn.dom.country",
+        "kind": "existential_domain",
+        "recovered": true,
+        "threshold": "0.90"
+      },
+      {
+        "cid": "syn.rng.country",
+        "kind": "existential_range",
+        "recovered": false,
+        "threshold": "0.90"
+      },
+      {
+        "cid": "syn.type.city",
+        "kind": "typing_existence",
+        "recovered": true,
+        "threshold": "0.90"
+      },
+      {
+        "cid": "syn.req.city_country",
+        "kind": "requires_statement",
+        "recovered": true,
+        "threshold": "0.90"
+      }
+    ],
+    "run_id": "06371374d5114a60b599717d1190e585",
+    "slice": "synthetic_geoLike_1k_s0",
+    "true_constraint_count": 4
+  }
+}

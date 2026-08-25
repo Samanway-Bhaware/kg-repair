@@ -1,0 +1,248 @@
+{
+  "campaign_record": {
+    "attestations": {
+      "consistent_after": true,
+      "data_values_unmodified": true,
+      "fresh_values_within_bound": true,
+      "superset_only_added": true
+    },
+    "cache_generation_hash": "3a0100e11766b685",
+    "cap": {
+      "aborted": false,
+      "cap": 0.3,
+      "denominator": 1000,
+      "fraction": 0.015,
+      "mode": "superset",
+      "status": "OK",
+      "witness_count": 15
+    },
+    "cell": "wikidata:taxa:1000:superset",
+    "changes": {
+      "edges_added": 26,
+      "edges_removed": 0,
+      "nodes_added": 1,
+      "nodes_removed": 0,
+      "pruned_edges": 0,
+      "pruned_nodes": 0
+    },
+    "code_revision": "770401d4b4f37f55318e24b3035a877869602da6",
+    "comparison": {
+      "class_property_pairs": {
+        "absolute": 1,
+        "after": 47,
+        "before": 46,
+        "relative": 0.021739130434782608
+      },
+      "classes": {
+        "absolute": 0,
+        "after": 70,
+        "before": 70,
+        "relative": 0.0
+      },
+      "classes_scored_for_coverage": {
+        "absolute": 0,
+        "after": 25,
+        "before": 25,
+        "relative": 0.0
+      },
+      "constraints_checked": {
+        "absolute": 0,
+        "after": 5,
+        "before": 5,
+        "relative": 0.0
+      },
+      "edges": {
+        "absolute": 26,
+        "after": 1026,
+        "before": 1000,
+        "relative": 0.026
+      },
+      "labels": {
+        "absolute": 0,
+        "after": 7,
+        "before": 7,
+        "relative": 0.0
+      },
+      "nodes": {
+        "absolute": 1,
+        "after": 571,
+        "before": 570,
+        "relative": 0.0017543859649122807
+      },
+      "property_coverage_mean": {
+        "absolute": -0.030555572416221033,
+        "after": 0.4919908466819222,
+        "before": 0.5225464190981433,
+        "relative": -0.058474369547793545
+      },
+      "redundant_type_edges": {
+        "absolute": 0,
+        "after": 7,
+        "before": 7,
+        "relative": 0.0
+      },
+      "satisfaction_mean": {
+        "absolute": 0.16123188405797095,
+        "after": 1.0,
+        "before": 0.838768115942029,
+        "relative": 0.1922246220302375
+      },
+      "satisfaction_scored": {
+        "absolute": 0,
+        "after": 4,
+        "before": 4,
+        "relative": 0.0
+      },
+      "singleton_classes": {
+        "absolute": 0,
+        "after": 45,
+        "before": 45,
+        "relative": 0.0
+      },
+      "typed_node_fraction": {
+        "absolute": 0.018748271730113397,
+        "after": 0.3134851138353765,
+        "before": 0.29473684210526313,
+        "relative": 0.0636102076557419
+      },
+      "typed_nodes": {
+        "absolute": 11,
+        "after": 179,
+        "before": 168,
+        "relative": 0.06547619047619048
+      },
+      "valued_nodes": {
+        "absolute": 0,
+        "after": 236,
+        "before": 236,
+        "relative": 0.0
+      },
+      "violated_constraints": {
+        "absolute": -3,
+        "after": 0,
+        "before": 3,
+        "relative": -1.0
+      },
+      "violations_total": {
+        "absolute": -15,
+        "after": 0,
+        "before": 15,
+        "relative": -1.0
+      },
+      "witness_node_fraction": {
+        "absolute": -0.02631578947368421,
+        "after": 0.0,
+        "before": 0.02631578947368421,
+        "relative": -1.0
+      },
+      "witness_nodes": {
+        "absolute": -15,
+        "after": 0,
+        "before": 15,
+        "relative": -1.0
+      }
+    },
+    "constraint_set": "taxa@wikidata",
+    "constraint_version_requested": 2,
+    "constraints_boundary": 1,
+    "constraints_core": 4,
+    "domain": "taxa",
+    "metrics_after": {
+      "class_property_pairs": 47,
+      "classes": 70,
+      "classes_scored_for_coverage": 25,
+      "constraints_checked": 5,
+      "edges": 1026,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 7,
+      "nodes": 571,
+      "property_coverage_mean": 0.4919908466819222,
+      "redundant_type_edges": 7,
+      "satisfaction_mean": 1.0,
+      "satisfaction_scored": 4,
+      "singleton_classes": 45,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.3134851138353765,
+      "typed_nodes": 179,
+      "valued_nodes": 236,
+      "violated_constraints": 0,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 0
+      },
+      "violations_total": 0,
+      "witness_node_fraction": 0.0,
+      "witness_nodes": 0
+    },
+    "metrics_before": {
+      "class_property_pairs": 46,
+      "classes": 70,
+      "classes_scored_for_coverage": 25,
+      "constraints_checked": 5,
+      "edges": 1000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 7,
+      "nodes": 570,
+      "property_coverage_mean": 0.5225464190981433,
+      "redundant_type_edges": 7,
+      "satisfaction_mean": 0.838768115942029,
+      "satisfaction_scored": 4,
+      "singleton_classes": 45,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.29473684210526313,
+      "typed_nodes": 168,
+      "valued_nodes": 236,
+      "violated_constraints": 3,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 15
+      },
+      "violations_total": 15,
+      "witness_node_fraction": 0.02631578947368421,
+      "witness_nodes": 15
+    },
+    "mode": "superset",
+    "resources": {
+      "bytes_per_edge": 427.0,
+      "peak_traced_bytes": 426976
+    },
+    "rounds": 3,
+    "routed_after": {
+      "constraints": 4,
+      "violations": 0
+    },
+    "routed_before": {
+      "constraints": 4,
+      "violations": 15
+    },
+    "slice": "real_wikidata_taxa_1000",
+    "slice_content_hash": "5e9d3b7521f45db3",
+    "source": "wikidata",
+    "stop_reason": "completed",
+    "target_edges": 1000,
+    "timings_s": {
+      "repair_loop": 0.0055
+    },
+    "variant": null
+  },
+  "summary": {
+    "consistent_after": true,
+    "constraint_provenance": "authored",
+    "engine": "superset",
+    "engine_ran": true
+  }
+}

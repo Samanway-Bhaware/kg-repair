@@ -1,0 +1,49 @@
+MIT License
+
+Copyright (c) 2026 Samanway Bhaware and Nina Pardal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+SCOPE NOTE — DATASETS ARE NOT COVERED BY THIS LICENCE
+
+The MIT licence above covers the kgrepair toolkit's own SOURCE CODE and
+documentation. It does not grant or restrict any right in the knowledge-graph
+DATA the toolkit reads or that is committed under `fixtures/`, `data/` or
+`eval/`, which derives from third-party sources under their own separate terms:
+
+  * Wikidata  — CC0 1.0 Universal (public domain dedication)
+                https://creativecommons.org/publicdomain/zero/1.0/
+  * DBpedia   — CC BY-SA 3.0, whose share-alike condition propagates into
+                derived material
+                https://creativecommons.org/licenses/by-sa/3.0/
+  * YAGO 4.5  — CC BY-SA 3.0, with the same share-alike propagation
+                https://creativecommons.org/licenses/by-sa/3.0/
+                Stated at https://yago-knowledge.org/downloads/yago-4-5 as
+                "Data YAGO 4.5 licensed under a Creative Commons
+                Attribution-ShareAlike by the YAGO team of Telecom Paris".
+                The CC BY 4.0 notice in that page's footer covers the YAGO
+                website, and the CC BY notice covers the YAGO generator
+                source code; neither covers the knowledge-base data.
+
+Anyone redistributing a repaired knowledge graph produced with this toolkit is
+responsible for complying with the terms of the source dataset it derives from.
+Per-source licence metadata on released bundles is tracked as a separate
+deliverable.

@@ -1,0 +1,278 @@
+{
+  "cap": 0.3,
+  "cells": [
+    {
+      "E": 4180,
+      "add_fraction": 0.019377990430622008,
+      "added_edges": 36,
+      "added_nodes": 0,
+      "attestations": {
+        "consistent_after": true,
+        "data_values_unmodified": true,
+        "fresh_values_within_bound": true,
+        "superset_only_added": true
+      },
+      "cap": 0.3,
+      "cell": "anatomy_1000",
+      "domain": "anatomy",
+      "indictment_trace": {
+        "indicted_by_constraint": {
+          "mined.anatomy.dom.P131.Q82794": 1,
+          "mined.anatomy.dom.P527.Q7048977": 1,
+          "mined.anatomy.rng.P206.Q2507626": 2,
+          "mined.anatomy.type.P17_P527.Q82794": 1,
+          "mined.anatomy.type.P361_P527.Q5127848": 1
+        },
+        "sample_size": 6,
+        "traced": [
+          {
+            "entity": "wd:Q1074185",
+            "indicted_constraint": "mined.anatomy.dom.P131.Q82794",
+            "mined_class": "wd:Q82794",
+            "real_p31_labels": [
+              "website",
+              "prefectural government",
+              "ordinary local public entity",
+              "local government"
+            ]
+          },
+          {
+            "entity": "wd:Q117351898",
+            "indicted_constraint": "mined.anatomy.type.P17_P527.Q82794",
+            "mined_class": "wd:Q82794",
+            "real_p31_labels": [
+              "legal form"
+            ]
+          },
+          {
+            "entity": "wd:Q1345738",
+            "indicted_constraint": "mined.anatomy.dom.P527.Q7048977",
+            "mined_class": "wd:Q7048977",
+            "real_p31_labels": [
+              "biological process"
+            ]
+          },
+          {
+            "entity": "wd:Q2038676",
+            "indicted_constraint": "mined.anatomy.type.P361_P527.Q5127848",
+            "mined_class": "wd:Q5127848",
+            "real_p31_labels": [
+              "anatomical structure"
+            ]
+          },
+          {
+            "entity": "wd:Q788",
+            "indicted_constraint": "mined.anatomy.rng.P206.Q2507626",
+            "mined_class": "wd:Q2507626",
+            "real_p31_labels": [
+              "ocean"
+            ]
+          },
+          {
+            "entity": "wd:Q98",
+            "indicted_constraint": "mined.anatomy.rng.P206.Q2507626",
+            "mined_class": "wd:Q2507626",
+            "real_p31_labels": [
+              "ocean"
+            ]
+          }
+        ]
+      },
+      "mined_constraint_count": 101,
+      "planned_additions": 81,
+      "plausibility": {
+        "checked": 36,
+        "classified": 32,
+        "contradicted": 6,
+        "corroborated": 0,
+        "plausible": 26,
+        "precision": 0.0,
+        "type_edges_total": 36,
+        "unknown": 4
+      },
+      "rounds": 2,
+      "run_id": "b5b54e9578894e5390835cc895ec7e8b",
+      "slice": "real_wikidata_anatomy_1000_typed",
+      "status": "repaired",
+      "v1": {
+        "additions": 115,
+        "checked": 115,
+        "corroborated": 0,
+        "precision": "0.0%"
+      },
+      "v2": {
+        "additions": 10,
+        "checked": 10,
+        "corroborated": 0,
+        "precision": "0.0%"
+      }
+    },
+    {
+      "E": 8100,
+      "add_fraction": 0.013950617283950617,
+      "added_edges": 23,
+      "added_nodes": 0,
+      "attestations": {
+        "consistent_after": true,
+        "data_values_unmodified": true,
+        "fresh_values_within_bound": true,
+        "superset_only_added": true
+      },
+      "cap": 0.3,
+      "cell": "medication_1000",
+      "domain": "medication",
+      "indictment_trace": {
+        "indicted_by_constraint": {
+          "mined.medication.rng.P2175.Q112193867": 6,
+          "mined.medication.rng.P2176.Q16889133": 4,
+          "mined.medication.rng.P769.Q16889133": 2
+        },
+        "sample_size": 12,
+        "traced": [
+          {
+            "entity": "wd:Q101991",
+            "indicted_constraint": "mined.medication.rng.P2175.Q112193867",
+            "mined_class": "wd:Q112193867",
+            "real_p31_labels": [
+              "symptom type"
+            ]
+          },
+          {
+            "entity": "wd:Q110969665",
+            "indicted_constraint": "mined.medication.rng.P2176.Q16889133",
+            "mined_class": "wd:Q16889133",
+            "real_p31_labels": [
+              "medication",
+              "biopharmaceutical"
+            ]
+          },
+          {
+            "entity": "wd:Q1851701",
+            "indicted_constraint": "mined.medication.rng.P2176.Q16889133",
+            "mined_class": "wd:Q16889133",
+            "real_p31_labels": [
+              "medication",
+              "mixture",
+              "low molecular weight heparin"
+            ]
+          },
+          {
+            "entity": "wd:Q20817252",
+            "indicted_constraint": "mined.medication.rng.P769.Q16889133",
+            "mined_class": "wd:Q16889133",
+            "real_p31_labels": [
+              "medication",
+              "mixture",
+              "low molecular weight heparin"
+            ]
+          },
+          {
+            "entity": "wd:Q242165",
+            "indicted_constraint": "mined.medication.rng.P2175.Q112193867",
+            "mined_class": "wd:Q112193867",
+            "real_p31_labels": [
+              "symptom or sign"
+            ]
+          },
+          {
+            "entity": "wd:Q3221044",
+            "indicted_constraint": "mined.medication.rng.P2176.Q16889133",
+            "mined_class": "wd:Q16889133",
+            "real_p31_labels": [
+              "medication",
+              "essential medicine",
+              "nitrovasodilator"
+            ]
+          },
+          {
+            "entity": "wd:Q422482",
+            "indicted_constraint": "mined.medication.rng.P2176.Q16889133",
+            "mined_class": "wd:Q16889133",
+            "real_p31_labels": [
+              "extract",
+              "mixture"
+            ]
+          },
+          {
+            "entity": "wd:Q486485",
+            "indicted_constraint": "mined.medication.rng.P2175.Q112193867",
+            "mined_class": "wd:Q112193867",
+            "real_p31_labels": [
+              "disease",
+              "symptom or sign"
+            ]
+          },
+          {
+            "entity": "wd:Q55781316",
+            "indicted_constraint": "mined.medication.rng.P2175.Q112193867",
+            "mined_class": "wd:Q112193867",
+            "real_p31_labels": [
+              "arthropathy"
+            ]
+          },
+          {
+            "entity": "wd:Q568",
+            "indicted_constraint": "mined.medication.rng.P769.Q16889133",
+            "mined_class": "wd:Q16889133",
+            "real_p31_labels": [
+              "chemical element",
+              "lithophile element",
+              "active metal"
+            ]
+          },
+          {
+            "entity": "wd:Q6081223",
+            "indicted_constraint": "mined.medication.rng.P2175.Q112193867",
+            "mined_class": "wd:Q112193867",
+            "real_p31_labels": [
+              "Wikimedia permanent duplicate item"
+            ]
+          },
+          {
+            "entity": "wd:Q81938",
+            "indicted_constraint": "mined.medication.rng.P2175.Q112193867",
+            "mined_class": "wd:Q112193867",
+            "real_p31_labels": [
+              "medical finding",
+              "clinical sign",
+              "negative emotion",
+              "health problem",
+              "conscious experience",
+              "symptom type",
+              "biomedical measurand type"
+            ]
+          }
+        ]
+      },
+      "mined_constraint_count": 20,
+      "planned_additions": 113,
+      "plausibility": {
+        "checked": 23,
+        "classified": 23,
+        "contradicted": 12,
+        "corroborated": 1,
+        "plausible": 10,
+        "precision": 0.043478260869565216,
+        "type_edges_total": 23,
+        "unknown": 0
+      },
+      "rounds": 2,
+      "run_id": "c203ff7e193b470688003b8c734cc5a5",
+      "slice": "real_wikidata_medication_1000_typed",
+      "status": "repaired",
+      "v1": {
+        "additions": 122,
+        "checked": 120,
+        "corroborated": 0,
+        "precision": "0.0%"
+      },
+      "v2": {
+        "additions": 10,
+        "checked": 10,
+        "corroborated": 0,
+        "precision": "0.0%"
+      }
+    }
+  ],
+  "threshold": 0.9
+}

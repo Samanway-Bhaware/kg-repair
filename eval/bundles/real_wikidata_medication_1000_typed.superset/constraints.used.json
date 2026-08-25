@@ -1,0 +1,89 @@
+{
+  "constraints": [
+    {
+      "cid": "med.wd.dom.treats.v2",
+      "containment": {
+        "phi": "< down(wdt:P2175) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12140\")] > | < down(wdt:P31) . [val(\"wd:Q113145171\")] > | < down(wdt:P31) . [val(\"wd:Q119892838\")] > | < down(wdt:P31) . [val(\"wd:Q59199015\")] >"
+      },
+      "direction": "subset",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "note": "RC2 fix: widens the medication class test with the traced chemical-entity meta-class family (wd:Q113145171/Q119892838/Q59199015) -- resolves 11/11 traced contradictions, zero off-domain noise observed for this constraint.",
+      "params": {
+        "baseline_cid": "med.wd.dom.treats",
+        "fixes": "RC2",
+        "trace": "results/rc_shape_trace.json"
+      },
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 2
+    },
+    {
+      "cid": "med.wd.rng.treats.v2",
+      "containment": {
+        "phi": "< up(wdt:P2175) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] > | < down(wdt:P31) . [val(\"wd:Q112193867\")] >"
+      },
+      "direction": "subset",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "note": "Reuses the SAME disease widening as dis.wd.dom.symptom.v2 (this constraint's consequent is tau_Disease, shared across domain files) -- resolves 99/103 traced contradictions; the remaining ~4 carry unrelated one-off labels (biological process, a Wikidata dedup marker, ...) that are NOT the disease idiom and are correctly left unresolved.",
+      "params": {
+        "baseline_cid": "med.wd.rng.treats",
+        "fixes": "RC2",
+        "trace": "results/rc_shape_trace.json"
+      },
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 2
+    },
+    {
+      "cid": "med.wd.req.route.v2",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12140\")] > | < down(wdt:P31) . [val(\"wd:Q113145171\")] > | < down(wdt:P31) . [val(\"wd:Q119892838\")] > | < down(wdt:P31) . [val(\"wd:Q59199015\")] >",
+        "psi": "< down(wdt:P636) >"
+      },
+      "direction": "superset",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "note": "Antecedent widened for consistency with med.wd.dom.treats.v2.",
+      "params": {
+        "baseline_cid": "med.wd.req.route",
+        "fixes": "RC2 (consistency)",
+        "reference": "clean-wikidata-med-slice",
+        "threshold": "0.98"
+      },
+      "provenance": "derived",
+      "tier": "ptime_core",
+      "version": 2
+    },
+    {
+      "cid": "med.wd.safety.interaction",
+      "containment": {
+        "phi": "< down(wdt:P769) >",
+        "psi": "< up(wdt:P769) >"
+      },
+      "direction": "report",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "safety_edge",
+      "note": "Drug-interaction is symmetric AND safety-critical: report aggregate counts only, never auto-repair.",
+      "params": {
+        "reporting": "aggregate_only"
+      },
+      "provenance": "given",
+      "tier": "boundary",
+      "version": 1
+    }
+  ],
+  "coverage": {
+    "boundary": 1,
+    "ptime_core": 3,
+    "total": 4
+  },
+  "slice": "medication@wikidata.v2"
+}

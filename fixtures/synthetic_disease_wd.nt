@@ -1,0 +1,21 @@
+# Synthetic Wikidata disease slice (Level 0: disease concepts, no patient data).
+# Loaded size (via kgrepair loader): nodes=10, edges=10 (labels=5, valued=2).
+# Class scaffolding: infectious disease -subclass-> disease.
+<wd:Q18123741> <wdt:P279> <wd:Q12136> .
+
+# Influenza -- clean: typed disease, has a symptom and a cause; treated-by present (safety, counted).
+<wd:Q2840>  <wdt:P31>   <wd:Q18123741> .
+<wd:Q2840>  <wdt:P780>  <wd:Q38933> .
+<wd:Q2840>  <wdt:P828>  <wd:Q808> .
+<wd:Q2840>  <wdt:P2176> <wd:Q18216> .
+
+# VIOLATION (existential_domain, subset): has a symptom edge but is not a disease.
+<wd:Q999201> <wdt:P780> <wd:Q38933> .
+
+# VIOLATION (requires_statement, superset): is a disease but states neither symptom nor cause.
+<wd:Q999202> <wdt:P31> <wd:Q18123741> .
+
+# Clean disease with a symptom; also carries a safety treated-by edge (aggregate count only).
+<wd:Q999203> <wdt:P31>   <wd:Q18123741> .
+<wd:Q999203> <wdt:P780>  <wd:Q38933> .
+<wd:Q999203> <wdt:P2176> <wd:Q124> .

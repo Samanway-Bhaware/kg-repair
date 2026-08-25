@@ -1,0 +1,69 @@
+{
+  "constraints": [
+    {
+      "cid": "dis.wd.dom.symptom.v2",
+      "containment": {
+        "phi": "< down(wdt:P780) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] > | < down(wdt:P31) . [val(\"wd:Q112193867\")] >"
+      },
+      "direction": "subset",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "note": "RC2 fix: widens the disease class test with the traced 'type of disease' meta-class idiom (wd:Q112193867) -- resolves 7/7 traced contradictions. Deliberately does NOT fold in 'symptom or sign' (wd:Q112965645): a symptom is not a disease, and every traced case already carries 'type of disease' too, so no case needs that inclusion (narrow, don't blind).",
+      "params": {
+        "baseline_cid": "dis.wd.dom.symptom",
+        "fixes": "RC2",
+        "trace": "results/rc_shape_trace.json"
+      },
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 2
+    },
+    {
+      "cid": "dis.wd.req.cause_or_symptom.v2",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] > | < down(wdt:P31) . [val(\"wd:Q112193867\")] >",
+        "psi": "< down(wdt:P780) > | < down(wdt:P828) >"
+      },
+      "direction": "superset",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "note": "Antecedent widened for consistency with dis.wd.dom.symptom.v2 -- 'is a disease' means the same thing everywhere in this constraint set.",
+      "params": {
+        "baseline_cid": "dis.wd.req.cause_or_symptom",
+        "fixes": "RC2 (consistency)",
+        "reference": "clean-wikidata-disease-slice",
+        "threshold": "0.98"
+      },
+      "provenance": "derived",
+      "tier": "ptime_core",
+      "version": 2
+    },
+    {
+      "cid": "dis.wd.safety.treatedby",
+      "containment": {
+        "phi": "< down(wdt:P2176) >",
+        "psi": "T"
+      },
+      "direction": "report",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "safety_edge",
+      "note": "Safety-critical treated-by edge: report AGGREGATE COUNTS ONLY, never auto-repair.",
+      "params": {
+        "reporting": "aggregate_only"
+      },
+      "provenance": "given",
+      "tier": "boundary",
+      "version": 1
+    }
+  ],
+  "coverage": {
+    "boundary": 1,
+    "ptime_core": 2,
+    "total": 3
+  },
+  "slice": "disease@wikidata.v2"
+}

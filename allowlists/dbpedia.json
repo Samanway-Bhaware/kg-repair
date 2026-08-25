@@ -1,0 +1,22 @@
+{
+  "allowlist_id": "dbpedia-geo-taxa-v1",
+  "source": "dbpedia",
+  "note": "Level-0: whitelist. rdf:type + rdfs:subClassOf spine + dbo geography/taxa predicates from the constraint files. Infobox noise (multi-ontology types) is preserved on purpose; person/org relations are denied.",
+  "prefixes": {
+    "dbr": "http://dbpedia.org/resource/",
+    "dbo": "http://dbpedia.org/ontology/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "predicates": [
+    "rdf:type", "rdfs:subClassOf",
+    "dbo:country", "dbo:location", "dbo:neighboringMunicipality",
+    "dbo:family", "dbo:genus", "dbo:order", "dbo:kingdom", "dbo:phylum", "dbo:class"
+  ],
+  "deny_predicates": [
+    "dbo:birthPlace", "dbo:deathPlace", "dbo:parent", "dbo:child", "dbo:spouse",
+    "dbo:employer", "dbo:founder", "dbo:owner", "dbo:ceo", "dbo:leader",
+    "dbo:president", "dbo:governor", "dbo:mayor", "dbo:author", "dbo:artist"
+  ],
+  "deny_note": "person/org-pointing dbo relations; also any predicate whose object types schema:Person / dbo:Person / foaf:Person must be dropped at fetch."
+}

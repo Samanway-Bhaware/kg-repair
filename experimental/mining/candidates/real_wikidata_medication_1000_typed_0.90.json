@@ -1,0 +1,462 @@
+[
+  {
+    "cid": "mined.medication.rng.P2175.Q112193867",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q112193867\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q112193867 in 90.7% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9070",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2175.Q130286945",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q130286945\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q130286945 in 90.7% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9070",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2175.Q16889133",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q16889133\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q16889133 in 93.8% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9380",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2175.Q21146257",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q21146257\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q21146257 in 92.2% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9225",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2175.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q35120 in 95.3% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9535",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2175.Q5127848",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q5127848\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q5127848 in 93.8% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9380",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2175.Q7048977",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q7048977\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q7048977 in 95.3% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9535",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2175.Q99527517",
+    "containment": {
+      "phi": "< up(wdt:P2175) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q99527517\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2175 is typed wd:Q99527517 in 93.8% of 129 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9380",
+      "source_slice_hash": "",
+      "support": "129",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2176.Q16889133",
+    "containment": {
+      "phi": "< up(wdt:P2176) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q16889133\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2176 is typed wd:Q16889133 in 96.6% of 176 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9659",
+      "source_slice_hash": "",
+      "support": "176",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2176.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P2176) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2176 is typed wd:Q35120 in 99.4% of 176 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9943",
+      "source_slice_hash": "",
+      "support": "176",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2176.Q5127848",
+    "containment": {
+      "phi": "< up(wdt:P2176) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q5127848\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2176 is typed wd:Q5127848 in 96.6% of 176 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9659",
+      "source_slice_hash": "",
+      "support": "176",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2176.Q7048977",
+    "containment": {
+      "phi": "< up(wdt:P2176) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q7048977\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2176 is typed wd:Q7048977 in 97.7% of 176 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9773",
+      "source_slice_hash": "",
+      "support": "176",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P2176.Q99527517",
+    "containment": {
+      "phi": "< up(wdt:P2176) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q99527517\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2176 is typed wd:Q99527517 in 96.6% of 176 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9659",
+      "source_slice_hash": "",
+      "support": "176",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P361.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P361) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P361 is typed wd:Q35120 in 100.0% of 22 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "",
+      "support": "22",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P769.Q16889133",
+    "containment": {
+      "phi": "< up(wdt:P769) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q16889133\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P769 is typed wd:Q16889133 in 97.1% of 171 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9708",
+      "source_slice_hash": "",
+      "support": "171",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P769.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P769) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P769 is typed wd:Q35120 in 100.0% of 171 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "",
+      "support": "171",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P769.Q5127848",
+    "containment": {
+      "phi": "< up(wdt:P769) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q5127848\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P769 is typed wd:Q5127848 in 97.1% of 171 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9708",
+      "source_slice_hash": "",
+      "support": "171",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P769.Q7048977",
+    "containment": {
+      "phi": "< up(wdt:P769) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q7048977\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P769 is typed wd:Q7048977 in 98.8% of 171 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9883",
+      "source_slice_hash": "",
+      "support": "171",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P769.Q99527517",
+    "containment": {
+      "phi": "< up(wdt:P769) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q99527517\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P769 is typed wd:Q99527517 in 97.1% of 171 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9708",
+      "source_slice_hash": "",
+      "support": "171",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P780.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P780) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P780 is typed wd:Q35120 in 91.9% of 37 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9189",
+      "source_slice_hash": "",
+      "support": "37",
+      "threshold": "0.90"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  }
+]

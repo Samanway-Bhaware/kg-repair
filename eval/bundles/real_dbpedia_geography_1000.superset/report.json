@@ -1,0 +1,248 @@
+{
+  "campaign_record": {
+    "attestations": {
+      "consistent_after": true,
+      "data_values_unmodified": true,
+      "fresh_values_within_bound": true,
+      "superset_only_added": true
+    },
+    "cache_generation_hash": "296ed37c1208f72d",
+    "cap": {
+      "aborted": false,
+      "cap": 0.3,
+      "denominator": 1000,
+      "fraction": 0.002,
+      "mode": "superset",
+      "status": "OK",
+      "witness_count": 2
+    },
+    "cell": "dbpedia:geography:1000:superset",
+    "changes": {
+      "edges_added": 2,
+      "edges_removed": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "pruned_edges": 0,
+      "pruned_nodes": 0
+    },
+    "code_revision": "770401d4b4f37f55318e24b3035a877869602da6",
+    "comparison": {
+      "class_property_pairs": {
+        "absolute": 0,
+        "after": 17,
+        "before": 17,
+        "relative": 0.0
+      },
+      "classes": {
+        "absolute": 0,
+        "after": 29,
+        "before": 29,
+        "relative": 0.0
+      },
+      "classes_scored_for_coverage": {
+        "absolute": 0,
+        "after": 22,
+        "before": 22,
+        "relative": 0.0
+      },
+      "constraints_checked": {
+        "absolute": 0,
+        "after": 4,
+        "before": 4,
+        "relative": 0.0
+      },
+      "edges": {
+        "absolute": 2,
+        "after": 1002,
+        "before": 1000,
+        "relative": 0.002
+      },
+      "labels": {
+        "absolute": 0,
+        "after": 3,
+        "before": 3,
+        "relative": 0.0
+      },
+      "nodes": {
+        "absolute": 0,
+        "after": 108,
+        "before": 108,
+        "relative": 0.0
+      },
+      "property_coverage_mean": {
+        "absolute": 0.0,
+        "after": 0.7550535077288941,
+        "before": 0.7550535077288941,
+        "relative": 0.0
+      },
+      "redundant_type_edges": {
+        "absolute": 0,
+        "after": 266,
+        "before": 266,
+        "relative": 0.0
+      },
+      "satisfaction_mean": {
+        "absolute": 0.038461538461538436,
+        "after": 1.0,
+        "before": 0.9615384615384616,
+        "relative": 0.03999999999999997
+      },
+      "satisfaction_scored": {
+        "absolute": 0,
+        "after": 2,
+        "before": 2,
+        "relative": 0.0
+      },
+      "singleton_classes": {
+        "absolute": 0,
+        "after": 7,
+        "before": 7,
+        "relative": 0.0
+      },
+      "typed_node_fraction": {
+        "absolute": 0.01851851851851849,
+        "after": 0.8055555555555556,
+        "before": 0.7870370370370371,
+        "relative": 0.023529411764705844
+      },
+      "typed_nodes": {
+        "absolute": 2,
+        "after": 87,
+        "before": 85,
+        "relative": 0.023529411764705882
+      },
+      "valued_nodes": {
+        "absolute": 0,
+        "after": 29,
+        "before": 29,
+        "relative": 0.0
+      },
+      "violated_constraints": {
+        "absolute": -1,
+        "after": 0,
+        "before": 1,
+        "relative": -1.0
+      },
+      "violations_total": {
+        "absolute": -2,
+        "after": 0,
+        "before": 2,
+        "relative": -1.0
+      },
+      "witness_node_fraction": {
+        "absolute": -0.018518518518518517,
+        "after": 0.0,
+        "before": 0.018518518518518517,
+        "relative": -1.0
+      },
+      "witness_nodes": {
+        "absolute": -2,
+        "after": 0,
+        "before": 2,
+        "relative": -1.0
+      }
+    },
+    "constraint_set": "geography@dbpedia",
+    "constraint_version_requested": 2,
+    "constraints_boundary": 1,
+    "constraints_core": 3,
+    "domain": "geography",
+    "metrics_after": {
+      "class_property_pairs": 17,
+      "classes": 29,
+      "classes_scored_for_coverage": 22,
+      "constraints_checked": 4,
+      "edges": 1002,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 3,
+      "nodes": 108,
+      "property_coverage_mean": 0.7550535077288941,
+      "redundant_type_edges": 266,
+      "satisfaction_mean": 1.0,
+      "satisfaction_scored": 2,
+      "singleton_classes": 7,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.8055555555555556,
+      "typed_nodes": 87,
+      "valued_nodes": 29,
+      "violated_constraints": 0,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 0
+      },
+      "violations_total": 0,
+      "witness_node_fraction": 0.0,
+      "witness_nodes": 0
+    },
+    "metrics_before": {
+      "class_property_pairs": 17,
+      "classes": 29,
+      "classes_scored_for_coverage": 22,
+      "constraints_checked": 4,
+      "edges": 1000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 3,
+      "nodes": 108,
+      "property_coverage_mean": 0.7550535077288941,
+      "redundant_type_edges": 266,
+      "satisfaction_mean": 0.9615384615384616,
+      "satisfaction_scored": 2,
+      "singleton_classes": 7,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.7870370370370371,
+      "typed_nodes": 85,
+      "valued_nodes": 29,
+      "violated_constraints": 1,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 2
+      },
+      "violations_total": 2,
+      "witness_node_fraction": 0.018518518518518517,
+      "witness_nodes": 2
+    },
+    "mode": "superset",
+    "resources": {
+      "bytes_per_edge": 154.2,
+      "peak_traced_bytes": 154232
+    },
+    "rounds": 2,
+    "routed_after": {
+      "constraints": 3,
+      "violations": 0
+    },
+    "routed_before": {
+      "constraints": 3,
+      "violations": 2
+    },
+    "slice": "real_dbpedia_geography_1000",
+    "slice_content_hash": "ee30e862d1c2fd60",
+    "source": "dbpedia",
+    "stop_reason": "completed",
+    "target_edges": 1000,
+    "timings_s": {
+      "repair_loop": 0.0006
+    },
+    "variant": null
+  },
+  "summary": {
+    "consistent_after": true,
+    "constraint_provenance": "authored",
+    "engine": "superset",
+    "engine_ran": true
+  }
+}

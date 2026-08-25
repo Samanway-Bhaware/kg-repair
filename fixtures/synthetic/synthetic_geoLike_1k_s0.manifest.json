@@ -1,0 +1,36 @@
+{
+  "name": "synthetic_geoLike_1k_s0",
+  "namespace": "synthetic",
+  "source": "synthetic",
+  "seed": 0,
+  "target_edges": 1000,
+  "profile": {
+    "hierarchy_depth": 4,
+    "num_countries": null,
+    "num_places": null,
+    "data_value_density": 0.0,
+    "zipf_skew": 0.0,
+    "injection_rates": {
+      "existential_domain": 0.02,
+      "existential_range": 0.02,
+      "typing_existence": 0.02,
+      "requires_statement": 0.02
+    }
+  },
+  "profile_hash": "38818960985177a9",
+  "V": 467,
+  "E": 1080,
+  "labels": 4,
+  "data_values": 7,
+  "hierarchy_depth": 4,
+  "injection_rates": {
+    "existential_domain": 0.02,
+    "existential_range": 0.02,
+    "typing_existence": 0.02,
+    "requires_statement": 0.02
+  },
+  "injection_count": 24,
+  "constraints_set_id": "synthetic@geography-like",
+  "content_hash": "22290a2c04cbd044",
+  "ground_truth_hash": "793be359a648b9ff"
+}

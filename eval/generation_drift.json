@@ -1,0 +1,461 @@
+{
+  "cells": [
+    {
+      "A": {
+        "E": 1000,
+        "V": 108,
+        "labels": 3
+      },
+      "B": {
+        "E": 751,
+        "V": 86,
+        "labels": 3
+      },
+      "constraints": {
+        "cids_only_failing_in_A": [
+          "geo.db.rng.country"
+        ],
+        "cids_only_failing_in_B": [],
+        "set": "geography@dbpedia",
+        "total_A": 2,
+        "total_B": 0,
+        "version": 2,
+        "violations_A": {
+          "geo.db.rng.country": 2
+        },
+        "violations_B": {}
+      },
+      "delta_E": -249,
+      "delta_V": -22,
+      "domain": "geography",
+      "edges_only_in_A": 273,
+      "edges_only_in_B": 24,
+      "edges_shared": 727,
+      "example_edges_only_in_A": [
+        [
+          "dbr:Kyoto",
+          "dbo:country",
+          "dbr:Japan"
+        ],
+        [
+          "dbr:Kyoto",
+          "rdf:type",
+          "dbo:City"
+        ],
+        [
+          "dbr:Kyoto",
+          "rdf:type",
+          "dbo:Location"
+        ]
+      ],
+      "example_edges_only_in_B": [
+        [
+          "dbo:State",
+          "rdf:type",
+          "http://www.w3.org/2002/07/owl#Class"
+        ],
+        [
+          "dbo:State",
+          "rdfs:subClassOf",
+          "dbo:PopulatedPlace"
+        ],
+        [
+          "dbr:Slovakia",
+          "rdf:type",
+          "http://schema.org/Place"
+        ]
+      ],
+      "jaccard": 0.71,
+      "labels_only_in_A": [],
+      "labels_only_in_B": [],
+      "rung": 1000,
+      "source": "dbpedia",
+      "status": "ok"
+    },
+    {
+      "A": {
+        "E": 1000,
+        "V": 503,
+        "labels": 12
+      },
+      "B": {
+        "E": 1000,
+        "V": 509,
+        "labels": 12
+      },
+      "constraints": {
+        "cids_only_failing_in_A": [],
+        "cids_only_failing_in_B": [],
+        "set": "anatomy@wikidata.v2",
+        "total_A": 50,
+        "total_B": 48,
+        "version": 2,
+        "violations_A": {
+          "ana.wd.dom.partof.v2": 2,
+          "ana.wd.inv.part_haspart": 31,
+          "ana.wd.rng.partof.v2": 17
+        },
+        "violations_B": {
+          "ana.wd.dom.partof.v2": 2,
+          "ana.wd.inv.part_haspart": 32,
+          "ana.wd.rng.partof.v2": 14
+        }
+      },
+      "delta_E": 0,
+      "delta_V": 6,
+      "domain": "anatomy",
+      "edges_only_in_A": 128,
+      "edges_only_in_B": 128,
+      "edges_shared": 872,
+      "example_edges_only_in_A": [
+        [
+          "wd:Q103915493",
+          "wdt:P279",
+          "wd:Q103914748"
+        ],
+        [
+          "wd:Q103915493",
+          "wdt:P31",
+          "wd:Q103997018"
+        ],
+        [
+          "wd:Q103915493",
+          "wdt:P31",
+          "wd:Q24017414"
+        ]
+      ],
+      "example_edges_only_in_B": [
+        [
+          "wd:Q104027169",
+          "wdt:P279",
+          "wd:Q96116695"
+        ],
+        [
+          "wd:Q1068107",
+          "wdt:P279",
+          "wd:Q811679"
+        ],
+        [
+          "wd:Q1068107",
+          "wdt:P279",
+          "wd:Q839546"
+        ]
+      ],
+      "jaccard": 0.773,
+      "labels_only_in_A": [],
+      "labels_only_in_B": [],
+      "rung": 1000,
+      "source": "wikidata",
+      "status": "ok"
+    },
+    {
+      "A": {
+        "E": 1000,
+        "V": 664,
+        "labels": 12
+      },
+      "B": {
+        "E": 1000,
+        "V": 678,
+        "labels": 12
+      },
+      "constraints": {
+        "cids_only_failing_in_A": [],
+        "cids_only_failing_in_B": [],
+        "set": "disease@wikidata.v2",
+        "total_A": 6,
+        "total_B": 6,
+        "version": 2,
+        "violations_A": {
+          "dis.wd.req.cause_or_symptom.v2": 6
+        },
+        "violations_B": {
+          "dis.wd.req.cause_or_symptom.v2": 6
+        }
+      },
+      "delta_E": 0,
+      "delta_V": 14,
+      "domain": "disease",
+      "edges_only_in_A": 47,
+      "edges_only_in_B": 47,
+      "edges_shared": 953,
+      "example_edges_only_in_A": [
+        [
+          "wd:Q112965645",
+          "wdt:P279",
+          "wd:Q2057971"
+        ],
+        [
+          "wd:Q113368879",
+          "wdt:P636",
+          "wd:Q285166"
+        ],
+        [
+          "wd:Q113368879",
+          "wdt:P769",
+          "wd:Q105969996"
+        ]
+      ],
+      "example_edges_only_in_B": [
+        [
+          "wd:Q108586636",
+          "wdt:P279",
+          "wd:Q140458154"
+        ],
+        [
+          "wd:Q108586636",
+          "wdt:P31",
+          "wd:Q19478619"
+        ],
+        [
+          "wd:Q108586636",
+          "wdt:P31",
+          "wd:Q24017414"
+        ]
+      ],
+      "jaccard": 0.9102,
+      "labels_only_in_A": [],
+      "labels_only_in_B": [],
+      "rung": 1000,
+      "source": "wikidata",
+      "status": "ok"
+    },
+    {
+      "A": {
+        "E": 1000,
+        "V": 725,
+        "labels": 10
+      },
+      "B": {
+        "E": 1000,
+        "V": 722,
+        "labels": 11
+      },
+      "constraints": {
+        "cids_only_failing_in_A": [],
+        "cids_only_failing_in_B": [],
+        "set": "geography@wikidata",
+        "total_A": 101,
+        "total_B": 106,
+        "version": 2,
+        "violations_A": {
+          "geo.wd.dom.country": 41,
+          "geo.wd.inv.capital": 10,
+          "geo.wd.rng.country": 9,
+          "geo.wd.sym.border": 24,
+          "geo.wd.type.city": 17
+        },
+        "violations_B": {
+          "geo.wd.dom.country": 45,
+          "geo.wd.inv.capital": 13,
+          "geo.wd.rng.country": 9,
+          "geo.wd.sym.border": 20,
+          "geo.wd.type.city": 19
+        }
+      },
+      "delta_E": 0,
+      "delta_V": -3,
+      "domain": "geography",
+      "edges_only_in_A": 39,
+      "edges_only_in_B": 39,
+      "edges_shared": 961,
+      "example_edges_only_in_A": [
+        [
+          "wd:Q84",
+          "wdt:P131",
+          "wd:Q23306"
+        ],
+        [
+          "wd:Q84",
+          "wdt:P1376",
+          "wd:Q145"
+        ],
+        [
+          "wd:Q84",
+          "wdt:P1376",
+          "wd:Q21"
+        ]
+      ],
+      "example_edges_only_in_B": [
+        [
+          "wd:Q1021592",
+          "wdt:P131",
+          "wd:Q21621977"
+        ],
+        [
+          "wd:Q1021592",
+          "wdt:P131",
+          "wd:Q767716"
+        ],
+        [
+          "wd:Q1021592",
+          "wdt:P17",
+          "wd:Q41"
+        ]
+      ],
+      "jaccard": 0.9249,
+      "labels_only_in_A": [],
+      "labels_only_in_B": [
+        "wdt:P279"
+      ],
+      "rung": 1000,
+      "source": "wikidata",
+      "status": "ok"
+    },
+    {
+      "A": {
+        "E": 1000,
+        "V": 653,
+        "labels": 16
+      },
+      "B": {
+        "E": 1000,
+        "V": 652,
+        "labels": 16
+      },
+      "constraints": {
+        "cids_only_failing_in_A": [],
+        "cids_only_failing_in_B": [],
+        "set": "medication@wikidata.v2",
+        "total_A": 130,
+        "total_B": 131,
+        "version": 2,
+        "violations_A": {
+          "med.wd.dom.treats.v2": 1,
+          "med.wd.req.route.v2": 9,
+          "med.wd.rng.treats.v2": 119,
+          "med.wd.safety.interaction": 1
+        },
+        "violations_B": {
+          "med.wd.dom.treats.v2": 1,
+          "med.wd.req.route.v2": 9,
+          "med.wd.rng.treats.v2": 120,
+          "med.wd.safety.interaction": 1
+        }
+      },
+      "delta_E": 0,
+      "delta_V": -1,
+      "domain": "medication",
+      "edges_only_in_A": 21,
+      "edges_only_in_B": 21,
+      "edges_shared": 979,
+      "example_edges_only_in_A": [
+        [
+          "wd:Q140354262",
+          "wdt:P31",
+          "wd:Q24017414"
+        ],
+        [
+          "wd:Q160653",
+          "wdt:P31",
+          "wd:Q112193867"
+        ],
+        [
+          "wd:Q160653",
+          "wdt:P780",
+          "wd:Q1129121"
+        ]
+      ],
+      "example_edges_only_in_B": [
+        [
+          "wd:Q111360549",
+          "wdt:P279",
+          "wd:Q96251598"
+        ],
+        [
+          "wd:Q111360549",
+          "wdt:P279",
+          "wd:Q98119401"
+        ],
+        [
+          "wd:Q111360549",
+          "wdt:P31",
+          "wd:Q19478619"
+        ]
+      ],
+      "jaccard": 0.9589,
+      "labels_only_in_A": [],
+      "labels_only_in_B": [],
+      "rung": 1000,
+      "source": "wikidata",
+      "status": "ok"
+    },
+    {
+      "A": {
+        "E": 1000,
+        "V": 570,
+        "labels": 7
+      },
+      "B": {
+        "E": 1000,
+        "V": 571,
+        "labels": 7
+      },
+      "constraints": {
+        "cids_only_failing_in_A": [],
+        "cids_only_failing_in_B": [],
+        "set": "taxa@wikidata",
+        "total_A": 15,
+        "total_B": 15,
+        "version": 2,
+        "violations_A": {
+          "tax.wd.dom.parent": 1,
+          "tax.wd.req.rank": 3,
+          "tax.wd.rng.parent": 11
+        },
+        "violations_B": {
+          "tax.wd.dom.parent": 1,
+          "tax.wd.req.rank": 2,
+          "tax.wd.rng.parent": 12
+        }
+      },
+      "delta_E": 0,
+      "delta_V": 1,
+      "domain": "taxa",
+      "edges_only_in_A": 64,
+      "edges_only_in_B": 64,
+      "edges_shared": 936,
+      "example_edges_only_in_A": [
+        [
+          "wd:Q10884",
+          "wdt:P279",
+          "wd:Q1649770"
+        ],
+        [
+          "wd:Q10884",
+          "wdt:P527",
+          "wd:Q41500"
+        ],
+        [
+          "wd:Q111972893",
+          "wdt:P31",
+          "wd:Q19478619"
+        ]
+      ],
+      "example_edges_only_in_B": [
+        [
+          "wd:Q104027169",
+          "wdt:P279",
+          "wd:Q96116695"
+        ],
+        [
+          "wd:Q1047113",
+          "wdt:P279",
+          "wd:Q105948247"
+        ],
+        [
+          "wd:Q1047113",
+          "wdt:P279",
+          "wd:Q110403031"
+        ]
+      ],
+      "jaccard": 0.8797,
+      "labels_only_in_A": [],
+      "labels_only_in_B": [],
+      "rung": 1000,
+      "source": "wikidata",
+      "status": "ok"
+    }
+  ],
+  "rung": 1000
+}

@@ -1,0 +1,123 @@
+{
+  "additions_total": 10,
+  "checked": 10,
+  "checks": [
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q139329732",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1620186",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q170494",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q1784017",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q23497974",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q23852",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q5",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q6151460",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q7239",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    },
+    {
+      "corroborated_entailed": false,
+      "corroborated_exact": false,
+      "error": null,
+      "triple": [
+        "wd:Q9635",
+        "wdt:P31",
+        "wd:Q4936952"
+      ]
+    }
+  ],
+  "confidence": "95 percent Wilson score interval",
+  "corroborated_entailed": 0,
+  "corroborated_exact": 0,
+  "interval_entailed": [
+    0.0,
+    0.2775
+  ],
+  "interval_exact": [
+    0.0,
+    0.2775
+  ],
+  "note": "Agreement with the source, not truth. A triple the source does not assert may still be correct: the slice and the source can be incomplete in the same place. Read the entailed proportion as the headline for typing additions: the exact one asks whether the source states the same triple, which is too strict for a class test the source satisfies with a more specific type.",
+  "proportion_entailed": 0.0,
+  "proportion_exact": 0.0,
+  "sample_size": 10,
+  "sampling_rule": "simple random sample without replacement, seed 20260806, over the deduplicated sorted add_edge set",
+  "source": "wikidata"
+}

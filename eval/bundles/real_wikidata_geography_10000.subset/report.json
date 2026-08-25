@@ -1,0 +1,78 @@
+{
+  "campaign_record": {
+    "cache_generation_hash": "b5517c8202f32a08",
+    "cap": {
+      "aborted": true,
+      "cap": 0.2,
+      "denominator": 3707,
+      "fraction": 0.237928,
+      "mode": "subset",
+      "status": "ABORTED-BY-CAP",
+      "witness_count": 882
+    },
+    "cell": "wikidata:geography:10000:subset",
+    "changes": null,
+    "code_revision": "770401d4b4f37f55318e24b3035a877869602da6",
+    "constraint_set": "geography@wikidata",
+    "constraint_version_requested": 2,
+    "constraints_boundary": 3,
+    "constraints_core": 4,
+    "domain": "geography",
+    "metrics_after": null,
+    "metrics_before": {
+      "class_property_pairs": 647,
+      "classes": 275,
+      "classes_scored_for_coverage": 119,
+      "constraints_checked": 7,
+      "edges": 10000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 12,
+      "nodes": 3707,
+      "property_coverage_mean": 0.7099836819462988,
+      "redundant_type_edges": 52,
+      "satisfaction_mean": 0.41647790827740494,
+      "satisfaction_scored": 4,
+      "singleton_classes": 156,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.2336120852441327,
+      "typed_nodes": 866,
+      "valued_nodes": 372,
+      "violated_constraints": 5,
+      "violations_by_tier": {
+        "boundary": 386,
+        "ptime_core": 1586
+      },
+      "violations_total": 1972,
+      "witness_node_fraction": 0.23954680334502293,
+      "witness_nodes": 888
+    },
+    "mode": "subset",
+    "resources": {},
+    "routed_after": null,
+    "routed_before": {
+      "constraints": 2,
+      "violations": 887
+    },
+    "slice": "real_wikidata_geography_10000",
+    "slice_content_hash": "b33c68930d6d0cf3",
+    "source": "wikidata",
+    "stop_reason": "ABORTED-BY-CAP",
+    "target_edges": 10000,
+    "timings_s": {},
+    "variant": null
+  },
+  "summary": {
+    "consistent_after": null,
+    "constraint_provenance": "authored",
+    "engine": "subset",
+    "engine_ran": false,
+    "reason": "ABORTED-BY-CAP: the repair would touch 0.238 of the graph against a cap of 0.200, so no engine ran"
+  }
+}

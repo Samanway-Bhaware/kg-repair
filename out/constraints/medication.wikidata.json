@@ -1,0 +1,80 @@
+{
+  "slice": "medication@wikidata",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 3,
+    "boundary": 1,
+    "total": 4
+  },
+  "constraints": [
+    {
+      "cid": "med.wd.dom.treats",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(wdt:P2175) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12140\")] >"
+      },
+      "note": "Subject of P2175 (condition treated) is a medication.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "med.wd.rng.treats",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< up(wdt:P2175) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] >"
+      },
+      "note": "Value of P2175 (condition treated) is a disease.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "med.wd.req.route",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12140\")] >",
+        "psi": "< down(wdt:P636) >"
+      },
+      "note": "A medication should state a route of administration.",
+      "params": {
+        "threshold": "0.98",
+        "reference": "clean-wikidata-med-slice"
+      },
+      "version": 1
+    },
+    {
+      "cid": "med.wd.safety.interaction",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "safety_edge",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(wdt:P769) >",
+        "psi": "< up(wdt:P769) >"
+      },
+      "note": "Drug-interaction is symmetric AND safety-critical: report aggregate counts only, never auto-repair.",
+      "params": {
+        "reporting": "aggregate_only"
+      },
+      "version": 1
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "real_wikidata_disease_1000",
+  "namespace": "real",
+  "slice_source": "wikidata",
+  "source": "real",
+  "domain": "disease",
+  "target_edges": 1000,
+  "seeds": [
+    "wd:Q12078",
+    "wd:Q12136",
+    "wd:Q12252",
+    "wd:Q131742",
+    "wd:Q133823",
+    "wd:Q18123741",
+    "wd:Q188008",
+    "wd:Q18965518",
+    "wd:Q2840",
+    "wd:Q3241045",
+    "wd:Q35869",
+    "wd:Q39833",
+    "wd:Q41112",
+    "wd:Q83267"
+  ],
+  "frontier_rule": "sorted_bfs",
+  "allowlist_id": "wikidata-geo-taxa-bio-v1",
+  "allowlist_hash": "8fc57783e366ebba",
+  "cache_generation_hash": "3085978bd6b5d403",
+  "query_hashes": [
+    "2504478050849a9b",
+    "69be204f7d38f60c",
+    "755975b36b6d605e",
+    "f073e295273493c9"
+  ],
+  "V": 664,
+  "E": 1000,
+  "labels": 12,
+  "data_values": 125,
+  "content_hash": "3ce17f96acf1a8e2",
+  "violations": {
+    "dis.wd.dom.symptom": 7
+  },
+  "fetch_report": {
+    "source": "wikidata",
+    "domain": "disease",
+    "requests": 0,
+    "cached_edges": 1643,
+    "fetcher_requests": 0
+  }
+}

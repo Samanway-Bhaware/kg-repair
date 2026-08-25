@@ -1,0 +1,6 @@
+{
+  "additions_total": 1586,
+  "note": "the Wikidata endpoint rate-limited this run after the earlier cells and the P8a probes; the check is a SPARQL ASK per sampled triple and the socket stopped returning. Re-runnable with `python scripts/addition_accuracy.py --report eval/bundles/real_wikidata_geography_10000.superset/changelog.json --source wikidata`",
+  "source": "wikidata",
+  "status": "NOT-MEASURED"
+}

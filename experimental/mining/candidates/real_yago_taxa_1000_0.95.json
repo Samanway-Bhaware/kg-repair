@@ -1,0 +1,48 @@
+[
+  {
+    "cid": "mined.taxa.dom.parentTaxon.Taxon",
+    "containment": {
+      "phi": "< down(schema:parentTaxon) >",
+      "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"schema:Taxon\")] >"
+    },
+    "direction": "subset",
+    "domain": "taxa",
+    "kg": "yago",
+    "kind": "existential_domain",
+    "note": "mined: subject of schema:parentTaxon is typed schema:Taxon in 100.0% of 500 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "4b2cbb7e1ac1a679",
+      "support": "500",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.taxa.req.Taxon.parentTaxon",
+    "containment": {
+      "phi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"schema:Taxon\")] >",
+      "psi": "< down(schema:parentTaxon) >"
+    },
+    "direction": "superset",
+    "domain": "taxa",
+    "kg": "yago",
+    "kind": "requires_statement",
+    "note": "mined: instances of schema:Taxon have schema:parentTaxon in 100.0% of 500 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "4b2cbb7e1ac1a679",
+      "support": "500",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  }
+]

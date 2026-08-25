@@ -1,0 +1,542 @@
+{
+ "changelog": [
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q139329732"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q139329732",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q9103"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q113147273",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q139329732"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "node": "wd:Q139329732",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q27162556",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1620186",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q192570"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q103915493",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1620186",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1137072"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1620186",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q130983"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1620186",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1500793"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1620186",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q185080"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1620186",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q189033"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1620186",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q192570"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1073",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q75855",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q75865",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q1934178",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q3243699",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "dst": "wd:Q43054",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1620186"
+  },
+  {
+   "constraint": "ana.wd.dom.partof.v2",
+   "node": "wd:Q1620186",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q4936952",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q170494"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q104007623",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q170494"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q170494",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q9103"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q170494",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q1517875",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1784017"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q1784017",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q9103"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q1784017",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1517875"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q213456",
+   "label": "wdt:P828",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1784017"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q1784017",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q2330350",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1073"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q2330350",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q23497974",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q483213"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q23497974",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q23640",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1073"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q23640",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q9635"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q23640",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q23852",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q483213"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q23852",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q9649"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q23852",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q25416319",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1370895"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q25416319",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q2859739",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q175449"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q2859739",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q181602"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q2859739",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q13400765"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q2859739",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q3276159",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q156104"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q3276159",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q174778"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q3276159",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q13400765"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q3276159",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q3409626",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1370895"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q3409626",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q47273",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1073"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q47273",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q5",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q712547"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q5",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1370895"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q5",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q173710"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q5",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q6151460",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q173710"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q6151460",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q7239",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q188193"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q7239",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q712378"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q7239",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q75865",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1073"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q75865",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1137072"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q75865",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q9639",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q11083"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q9639",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q11090"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q9639",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q11829360"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q9639",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q9645",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q113147273"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "dst": "wd:Q9645",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q9103"
+  },
+  {
+   "constraint": "ana.wd.rng.partof.v2",
+   "node": "wd:Q9645",
+   "op": "remove_node",
+   "round": 1
+  }
+ ]
+}

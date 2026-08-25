@@ -1,0 +1,52 @@
+{
+  "schema": "kgrepair.candidates/v1",
+  "provenance": "authored",
+  "toolkit_version": "0.5.0",
+  "source": {
+    "dataset": "museum example",
+    "domain": "museum",
+    "kg": "example"
+  },
+  "parameters": {},
+  "review": {
+    "state": "open",
+    "reviewer": null,
+    "sealed_at": null,
+    "seal": null,
+    "review_order": [
+      "museum.example.authored.displayed-in-is-artwork",
+      "museum.example.authored.displays-is-gallery"
+    ]
+  },
+  "candidates": [
+    {
+      "cid": "museum.example.authored.displayed-in-is-artwork",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "direction": "superset",
+      "antecedent": "< down(ex:displayedIn) >",
+      "consequent": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"ex:Artwork\")] >",
+      "gloss": "anything displayed in a gallery is an artwork",
+      "evidence": {},
+      "impact": {},
+      "witness_sample": [],
+      "status": "accepted",
+      "note": "asserted by the curator who wrote this file"
+    },
+    {
+      "cid": "museum.example.authored.displays-is-gallery",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "direction": "superset",
+      "antecedent": "< up(ex:displayedIn) >",
+      "consequent": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"ex:Gallery\")] >",
+      "gloss": "anything that something is displayed in is a gallery",
+      "evidence": {},
+      "impact": {},
+      "witness_sample": [],
+      "status": "accepted",
+      "note": "asserted by the curator who wrote this file"
+    }
+  ],
+  "refused": []
+}

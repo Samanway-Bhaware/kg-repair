@@ -1,0 +1,487 @@
+{
+  "cache_root": "data/raw_genB",
+  "cells": [
+    {
+      "cache_generation_hash": "d1acd9ae9b8189de",
+      "ceiling_edges": 75003,
+      "ceiling_is_cache_exhaustion": true,
+      "domain": "anatomy",
+      "rungs": [
+        {
+          "E": 100,
+          "V": 85,
+          "content_hash": "c19fef8329000093",
+          "data_values": 34,
+          "labels": 6,
+          "name": "genB_wikidata_anatomy_100",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 100
+        },
+        {
+          "E": 1000,
+          "V": 509,
+          "content_hash": "fd4e05ce4a258452",
+          "data_values": 208,
+          "labels": 12,
+          "name": "genB_wikidata_anatomy_1000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 1000
+        },
+        {
+          "E": 5000,
+          "V": 2038,
+          "content_hash": "74b14af9d4dff987",
+          "data_values": 497,
+          "labels": 12,
+          "name": "genB_wikidata_anatomy_5000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 5000
+        },
+        {
+          "E": 10000,
+          "V": 4372,
+          "content_hash": "c4929d7894af6b5d",
+          "data_values": 623,
+          "labels": 12,
+          "name": "genB_wikidata_anatomy_10000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 10000
+        },
+        {
+          "E": 20000,
+          "V": 6634,
+          "content_hash": "00dad2194444d48c",
+          "data_values": 772,
+          "labels": 12,
+          "name": "genB_wikidata_anatomy_20000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 20000
+        },
+        {
+          "E": 50000,
+          "V": 11939,
+          "content_hash": "d039fee869b6b65d",
+          "data_values": 838,
+          "labels": 12,
+          "name": "genB_wikidata_anatomy_50000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 50000
+        },
+        {
+          "E": 75003,
+          "V": 16254,
+          "content_hash": "9f464d58f9ef2d18",
+          "data_values": 866,
+          "labels": 12,
+          "name": "genB_wikidata_anatomy_100000",
+          "nests_in_previous": true,
+          "short_of_target": true,
+          "target_edges": 100000
+        }
+      ],
+      "seeds": 14,
+      "seeds_pinned": false,
+      "source": "wikidata"
+    },
+    {
+      "cache_generation_hash": "7c8e6a126de6b1d7",
+      "ceiling_edges": 75099,
+      "ceiling_is_cache_exhaustion": true,
+      "domain": "disease",
+      "rungs": [
+        {
+          "E": 100,
+          "V": 101,
+          "content_hash": "0682f1aeacd24aa1",
+          "data_values": 21,
+          "labels": 7,
+          "name": "genB_wikidata_disease_100",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 100
+        },
+        {
+          "E": 1000,
+          "V": 678,
+          "content_hash": "3a7bd0a243058fb3",
+          "data_values": 139,
+          "labels": 12,
+          "name": "genB_wikidata_disease_1000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 1000
+        },
+        {
+          "E": 5000,
+          "V": 2733,
+          "content_hash": "ef7b101c19bc9bb1",
+          "data_values": 924,
+          "labels": 19,
+          "name": "genB_wikidata_disease_5000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 5000
+        },
+        {
+          "E": 10000,
+          "V": 4563,
+          "content_hash": "a86449104979f80b",
+          "data_values": 1360,
+          "labels": 19,
+          "name": "genB_wikidata_disease_10000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 10000
+        },
+        {
+          "E": 20000,
+          "V": 7644,
+          "content_hash": "0b059a4de7494cbd",
+          "data_values": 1741,
+          "labels": 19,
+          "name": "genB_wikidata_disease_20000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 20000
+        },
+        {
+          "E": 50000,
+          "V": 14858,
+          "content_hash": "289e94e7fc7f847c",
+          "data_values": 2363,
+          "labels": 19,
+          "name": "genB_wikidata_disease_50000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 50000
+        },
+        {
+          "E": 75099,
+          "V": 19075,
+          "content_hash": "1c88fac47d7a4e3f",
+          "data_values": 2514,
+          "labels": 19,
+          "name": "genB_wikidata_disease_100000",
+          "nests_in_previous": true,
+          "short_of_target": true,
+          "target_edges": 100000
+        }
+      ],
+      "seeds": 14,
+      "seeds_pinned": false,
+      "source": "wikidata"
+    },
+    {
+      "cache_generation_hash": "83b5cf1470ef610e",
+      "ceiling_edges": 751,
+      "ceiling_is_cache_exhaustion": true,
+      "domain": "geography",
+      "rungs": [
+        {
+          "E": 100,
+          "V": 32,
+          "content_hash": "e9f3b0e4f633f48a",
+          "data_values": 19,
+          "labels": 2,
+          "name": "genB_dbpedia_geography_100",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 100
+        },
+        {
+          "E": 751,
+          "V": 86,
+          "content_hash": "54972f1a6db84993",
+          "data_values": 28,
+          "labels": 3,
+          "name": "genB_dbpedia_geography_1000",
+          "nests_in_previous": true,
+          "short_of_target": true,
+          "target_edges": 1000
+        }
+      ],
+      "seeds": 93,
+      "seeds_pinned": false,
+      "source": "dbpedia"
+    },
+    {
+      "cache_generation_hash": "63032a1aa6c91ace",
+      "ceiling_edges": 75366,
+      "ceiling_is_cache_exhaustion": true,
+      "domain": "geography",
+      "rungs": [
+        {
+          "E": 100,
+          "V": 97,
+          "content_hash": "76088d80d85f1605",
+          "data_values": 24,
+          "labels": 8,
+          "name": "genB_wikidata_geography_100",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 100
+        },
+        {
+          "E": 1000,
+          "V": 722,
+          "content_hash": "f621011acbe55a15",
+          "data_values": 91,
+          "labels": 11,
+          "name": "genB_wikidata_geography_1000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 1000
+        },
+        {
+          "E": 5000,
+          "V": 2382,
+          "content_hash": "2dc6e6084334cc29",
+          "data_values": 336,
+          "labels": 12,
+          "name": "genB_wikidata_geography_5000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 5000
+        },
+        {
+          "E": 10000,
+          "V": 3866,
+          "content_hash": "94718a66eb5abb77",
+          "data_values": 478,
+          "labels": 12,
+          "name": "genB_wikidata_geography_10000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 10000
+        },
+        {
+          "E": 20000,
+          "V": 6275,
+          "content_hash": "3e723d7b4b8a5039",
+          "data_values": 724,
+          "labels": 14,
+          "name": "genB_wikidata_geography_20000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 20000
+        },
+        {
+          "E": 50000,
+          "V": 11361,
+          "content_hash": "9f88a54851f5935f",
+          "data_values": 876,
+          "labels": 14,
+          "name": "genB_wikidata_geography_50000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 50000
+        },
+        {
+          "E": 75366,
+          "V": 15573,
+          "content_hash": "2f7c094149b8bd37",
+          "data_values": 930,
+          "labels": 14,
+          "name": "genB_wikidata_geography_100000",
+          "nests_in_previous": true,
+          "short_of_target": true,
+          "target_edges": 100000
+        }
+      ],
+      "seeds": 43,
+      "seeds_pinned": false,
+      "source": "wikidata"
+    },
+    {
+      "cache_generation_hash": "8439b27c5d7f175a",
+      "ceiling_edges": 75220,
+      "ceiling_is_cache_exhaustion": true,
+      "domain": "medication",
+      "rungs": [
+        {
+          "E": 100,
+          "V": 104,
+          "content_hash": "58bd17ff3a07e1a6",
+          "data_values": 11,
+          "labels": 6,
+          "name": "genB_wikidata_medication_100",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 100
+        },
+        {
+          "E": 1000,
+          "V": 652,
+          "content_hash": "5e81af932aeba50d",
+          "data_values": 119,
+          "labels": 16,
+          "name": "genB_wikidata_medication_1000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 1000
+        },
+        {
+          "E": 5000,
+          "V": 2353,
+          "content_hash": "1c851f0d091c7086",
+          "data_values": 604,
+          "labels": 19,
+          "name": "genB_wikidata_medication_5000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 5000
+        },
+        {
+          "E": 10000,
+          "V": 3860,
+          "content_hash": "ebb0416971f33df2",
+          "data_values": 749,
+          "labels": 19,
+          "name": "genB_wikidata_medication_10000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 10000
+        },
+        {
+          "E": 20000,
+          "V": 6293,
+          "content_hash": "4447e21fb9ee5f58",
+          "data_values": 866,
+          "labels": 19,
+          "name": "genB_wikidata_medication_20000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 20000
+        },
+        {
+          "E": 50000,
+          "V": 12557,
+          "content_hash": "142e9cd1e9fcdcef",
+          "data_values": 1001,
+          "labels": 19,
+          "name": "genB_wikidata_medication_50000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 50000
+        },
+        {
+          "E": 75220,
+          "V": 16646,
+          "content_hash": "8cc1517adb1349e4",
+          "data_values": 1101,
+          "labels": 19,
+          "name": "genB_wikidata_medication_100000",
+          "nests_in_previous": true,
+          "short_of_target": true,
+          "target_edges": 100000
+        }
+      ],
+      "seeds": 12,
+      "seeds_pinned": false,
+      "source": "wikidata"
+    },
+    {
+      "cache_generation_hash": "8045ecf95e864794",
+      "ceiling_edges": 75267,
+      "ceiling_is_cache_exhaustion": true,
+      "domain": "taxa",
+      "rungs": [
+        {
+          "E": 100,
+          "V": 91,
+          "content_hash": "502691baf3b85914",
+          "data_values": 27,
+          "labels": 6,
+          "name": "genB_wikidata_taxa_100",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 100
+        },
+        {
+          "E": 1000,
+          "V": 571,
+          "content_hash": "f23428ed2d80d350",
+          "data_values": 255,
+          "labels": 7,
+          "name": "genB_wikidata_taxa_1000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 1000
+        },
+        {
+          "E": 5000,
+          "V": 2563,
+          "content_hash": "ac89db34bb885348",
+          "data_values": 1008,
+          "labels": 14,
+          "name": "genB_wikidata_taxa_5000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 5000
+        },
+        {
+          "E": 10000,
+          "V": 4323,
+          "content_hash": "b5597ef17840af85",
+          "data_values": 1298,
+          "labels": 14,
+          "name": "genB_wikidata_taxa_10000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 10000
+        },
+        {
+          "E": 20000,
+          "V": 7253,
+          "content_hash": "0d0bac6706a6caa7",
+          "data_values": 1660,
+          "labels": 14,
+          "name": "genB_wikidata_taxa_20000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 20000
+        },
+        {
+          "E": 50000,
+          "V": 15474,
+          "content_hash": "6f29c195d8a181eb",
+          "data_values": 2146,
+          "labels": 14,
+          "name": "genB_wikidata_taxa_50000",
+          "nests_in_previous": true,
+          "short_of_target": false,
+          "target_edges": 50000
+        },
+        {
+          "E": 75267,
+          "V": 20632,
+          "content_hash": "e922053ef4aacff4",
+          "data_values": 2358,
+          "labels": 14,
+          "name": "genB_wikidata_taxa_100000",
+          "nests_in_previous": true,
+          "short_of_target": true,
+          "target_edges": 100000
+        }
+      ],
+      "seeds": 20,
+      "seeds_pinned": false,
+      "source": "wikidata"
+    }
+  ],
+  "rungs_offered": [
+    100,
+    1000,
+    5000,
+    10000,
+    20000,
+    50000,
+    100000
+  ]
+}

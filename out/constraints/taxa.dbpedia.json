@@ -1,0 +1,46 @@
+{
+  "slice": "taxa@dbpedia",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 2,
+    "boundary": 0,
+    "total": 2
+  },
+  "constraints": [
+    {
+      "cid": "tax.db.dom.genus",
+      "domain": "taxa",
+      "kg": "dbpedia",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(dbo:genus) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Species\")] >"
+      },
+      "note": "rdfs:domain of dbo:genus is dbo:Species.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "tax.db.type.species",
+      "domain": "taxa",
+      "kg": "dbpedia",
+      "kind": "typing_existence",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(dbo:genus) > & < down(dbo:family) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"dbo:Species\")] >"
+      },
+      "note": "Entities with genus+family are typed Species.",
+      "params": {
+        "threshold": "0.98",
+        "reference": "clean-dbpedia-species-slice"
+      },
+      "version": 1
+    }
+  ]
+}

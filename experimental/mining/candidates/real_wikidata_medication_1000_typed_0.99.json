@@ -1,0 +1,71 @@
+[
+  {
+    "cid": "mined.medication.rng.P2176.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P2176) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P2176 is typed wd:Q35120 in 99.4% of 176 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9943",
+      "source_slice_hash": "",
+      "support": "176",
+      "threshold": "0.99"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P361.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P361) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P361 is typed wd:Q35120 in 100.0% of 22 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "",
+      "support": "22",
+      "threshold": "0.99"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.medication.rng.P769.Q35120",
+    "containment": {
+      "phi": "< up(wdt:P769) >",
+      "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35120\")] >"
+    },
+    "direction": "subset",
+    "domain": "medication",
+    "kg": "wikidata",
+    "kind": "existential_range",
+    "note": "mined: object of wdt:P769 is typed wd:Q35120 in 100.0% of 171 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "",
+      "support": "171",
+      "threshold": "0.99"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  }
+]

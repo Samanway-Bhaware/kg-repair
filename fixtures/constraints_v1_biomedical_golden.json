@@ -1,0 +1,178 @@
+{
+  "anatomy": [
+    {
+      "cid": "ana.wd.dom.partof",
+      "containment": {
+        "phi": "< down(wdt:P361) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] >"
+      },
+      "direction": "subset",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "note": "Subject of an anatomical part-of edge is an anatomical structure.",
+      "params": {},
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "ana.wd.rng.partof",
+      "containment": {
+        "phi": "< up(wdt:P361) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] >"
+      },
+      "direction": "subset",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "note": "Value of an anatomical part-of edge is an anatomical structure.",
+      "params": {},
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "ana.wd.inv.part_haspart",
+      "containment": {
+        "phi": "< down(wdt:P361) >",
+        "psi": "< up(wdt:P527) >"
+      },
+      "direction": "report",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "inverse",
+      "note": "P361 part-of is inverse of P527 has-part; report only.",
+      "params": {},
+      "provenance": "given",
+      "tier": "boundary",
+      "version": 1
+    }
+  ],
+  "disease": [
+    {
+      "cid": "dis.wd.dom.symptom",
+      "containment": {
+        "phi": "< down(wdt:P780) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] >"
+      },
+      "direction": "subset",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "note": "Subject of P780 (symptoms) is a disease.",
+      "params": {},
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "dis.wd.req.cause_or_symptom",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] >",
+        "psi": "< down(wdt:P780) > | < down(wdt:P828) >"
+      },
+      "direction": "superset",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "note": "A disease should state at least a symptom or a cause (disjunctive existential consequent).",
+      "params": {
+        "reference": "clean-wikidata-disease-slice",
+        "threshold": "0.98"
+      },
+      "provenance": "derived",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "dis.wd.safety.treatedby",
+      "containment": {
+        "phi": "< down(wdt:P2176) >",
+        "psi": "T"
+      },
+      "direction": "report",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "safety_edge",
+      "note": "Safety-critical treated-by edge: report AGGREGATE COUNTS ONLY, never auto-repair.",
+      "params": {
+        "reporting": "aggregate_only"
+      },
+      "provenance": "given",
+      "tier": "boundary",
+      "version": 1
+    }
+  ],
+  "medication": [
+    {
+      "cid": "med.wd.dom.treats",
+      "containment": {
+        "phi": "< down(wdt:P2175) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12140\")] >"
+      },
+      "direction": "subset",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "note": "Subject of P2175 (condition treated) is a medication.",
+      "params": {},
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "med.wd.rng.treats",
+      "containment": {
+        "phi": "< up(wdt:P2175) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] >"
+      },
+      "direction": "subset",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "note": "Value of P2175 (condition treated) is a disease.",
+      "params": {},
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "med.wd.req.route",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12140\")] >",
+        "psi": "< down(wdt:P636) >"
+      },
+      "direction": "superset",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "note": "A medication should state a route of administration.",
+      "params": {
+        "reference": "clean-wikidata-med-slice",
+        "threshold": "0.98"
+      },
+      "provenance": "derived",
+      "tier": "ptime_core",
+      "version": 1
+    },
+    {
+      "cid": "med.wd.safety.interaction",
+      "containment": {
+        "phi": "< down(wdt:P769) >",
+        "psi": "< up(wdt:P769) >"
+      },
+      "direction": "report",
+      "domain": "medication",
+      "kg": "wikidata",
+      "kind": "safety_edge",
+      "note": "Drug-interaction is symmetric AND safety-critical: report aggregate counts only, never auto-repair.",
+      "params": {
+        "reporting": "aggregate_only"
+      },
+      "provenance": "given",
+      "tier": "boundary",
+      "version": 1
+    }
+  ]
+}

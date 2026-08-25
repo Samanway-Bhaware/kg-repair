@@ -1,0 +1,64 @@
+{
+  "slice": "disease@wikidata",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 2,
+    "boundary": 1,
+    "total": 3
+  },
+  "constraints": [
+    {
+      "cid": "dis.wd.dom.symptom",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(wdt:P780) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] >"
+      },
+      "note": "Subject of P780 (symptoms) is a disease.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "dis.wd.req.cause_or_symptom",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q12136\")] >",
+        "psi": "< down(wdt:P780) > | < down(wdt:P828) >"
+      },
+      "note": "A disease should state at least a symptom or a cause (disjunctive existential consequent).",
+      "params": {
+        "threshold": "0.98",
+        "reference": "clean-wikidata-disease-slice"
+      },
+      "version": 1
+    },
+    {
+      "cid": "dis.wd.safety.treatedby",
+      "domain": "disease",
+      "kg": "wikidata",
+      "kind": "safety_edge",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(wdt:P2176) >",
+        "psi": "T"
+      },
+      "note": "Safety-critical treated-by edge: report AGGREGATE COUNTS ONLY, never auto-repair.",
+      "params": {
+        "reporting": "aggregate_only"
+      },
+      "version": 1
+    }
+  ]
+}

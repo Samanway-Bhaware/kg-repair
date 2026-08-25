@@ -1,0 +1,10 @@
+{
+  "bench": "opt2_deep_spine",
+  "depth": 300,
+  "leaves": 500,
+  "reps": 200,
+  "traversal_ms_total": 25.37,
+  "closure_ms_total": 6.35,
+  "speedup_x": 4.0,
+  "result_size": 500
+}

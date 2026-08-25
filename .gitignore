@@ -1,0 +1,27 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# packaging build artifacts
+build/
+dist/
+*.egg-info/
+
+# local run output (regenerable: kgrepair --bundle out/...)
+
+# fetched dataset caches (regenerable: bench/build_real_slice.py)
+# NOTE: written as `data/*` + per-level negations, NOT `data/`. Git does not descend
+# into an excluded DIRECTORY, so a `!data/raw/...` negation under a bare `data/` rule
+# is inert and the caches below would silently fail to ship.
+
+# ...the two small third-party caches the evaluation and its tests REQUIRE:
+# the offline study must repeat without the network, so these ship with the repo.
+# (tests/test_derivation_eval.py asserts the P2302 cache is present and complete.)
+!data/raw/constraints/
+!data/raw/plausibility/
+
+
+# local working notes (NOT part of the code release).
+
+*.pdf

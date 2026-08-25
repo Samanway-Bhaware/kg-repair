@@ -1,0 +1,121 @@
+{
+ "synthetic_anatomy_wd.nt": {
+  "attest": {
+   "consistent_after": true,
+   "data_values_unmodified": true,
+   "subset_only_deleted": true
+  },
+  "changelog": [
+   {
+    "constraint": "ana.wd.dom.partof",
+    "dst": "wd:Q9649",
+    "label": "wdt:P361",
+    "op": "remove_edge",
+    "round": 1,
+    "src": "wd:Q999101"
+   },
+   {
+    "constraint": "ana.wd.dom.partof",
+    "node": "wd:Q999101",
+    "op": "remove_node",
+    "round": 1
+   },
+   {
+    "constraint": "ana.wd.rng.partof",
+    "dst": "wd:Q999199",
+    "label": "wdt:P361",
+    "op": "remove_edge",
+    "round": 1,
+    "src": "wd:Q999102"
+   },
+   {
+    "constraint": "ana.wd.rng.partof",
+    "node": "wd:Q999199",
+    "op": "remove_node",
+    "round": 1
+   }
+  ],
+  "deleted": [
+   "wd:Q999101",
+   "wd:Q999199"
+  ],
+  "rounds": 2
+ },
+ "synthetic_disease_wd.nt": {
+  "attest": {
+   "consistent_after": true,
+   "data_values_unmodified": true,
+   "subset_only_deleted": true
+  },
+  "changelog": [
+   {
+    "constraint": "dis.wd.dom.symptom",
+    "dst": "wd:Q38933",
+    "label": "wdt:P780",
+    "op": "remove_edge",
+    "round": 1,
+    "src": "wd:Q999201"
+   },
+   {
+    "constraint": "dis.wd.dom.symptom",
+    "node": "wd:Q999201",
+    "op": "remove_node",
+    "round": 1
+   }
+  ],
+  "deleted": [
+   "wd:Q999201"
+  ],
+  "rounds": 2
+ },
+ "synthetic_geography_wd.nt": {
+  "attest": {
+   "consistent_after": true,
+   "data_values_unmodified": true,
+   "subset_only_deleted": true
+  },
+  "changelog": [
+   {
+    "constraint": "geo.wd.dom.country",
+    "dst": "wd:Q22",
+    "label": "wdt:P131",
+    "op": "remove_edge",
+    "round": 1,
+    "src": "wd:Q999001"
+   },
+   {
+    "constraint": "geo.wd.dom.country",
+    "dst": "wd:Q145",
+    "label": "wdt:P17",
+    "op": "remove_edge",
+    "round": 1,
+    "src": "wd:Q999001"
+   },
+   {
+    "constraint": "geo.wd.dom.country",
+    "node": "wd:Q999001",
+    "op": "remove_node",
+    "round": 1
+   },
+   {
+    "constraint": "geo.wd.rng.country",
+    "dst": "wd:Q999099",
+    "label": "wdt:P17",
+    "op": "remove_edge",
+    "round": 1,
+    "src": "wd:Q999003"
+   },
+   {
+    "constraint": "geo.wd.rng.country",
+    "node": "wd:Q999099",
+    "op": "remove_node",
+    "round": 1
+   }
+  ],
+  "deleted": [
+   "wd:Q999001",
+   "wd:Q999099"
+  ],
+  "rounds": 2
+ }
+}

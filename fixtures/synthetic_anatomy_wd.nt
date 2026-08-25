@@ -1,0 +1,17 @@
+# Synthetic Wikidata anatomy slice (Level 0: abstract structures, no patient data).
+# Loaded size (via kgrepair loader): nodes=7, edges=8 (labels=4, valued=2).
+# Class scaffolding: organ -subclass-> anatomical structure.
+<wd:Q712378> <wdt:P279> <wd:Q4936952> .
+
+# Heart -- clean: typed organ, part-of circulatory system, reciprocal has-part present.
+<wd:Q1072>  <wdt:P31>  <wd:Q712378> .
+<wd:Q1072>  <wdt:P361> <wd:Q9649> .
+<wd:Q9649>  <wdt:P31>  <wd:Q4936952> .
+<wd:Q9649>  <wdt:P527> <wd:Q1072> .
+
+# VIOLATION (existential_domain, subset): has part-of but is not an anatomical structure.
+<wd:Q999101> <wdt:P361> <wd:Q9649> .
+
+# VIOLATION (existential_range, subset): part-of points to a non-anatomical target.
+<wd:Q999102> <wdt:P31>  <wd:Q712378> .
+<wd:Q999102> <wdt:P361> <wd:Q999199> .

@@ -1,0 +1,11 @@
+# Frozen mini-cache for P1 determinism/deny tests (NOT a live fetch).
+# Full-IRI Wikidata triples around Q64 (Berlin). Includes ONE denied person-pointing
+# predicate (P6 head-of-government) to prove the whitelist/deny-check drops it.
+<http://www.wikidata.org/entity/Q64> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q515> .
+<http://www.wikidata.org/entity/Q515> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q7930> .
+<http://www.wikidata.org/entity/Q515> <http://www.wikidata.org/prop/direct/P279> <http://www.wikidata.org/entity/Q2221906> .
+<http://www.wikidata.org/entity/Q64> <http://www.wikidata.org/prop/direct/P17> <http://www.wikidata.org/entity/Q183> .
+<http://www.wikidata.org/entity/Q183> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q6256> .
+<http://www.wikidata.org/entity/Q64> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1749> .
+<http://www.wikidata.org/entity/Q64> <http://www.wikidata.org/prop/direct/P47> <http://www.wikidata.org/entity/Q1055> .
+<http://www.wikidata.org/entity/Q64> <http://www.wikidata.org/prop/direct/P6> <http://www.wikidata.org/entity/Q99999901> .

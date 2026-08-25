@@ -1,0 +1,48 @@
+{
+  "name": "real_wikidata_medication_1000",
+  "namespace": "real",
+  "slice_source": "wikidata",
+  "source": "real",
+  "domain": "medication",
+  "target_edges": 1000,
+  "seeds": [
+    "wd:Q18216",
+    "wd:Q188451",
+    "wd:Q188724",
+    "wd:Q18936",
+    "wd:Q201928",
+    "wd:Q205204",
+    "wd:Q212405",
+    "wd:Q407431",
+    "wd:Q412415",
+    "wd:Q422",
+    "wd:Q422985",
+    "wd:Q47521"
+  ],
+  "frontier_rule": "sorted_bfs",
+  "allowlist_id": "wikidata-geo-taxa-bio-v1",
+  "allowlist_hash": "8fc57783e366ebba",
+  "cache_generation_hash": "4f8e94a01745a755",
+  "query_hashes": [
+    "0c5fcb8a6fdd504a",
+    "14c507f83f17c130",
+    "d3c8c536a0561175"
+  ],
+  "V": 653,
+  "E": 1000,
+  "labels": 16,
+  "data_values": 110,
+  "content_hash": "3336b7a9e37e5d63",
+  "violations": {
+    "med.wd.dom.treats": 12,
+    "med.wd.rng.treats": 129,
+    "med.wd.safety.interaction": 1
+  },
+  "fetch_report": {
+    "source": "wikidata",
+    "domain": "medication",
+    "requests": 0,
+    "cached_edges": 1627,
+    "fetcher_requests": 0
+  }
+}

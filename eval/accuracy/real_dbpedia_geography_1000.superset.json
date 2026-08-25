@@ -1,0 +1,19 @@
+{
+  "additions": [
+    [
+      "dbr:Sweden",
+      "rdf:type",
+      "dbo:Country"
+    ],
+    [
+      "dbr:United_States",
+      "rdf:type",
+      "dbo:Country"
+    ]
+  ],
+  "additions_total": 2,
+  "minimum_for_a_proportion": 10,
+  "note": "a proportion over this many edges carries an interval so wide it states nothing; the additions are listed instead",
+  "source": "dbpedia",
+  "status": "TOO-FEW-TO-SAMPLE"
+}

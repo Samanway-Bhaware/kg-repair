@@ -1,0 +1,128 @@
+{
+  "comparisons": [
+    {
+      "by_threshold": {
+        "0.90": {
+          "e0_candidate_count": 1,
+          "e0_recovered": 0,
+          "pca_candidate_count": 1,
+          "pca_recovered": 0
+        },
+        "0.95": {
+          "e0_candidate_count": 1,
+          "e0_recovered": 0,
+          "pca_candidate_count": 1,
+          "pca_recovered": 0
+        },
+        "0.99": {
+          "e0_candidate_count": 1,
+          "e0_recovered": 0,
+          "pca_candidate_count": 1,
+          "pca_recovered": 0
+        }
+      },
+      "curated_domrange_count": 0,
+      "domain": "taxa",
+      "kg": "yago"
+    },
+    {
+      "by_threshold": {
+        "0.90": {
+          "e0_candidate_count": 65,
+          "e0_recovered": 0,
+          "pca_candidate_count": 71,
+          "pca_recovered": 0
+        },
+        "0.95": {
+          "e0_candidate_count": 57,
+          "e0_recovered": 0,
+          "pca_candidate_count": 65,
+          "pca_recovered": 0
+        },
+        "0.99": {
+          "e0_candidate_count": 48,
+          "e0_recovered": 0,
+          "pca_candidate_count": 54,
+          "pca_recovered": 0
+        }
+      },
+      "curated_domrange_count": 2,
+      "domain": "anatomy",
+      "kg": "wikidata"
+    },
+    {
+      "by_threshold": {
+        "0.90": {
+          "e0_candidate_count": 20,
+          "e0_recovered": 1,
+          "pca_candidate_count": 24,
+          "pca_recovered": 1
+        },
+        "0.95": {
+          "e0_candidate_count": 13,
+          "e0_recovered": 0,
+          "pca_candidate_count": 20,
+          "pca_recovered": 1
+        },
+        "0.99": {
+          "e0_candidate_count": 3,
+          "e0_recovered": 0,
+          "pca_candidate_count": 6,
+          "pca_recovered": 0
+        }
+      },
+      "curated_domrange_count": 2,
+      "domain": "medication",
+      "kg": "wikidata"
+    },
+    {
+      "by_threshold": {
+        "0.90": {
+          "e0_candidate_count": 0,
+          "e0_recovered": 0,
+          "pca_candidate_count": 0,
+          "pca_recovered": 0
+        },
+        "0.95": {
+          "e0_candidate_count": 0,
+          "e0_recovered": 0,
+          "pca_candidate_count": 0,
+          "pca_recovered": 0
+        },
+        "0.99": {
+          "e0_candidate_count": 0,
+          "e0_recovered": 0,
+          "pca_candidate_count": 0,
+          "pca_recovered": 0
+        }
+      },
+      "curated_domrange_count": 2,
+      "domain": "geography",
+      "kg": "wikidata"
+    }
+  ],
+  "inexpressible": [
+    {
+      "antecedent": "< down(wdt:P361) > & ! < down(wdt:P17) >",
+      "base_confidence": 0.9104477611940298,
+      "base_support": 61,
+      "consequent": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q7048977\")] >",
+      "excluded_predicate": "wdt:P17",
+      "fragment_check": "rejected as expected: node complement (not phi) leaves Reg-GXPath_pos",
+      "refined_confidence": 0.9302325581395349,
+      "refined_support": 40,
+      "slice": "real_wikidata_anatomy_1000_typed"
+    },
+    {
+      "antecedent": "< down(wdt:P527) > & ! < down(wdt:P131) >",
+      "base_confidence": 0.9411764705882353,
+      "base_support": 48,
+      "consequent": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q5127848\")] >",
+      "excluded_predicate": "wdt:P131",
+      "fragment_check": "rejected as expected: node complement (not phi) leaves Reg-GXPath_pos",
+      "refined_confidence": 0.9459459459459459,
+      "refined_support": 35,
+      "slice": "real_wikidata_anatomy_1000_typed"
+    }
+  ]
+}

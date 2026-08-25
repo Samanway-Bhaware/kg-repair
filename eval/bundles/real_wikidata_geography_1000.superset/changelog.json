@@ -1,0 +1,682 @@
+{
+ "changelog": [
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q2221906",
+   "op": "add_node",
+   "provenance": "named",
+   "round": 1,
+   "witness": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1055",
+   "witness": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1085",
+   "witness": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1218",
+   "witness": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q142",
+   "witness": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q145",
+   "witness": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1490",
+   "witness": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1492",
+   "witness": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1524",
+   "witness": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q155",
+   "witness": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q17",
+   "witness": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1726",
+   "witness": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1731",
+   "witness": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1741",
+   "witness": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1748",
+   "witness": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1780",
+   "witness": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1794",
+   "witness": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q183",
+   "witness": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1899",
+   "witness": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1963",
+   "witness": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q20",
+   "witness": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q2044",
+   "witness": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q2079",
+   "witness": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q220",
+   "witness": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q2634",
+   "witness": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q27",
+   "witness": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q2807",
+   "witness": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q29",
+   "witness": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q30",
+   "witness": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q31",
+   "witness": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q35",
+   "witness": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q38",
+   "witness": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q40",
+   "witness": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q4093",
+   "witness": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q45",
+   "witness": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q55",
+   "witness": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q60",
+   "witness": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q64",
+   "witness": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q65",
+   "witness": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q77",
+   "witness": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q84",
+   "witness": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2221906",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q90",
+   "witness": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1049",
+   "witness": "wd:Q1049"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q212",
+   "witness": "wd:Q212"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q213",
+   "witness": "wd:Q213"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q214",
+   "witness": "wd:Q214"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q219060",
+   "witness": "wd:Q219060"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q29999",
+   "witness": "wd:Q29999"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q41",
+   "witness": "wd:Q41"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q756617",
+   "witness": "wd:Q756617"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q801",
+   "witness": "wd:Q801"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1055",
+   "witness": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1085",
+   "witness": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1490",
+   "witness": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1524",
+   "witness": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1726",
+   "witness": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1731",
+   "witness": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1741",
+   "witness": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1794",
+   "witness": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q1899",
+   "witness": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q2044",
+   "witness": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q220",
+   "witness": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q2807",
+   "witness": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q35",
+   "witness": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q55",
+   "witness": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q64",
+   "witness": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q65",
+   "witness": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.type.city",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "add_edge",
+   "provenance": "named",
+   "round": 1,
+   "src": "wd:Q90",
+   "witness": "wd:Q90"
+  }
+ ]
+}

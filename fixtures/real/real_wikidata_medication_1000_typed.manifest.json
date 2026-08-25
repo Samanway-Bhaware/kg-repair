@@ -1,0 +1,38 @@
+{
+  "name": "real_wikidata_medication_1000_typed",
+  "namespace": "real",
+  "slice_source": "wikidata",
+  "source": "real",
+  "domain": "medication",
+  "target_edges": 1000,
+  "generation": "typed (T0 typing-completed)",
+  "supersedes": "real_wikidata_medication_1000",
+  "cache_generation_before": "5b4e49e467b6e782",
+  "cache_generation_after": "5b4e49e467b6e782",
+  "closure_report": {
+    "source": "wikidata",
+    "domain": "medication",
+    "closure_rounds": 1,
+    "closure_requests": 0,
+    "cached_edges": 9997,
+    "fetcher_requests": 0
+  },
+  "typing_edges_added": 7100,
+  "V_before": 653,
+  "E_before": 1000,
+  "V": 2862,
+  "E": 8100,
+  "labels": 16,
+  "data_values": 2363,
+  "violations_original": {
+    "med.wd.dom.treats": 12,
+    "med.wd.rng.treats": 129,
+    "med.wd.safety.interaction": 1
+  },
+  "violations": {
+    "med.wd.dom.treats": 11,
+    "med.wd.rng.treats": 111,
+    "med.wd.req.route": 10,
+    "med.wd.safety.interaction": 1
+  }
+}

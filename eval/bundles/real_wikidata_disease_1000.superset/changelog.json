@@ -1,0 +1,72 @@
+{
+ "changelog": [
+  {
+   "constraint": "dis.wd.req.cause_or_symptom.v2",
+   "node": "fresh:dis.wd.req.cause_or_symptom.v2:0",
+   "op": "add_node",
+   "provenance": "fresh",
+   "round": 1,
+   "witness": "wd:Q1004647"
+  },
+  {
+   "constraint": "dis.wd.req.cause_or_symptom.v2",
+   "dst": "fresh:dis.wd.req.cause_or_symptom.v2:0",
+   "label": "wdt:P780",
+   "op": "add_edge",
+   "provenance": "fresh",
+   "round": 1,
+   "src": "wd:Q1004647",
+   "witness": "wd:Q1004647"
+  },
+  {
+   "constraint": "dis.wd.req.cause_or_symptom.v2",
+   "dst": "fresh:dis.wd.req.cause_or_symptom.v2:0",
+   "label": "wdt:P780",
+   "op": "add_edge",
+   "provenance": "fresh",
+   "round": 1,
+   "src": "wd:Q10267832",
+   "witness": "wd:Q10267832"
+  },
+  {
+   "constraint": "dis.wd.req.cause_or_symptom.v2",
+   "dst": "fresh:dis.wd.req.cause_or_symptom.v2:0",
+   "label": "wdt:P780",
+   "op": "add_edge",
+   "provenance": "fresh",
+   "round": 1,
+   "src": "wd:Q10336461",
+   "witness": "wd:Q10336461"
+  },
+  {
+   "constraint": "dis.wd.req.cause_or_symptom.v2",
+   "dst": "fresh:dis.wd.req.cause_or_symptom.v2:0",
+   "label": "wdt:P780",
+   "op": "add_edge",
+   "provenance": "fresh",
+   "round": 1,
+   "src": "wd:Q1188698",
+   "witness": "wd:Q1188698"
+  },
+  {
+   "constraint": "dis.wd.req.cause_or_symptom.v2",
+   "dst": "fresh:dis.wd.req.cause_or_symptom.v2:0",
+   "label": "wdt:P780",
+   "op": "add_edge",
+   "provenance": "fresh",
+   "round": 1,
+   "src": "wd:Q1266890",
+   "witness": "wd:Q1266890"
+  },
+  {
+   "constraint": "dis.wd.req.cause_or_symptom.v2",
+   "dst": "fresh:dis.wd.req.cause_or_symptom.v2:0",
+   "label": "wdt:P780",
+   "op": "add_edge",
+   "provenance": "fresh",
+   "round": 1,
+   "src": "wd:Q18965518",
+   "witness": "wd:Q18965518"
+  }
+ ]
+}

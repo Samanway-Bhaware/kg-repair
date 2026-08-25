@@ -1,0 +1,91 @@
+{
+  "slice": "taxa@wikidata",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 4,
+    "boundary": 1,
+    "total": 5
+  },
+  "constraints": [
+    {
+      "cid": "tax.wd.inherit.taxon",
+      "domain": "taxa",
+      "kg": "wikidata",
+      "kind": "typing_inheritance",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q16521\")] >",
+        "psi": "< down(wdt:P31) . [val(\"wd:Q16521\")] >"
+      },
+      "note": "If x is instance-of some subclass of Taxon, materialise the direct instance-of Taxon edge (P31.P279* => P31).",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "tax.wd.dom.parent",
+      "domain": "taxa",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(wdt:P171) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q16521\")] >"
+      },
+      "note": "Subject of P171 (parent taxon) must be a taxon.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "tax.wd.rng.parent",
+      "domain": "taxa",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< up(wdt:P171) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q16521\")] >"
+      },
+      "note": "Value of P171 (parent taxon) must be a taxon.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "tax.wd.req.rank",
+      "domain": "taxa",
+      "kg": "wikidata",
+      "kind": "requires_statement",
+      "tier": "ptime_core",
+      "provenance": "given",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q16521\")] >",
+        "psi": "< down(wdt:P105) >"
+      },
+      "note": "P2302: every taxon requires a taxon rank (P105).",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "tax.wd.func.parent",
+      "domain": "taxa",
+      "kg": "wikidata",
+      "kind": "functional",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(wdt:P171) >",
+        "psi": "T"
+      },
+      "note": "A taxon has a single parent taxon; upper-bound needs negation.",
+      "params": {},
+      "version": 1
+    }
+  ]
+}

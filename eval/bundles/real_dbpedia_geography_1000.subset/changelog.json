@@ -1,0 +1,56 @@
+{
+ "changelog": [
+  {
+   "constraint": "geo.db.rng.country",
+   "dst": "dbr:Sweden",
+   "label": "dbo:country",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "dbr:Gothenburg"
+  },
+  {
+   "constraint": "geo.db.rng.country",
+   "dst": "dbr:Sweden",
+   "label": "dbo:country",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "dbr:Stockholm"
+  },
+  {
+   "constraint": "geo.db.rng.country",
+   "node": "dbr:Sweden",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.db.rng.country",
+   "dst": "dbr:United_States",
+   "label": "dbo:country",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "dbr:Boston"
+  },
+  {
+   "constraint": "geo.db.rng.country",
+   "dst": "dbr:United_States",
+   "label": "dbo:country",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "dbr:Chicago"
+  },
+  {
+   "constraint": "geo.db.rng.country",
+   "dst": "dbr:United_States",
+   "label": "dbo:country",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "dbr:New_York_City"
+  },
+  {
+   "constraint": "geo.db.rng.country",
+   "node": "dbr:United_States",
+   "op": "remove_node",
+   "round": 1
+  }
+ ]
+}

@@ -1,0 +1,369 @@
+{
+  "ana.wd.dom.partof": {
+    "contradicted_count": 58,
+    "class_tally": [
+      {
+        "class": "wd:Q112826905",
+        "label": "class of anatomical entity",
+        "count": 22,
+        "examples": [
+          "wd:Q1029907",
+          "wd:Q1072",
+          "wd:Q1073",
+          "wd:Q11083",
+          "wd:Q11090"
+        ]
+      },
+      {
+        "class": "wd:Q103812529",
+        "label": "organ type",
+        "count": 12,
+        "examples": [
+          "wd:Q1029907",
+          "wd:Q1072",
+          "wd:Q1073",
+          "wd:Q11083",
+          "wd:Q11090"
+        ]
+      },
+      {
+        "class": "wd:Q207520",
+        "label": "region of Japan",
+        "count": 7,
+        "examples": [
+          "wd:Q1063689",
+          "wd:Q1063946",
+          "wd:Q1138596",
+          "wd:Q127864",
+          "wd:Q130297324"
+        ]
+      },
+      {
+        "class": "wd:Q165",
+        "label": "sea",
+        "count": 5,
+        "examples": [
+          "wd:Q111384107",
+          "wd:Q13402972",
+          "wd:Q159183",
+          "wd:Q159252",
+          "wd:Q163434"
+        ]
+      },
+      {
+        "class": "wd:Q104027169",
+        "label": "anatomical system type",
+        "count": 3,
+        "examples": [
+          "wd:Q13168533",
+          "wd:Q7891",
+          "wd:Q9649"
+        ]
+      },
+      {
+        "class": "wd:Q103914748",
+        "label": "anatomical structure class type",
+        "count": 3,
+        "examples": [
+          "wd:Q188193",
+          "wd:Q40397",
+          "wd:Q712378"
+        ]
+      },
+      {
+        "class": "wd:Q39594",
+        "label": "bay",
+        "count": 2,
+        "examples": [
+          "wd:Q1061221",
+          "wd:Q1141758"
+        ]
+      },
+      {
+        "class": "wd:Q82794",
+        "label": "region",
+        "count": 2,
+        "examples": [
+          "wd:Q1091302",
+          "wd:Q1323122"
+        ]
+      },
+      {
+        "class": "wd:Q327333",
+        "label": "government agency",
+        "count": 2,
+        "examples": [
+          "wd:Q11525347",
+          "wd:Q124739334"
+        ]
+      },
+      {
+        "class": "wd:Q151885",
+        "label": "concept",
+        "count": 2,
+        "examples": [
+          "wd:Q1272626",
+          "wd:Q19478619"
+        ]
+      }
+    ]
+  },
+  "ana.wd.rng.partof": {
+    "contradicted_count": 46,
+    "class_tally": [
+      {
+        "class": "wd:Q112826905",
+        "label": "class of anatomical entity",
+        "count": 10,
+        "examples": [
+          "wd:Q1074",
+          "wd:Q11068",
+          "wd:Q16364",
+          "wd:Q23640",
+          "wd:Q2859739"
+        ]
+      },
+      {
+        "class": "wd:Q207520",
+        "label": "region of Japan",
+        "count": 5,
+        "examples": [
+          "wd:Q11370154",
+          "wd:Q134638",
+          "wd:Q1775108",
+          "wd:Q5358181",
+          "wd:Q5358256"
+        ]
+      },
+      {
+        "class": "wd:Q103812529",
+        "label": "organ type",
+        "count": 3,
+        "examples": [
+          "wd:Q1074",
+          "wd:Q47273",
+          "wd:Q9639"
+        ]
+      },
+      {
+        "class": "wd:Q9430",
+        "label": "ocean",
+        "count": 3,
+        "examples": [
+          "wd:Q715269",
+          "wd:Q788",
+          "wd:Q98"
+        ]
+      },
+      {
+        "class": "wd:Q223371",
+        "label": "stock market index",
+        "count": 2,
+        "examples": [
+          "wd:Q11249846",
+          "wd:Q507338"
+        ]
+      },
+      {
+        "class": "wd:Q2996394",
+        "label": "biological process",
+        "count": 2,
+        "examples": [
+          "wd:Q1345738",
+          "wd:Q14886479"
+        ]
+      },
+      {
+        "class": "wd:Q11691",
+        "label": "stock exchange",
+        "count": 2,
+        "examples": [
+          "wd:Q13677",
+          "wd:Q217475"
+        ]
+      },
+      {
+        "class": "wd:Q113147985",
+        "label": "solitary organism subdivision type",
+        "count": 2,
+        "examples": [
+          "wd:Q16364",
+          "wd:Q9645"
+        ]
+      },
+      {
+        "class": "wd:Q139550381",
+        "label": "class of human anatomical entity",
+        "count": 2,
+        "examples": [
+          "wd:Q25416319",
+          "wd:Q3409626"
+        ]
+      },
+      {
+        "class": "wd:Q103843042",
+        "label": "organism subdivision type",
+        "count": 2,
+        "examples": [
+          "wd:Q2859739",
+          "wd:Q3276159"
+        ]
+      }
+    ]
+  },
+  "dis.wd.dom.symptom": {
+    "contradicted_count": 7,
+    "class_tally": [
+      {
+        "class": "wd:Q112193867",
+        "label": "type of disease",
+        "count": 7,
+        "examples": [
+          "wd:Q101896",
+          "wd:Q114085",
+          "wd:Q131742",
+          "wd:Q133823",
+          "wd:Q2840"
+        ]
+      },
+      {
+        "class": "wd:Q112965645",
+        "label": "symptom or sign",
+        "count": 3,
+        "examples": [
+          "wd:Q114085",
+          "wd:Q131742",
+          "wd:Q2840"
+        ]
+      }
+    ]
+  },
+  "med.wd.dom.treats": {
+    "contradicted_count": 11,
+    "class_tally": [
+      {
+        "class": "wd:Q113145171",
+        "label": "type of chemical entity",
+        "count": 9,
+        "examples": [
+          "wd:Q1074056",
+          "wd:Q1075324",
+          "wd:Q1078392",
+          "wd:Q11426176",
+          "wd:Q1215575"
+        ]
+      },
+      {
+        "class": "wd:Q119892838",
+        "label": "type of mixture of chemical entities",
+        "count": 1,
+        "examples": [
+          "wd:Q113368879"
+        ]
+      },
+      {
+        "class": "wd:Q59199015",
+        "label": "group of stereoisomers",
+        "count": 1,
+        "examples": [
+          "wd:Q1169164"
+        ]
+      }
+    ]
+  },
+  "med.wd.rng.treats": {
+    "contradicted_count": 103,
+    "class_tally": [
+      {
+        "class": "wd:Q112193867",
+        "label": "type of disease",
+        "count": 99,
+        "examples": [
+          "wd:Q1004647",
+          "wd:Q101896",
+          "wd:Q1088156",
+          "wd:Q1130519",
+          "wd:Q1138590"
+        ]
+      },
+      {
+        "class": "wd:Q112965645",
+        "label": "symptom or sign",
+        "count": 22,
+        "examples": [
+          "wd:Q1088156",
+          "wd:Q12152",
+          "wd:Q128581",
+          "wd:Q133087",
+          "wd:Q1506572"
+        ]
+      },
+      {
+        "class": "wd:Q130753312",
+        "label": "symptom type",
+        "count": 2,
+        "examples": [
+          "wd:Q101991",
+          "wd:Q81938"
+        ]
+      },
+      {
+        "class": "wd:Q2057971",
+        "label": "health problem",
+        "count": 2,
+        "examples": [
+          "wd:Q2971524",
+          "wd:Q81938"
+        ]
+      },
+      {
+        "class": "wd:Q1931388",
+        "label": "cause of death",
+        "count": 1,
+        "examples": [
+          "wd:Q12152"
+        ]
+      },
+      {
+        "class": "wd:Q2996394",
+        "label": "biological process",
+        "count": 1,
+        "examples": [
+          "wd:Q5958765"
+        ]
+      },
+      {
+        "class": "wd:Q21286738",
+        "label": "Wikimedia permanent duplicate item",
+        "count": 1,
+        "examples": [
+          "wd:Q6081223"
+        ]
+      },
+      {
+        "class": "wd:Q639907",
+        "label": "medical finding",
+        "count": 1,
+        "examples": [
+          "wd:Q81938"
+        ]
+      },
+      {
+        "class": "wd:Q1441305",
+        "label": "clinical sign",
+        "count": 1,
+        "examples": [
+          "wd:Q81938"
+        ]
+      },
+      {
+        "class": "wd:Q42014143",
+        "label": "biomedical measurand type",
+        "count": 1,
+        "examples": [
+          "wd:Q81938"
+        ]
+      }
+    ]
+  }
+}

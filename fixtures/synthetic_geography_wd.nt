@@ -1,0 +1,29 @@
+# Synthetic Wikidata geography slice (Level 0: no person/org edges).
+# Loaded size (via kgrepair loader): nodes=11, edges=14 (labels=5, valued=3).
+# Class scaffolding: City -subclass-> Geo location; Country -subclass-> Geo location.
+<wd:Q515>   <wdt:P279> <wd:Q2221906> .
+<wd:Q6256>  <wdt:P279> <wd:Q2221906> .
+
+# Edinburgh: a well-formed city -- typed City, has country + located-in.
+<wd:Q23436> <wdt:P31>  <wd:Q515> .
+<wd:Q23436> <wdt:P17>  <wd:Q145> .
+<wd:Q23436> <wdt:P131> <wd:Q22> .
+
+# UK: a well-formed country.
+<wd:Q145>   <wdt:P31>  <wd:Q6256> .
+
+# VIOLATION (typing_existence, superset): has country + located-in but not typed City.
+<wd:Q999001> <wdt:P17>  <wd:Q145> .
+<wd:Q999001> <wdt:P131> <wd:Q22> .
+
+# VIOLATION (requires_statement, superset): typed City but no country edge.
+<wd:Q999002> <wdt:P31>  <wd:Q515> .
+<wd:Q999002> <wdt:P131> <wd:Q22> .
+
+# VIOLATION (existential_range, subset): country edge whose target is not a country.
+<wd:Q999003> <wdt:P31>  <wd:Q515> .
+<wd:Q999003> <wdt:P17>  <wd:Q999099> .
+<wd:Q999003> <wdt:P131> <wd:Q22> .
+
+# Symmetric border pair (boundary): one direction present -> reported, not repaired.
+<wd:Q145>   <wdt:P47> <wd:Q27> .

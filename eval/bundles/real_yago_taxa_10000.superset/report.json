@@ -1,0 +1,248 @@
+{
+  "campaign_record": {
+    "attestations": {
+      "consistent_after": true,
+      "data_values_unmodified": true,
+      "fresh_values_within_bound": true,
+      "superset_only_added": true
+    },
+    "cache_generation_hash": "f03b0e645fa0fa7c",
+    "cap": {
+      "aborted": false,
+      "cap": 0.3,
+      "denominator": 10000,
+      "fraction": 0.0,
+      "mode": "superset",
+      "status": "OK",
+      "witness_count": 0
+    },
+    "cell": "yago:taxa:10000:superset",
+    "changes": {
+      "edges_added": 0,
+      "edges_removed": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "pruned_edges": 0,
+      "pruned_nodes": 0
+    },
+    "code_revision": "770401d4b4f37f55318e24b3035a877869602da6",
+    "comparison": {
+      "class_property_pairs": {
+        "absolute": 0,
+        "after": 1,
+        "before": 1,
+        "relative": 0.0
+      },
+      "classes": {
+        "absolute": 0,
+        "after": 1,
+        "before": 1,
+        "relative": 0.0
+      },
+      "classes_scored_for_coverage": {
+        "absolute": 0,
+        "after": 1,
+        "before": 1,
+        "relative": 0.0
+      },
+      "constraints_checked": {
+        "absolute": 0,
+        "after": 1,
+        "before": 1,
+        "relative": 0.0
+      },
+      "edges": {
+        "absolute": 0,
+        "after": 10000,
+        "before": 10000,
+        "relative": 0.0
+      },
+      "labels": {
+        "absolute": 0,
+        "after": 2,
+        "before": 2,
+        "relative": 0.0
+      },
+      "nodes": {
+        "absolute": 0,
+        "after": 5475,
+        "before": 5475,
+        "relative": 0.0
+      },
+      "property_coverage_mean": {
+        "absolute": 0.0,
+        "after": 1.0,
+        "before": 1.0,
+        "relative": 0.0
+      },
+      "redundant_type_edges": {
+        "absolute": 0,
+        "after": 0,
+        "before": 0,
+        "relative": null
+      },
+      "satisfaction_mean": {
+        "absolute": 0.0,
+        "after": 1.0,
+        "before": 1.0,
+        "relative": 0.0
+      },
+      "satisfaction_scored": {
+        "absolute": 0,
+        "after": 1,
+        "before": 1,
+        "relative": 0.0
+      },
+      "singleton_classes": {
+        "absolute": 0,
+        "after": 0,
+        "before": 0,
+        "relative": null
+      },
+      "typed_node_fraction": {
+        "absolute": 0.0,
+        "after": 0.9130593607305936,
+        "before": 0.9130593607305936,
+        "relative": 0.0
+      },
+      "typed_nodes": {
+        "absolute": 0,
+        "after": 4999,
+        "before": 4999,
+        "relative": 0.0
+      },
+      "valued_nodes": {
+        "absolute": 0,
+        "after": 1,
+        "before": 1,
+        "relative": 0.0
+      },
+      "violated_constraints": {
+        "absolute": 0,
+        "after": 0,
+        "before": 0,
+        "relative": null
+      },
+      "violations_total": {
+        "absolute": 0,
+        "after": 0,
+        "before": 0,
+        "relative": null
+      },
+      "witness_node_fraction": {
+        "absolute": 0.0,
+        "after": 0.0,
+        "before": 0.0,
+        "relative": null
+      },
+      "witness_nodes": {
+        "absolute": 0,
+        "after": 0,
+        "before": 0,
+        "relative": null
+      }
+    },
+    "constraint_set": "taxa@yago[partial]",
+    "constraint_version_requested": 2,
+    "constraints_boundary": 0,
+    "constraints_core": 1,
+    "domain": "taxa",
+    "metrics_after": {
+      "class_property_pairs": 1,
+      "classes": 1,
+      "classes_scored_for_coverage": 1,
+      "constraints_checked": 1,
+      "edges": 10000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 2,
+      "nodes": 5475,
+      "property_coverage_mean": 1.0,
+      "redundant_type_edges": 0,
+      "satisfaction_mean": 1.0,
+      "satisfaction_scored": 1,
+      "singleton_classes": 0,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.9130593607305936,
+      "typed_nodes": 4999,
+      "valued_nodes": 1,
+      "violated_constraints": 0,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 0
+      },
+      "violations_total": 0,
+      "witness_node_fraction": 0.0,
+      "witness_nodes": 0
+    },
+    "metrics_before": {
+      "class_property_pairs": 1,
+      "classes": 1,
+      "classes_scored_for_coverage": 1,
+      "constraints_checked": 1,
+      "edges": 10000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 2,
+      "nodes": 5475,
+      "property_coverage_mean": 1.0,
+      "redundant_type_edges": 0,
+      "satisfaction_mean": 1.0,
+      "satisfaction_scored": 1,
+      "singleton_classes": 0,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.9130593607305936,
+      "typed_nodes": 4999,
+      "valued_nodes": 1,
+      "violated_constraints": 0,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 0
+      },
+      "violations_total": 0,
+      "witness_node_fraction": 0.0,
+      "witness_nodes": 0
+    },
+    "mode": "superset",
+    "resources": {
+      "bytes_per_edge": 452.7,
+      "peak_traced_bytes": 4527008
+    },
+    "rounds": 1,
+    "routed_after": {
+      "constraints": 1,
+      "violations": 0
+    },
+    "routed_before": {
+      "constraints": 1,
+      "violations": 0
+    },
+    "slice": "real_yago_taxa_10000",
+    "slice_content_hash": "c38e5a2ddd3b875b",
+    "source": "yago",
+    "stop_reason": "completed",
+    "target_edges": 10000,
+    "timings_s": {
+      "repair_loop": 0.007
+    },
+    "variant": null
+  },
+  "summary": {
+    "consistent_after": true,
+    "constraint_provenance": "authored",
+    "engine": "superset",
+    "engine_ran": true
+  }
+}

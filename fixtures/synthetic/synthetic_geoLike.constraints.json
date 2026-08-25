@@ -1,0 +1,74 @@
+{
+  "slice": "synthetic@geography-like",
+  "coverage": {
+    "ptime_core": 4,
+    "boundary": 0,
+    "total": 4
+  },
+  "constraints": [
+    {
+      "cid": "syn.dom.country",
+      "domain": "synthetic",
+      "kg": "synthetic",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(synth:country) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"synth:Geo\")] >"
+      },
+      "note": "",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "syn.rng.country",
+      "domain": "synthetic",
+      "kg": "synthetic",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "subset",
+      "containment": {
+        "phi": "< up(synth:country) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"synth:Country\")] >"
+      },
+      "note": "",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "syn.type.city",
+      "domain": "synthetic",
+      "kg": "synthetic",
+      "kind": "typing_existence",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(synth:country) > & < down(synth:locatedIn) >",
+        "psi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"synth:City\")] >"
+      },
+      "note": "",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "syn.req.city_country",
+      "domain": "synthetic",
+      "kg": "synthetic",
+      "kind": "requires_statement",
+      "tier": "ptime_core",
+      "provenance": "derived",
+      "direction": "superset",
+      "containment": {
+        "phi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"synth:City\")] >",
+        "psi": "< down(synth:country) >"
+      },
+      "note": "",
+      "params": {},
+      "version": 1
+    }
+  ]
+}

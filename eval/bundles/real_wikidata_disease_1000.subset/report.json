@@ -1,0 +1,246 @@
+{
+  "campaign_record": {
+    "attestations": {
+      "consistent_after": true,
+      "data_values_unmodified": true,
+      "subset_only_deleted": true
+    },
+    "cache_generation_hash": "3085978bd6b5d403",
+    "cap": {
+      "aborted": false,
+      "cap": 0.2,
+      "denominator": 664,
+      "fraction": 0.0,
+      "mode": "subset",
+      "status": "OK",
+      "witness_count": 0
+    },
+    "cell": "wikidata:disease:1000:subset",
+    "changes": {
+      "edges_added": 0,
+      "edges_removed": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "recheck_count": 1
+    },
+    "code_revision": "770401d4b4f37f55318e24b3035a877869602da6",
+    "comparison": {
+      "class_property_pairs": {
+        "absolute": 0,
+        "after": 23,
+        "before": 23,
+        "relative": 0.0
+      },
+      "classes": {
+        "absolute": 0,
+        "after": 31,
+        "before": 31,
+        "relative": 0.0
+      },
+      "classes_scored_for_coverage": {
+        "absolute": 0,
+        "after": 9,
+        "before": 9,
+        "relative": 0.0
+      },
+      "constraints_checked": {
+        "absolute": 0,
+        "after": 3,
+        "before": 3,
+        "relative": 0.0
+      },
+      "edges": {
+        "absolute": 0,
+        "after": 1000,
+        "before": 1000,
+        "relative": 0.0
+      },
+      "labels": {
+        "absolute": 0,
+        "after": 12,
+        "before": 12,
+        "relative": 0.0
+      },
+      "nodes": {
+        "absolute": 0,
+        "after": 664,
+        "before": 664,
+        "relative": 0.0
+      },
+      "property_coverage_mean": {
+        "absolute": 0.0,
+        "after": 0.36764705882352944,
+        "before": 0.36764705882352944,
+        "relative": 0.0
+      },
+      "redundant_type_edges": {
+        "absolute": 0,
+        "after": 3,
+        "before": 3,
+        "relative": 0.0
+      },
+      "satisfaction_mean": {
+        "absolute": 0.0,
+        "after": 0.8125,
+        "before": 0.8125,
+        "relative": 0.0
+      },
+      "satisfaction_scored": {
+        "absolute": 0,
+        "after": 2,
+        "before": 2,
+        "relative": 0.0
+      },
+      "singleton_classes": {
+        "absolute": 0,
+        "after": 22,
+        "before": 22,
+        "relative": 0.0
+      },
+      "typed_node_fraction": {
+        "absolute": 0.0,
+        "after": 0.09337349397590361,
+        "before": 0.09337349397590361,
+        "relative": 0.0
+      },
+      "typed_nodes": {
+        "absolute": 0,
+        "after": 62,
+        "before": 62,
+        "relative": 0.0
+      },
+      "valued_nodes": {
+        "absolute": 0,
+        "after": 125,
+        "before": 125,
+        "relative": 0.0
+      },
+      "violated_constraints": {
+        "absolute": 0,
+        "after": 1,
+        "before": 1,
+        "relative": 0.0
+      },
+      "violations_total": {
+        "absolute": 0,
+        "after": 6,
+        "before": 6,
+        "relative": 0.0
+      },
+      "witness_node_fraction": {
+        "absolute": 0.0,
+        "after": 0.009036144578313253,
+        "before": 0.009036144578313253,
+        "relative": 0.0
+      },
+      "witness_nodes": {
+        "absolute": 0,
+        "after": 6,
+        "before": 6,
+        "relative": 0.0
+      }
+    },
+    "constraint_set": "disease@wikidata.v2",
+    "constraint_version_requested": 2,
+    "constraints_boundary": 1,
+    "constraints_core": 2,
+    "domain": "disease",
+    "metrics_after": {
+      "class_property_pairs": 23,
+      "classes": 31,
+      "classes_scored_for_coverage": 9,
+      "constraints_checked": 3,
+      "edges": 1000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 12,
+      "nodes": 664,
+      "property_coverage_mean": 0.36764705882352944,
+      "redundant_type_edges": 3,
+      "satisfaction_mean": 0.8125,
+      "satisfaction_scored": 2,
+      "singleton_classes": 22,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.09337349397590361,
+      "typed_nodes": 62,
+      "valued_nodes": 125,
+      "violated_constraints": 1,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 6
+      },
+      "violations_total": 6,
+      "witness_node_fraction": 0.009036144578313253,
+      "witness_nodes": 6
+    },
+    "metrics_before": {
+      "class_property_pairs": 23,
+      "classes": 31,
+      "classes_scored_for_coverage": 9,
+      "constraints_checked": 3,
+      "edges": 1000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 12,
+      "nodes": 664,
+      "property_coverage_mean": 0.36764705882352944,
+      "redundant_type_edges": 3,
+      "satisfaction_mean": 0.8125,
+      "satisfaction_scored": 2,
+      "singleton_classes": 22,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.09337349397590361,
+      "typed_nodes": 62,
+      "valued_nodes": 125,
+      "violated_constraints": 1,
+      "violations_by_tier": {
+        "boundary": 0,
+        "ptime_core": 6
+      },
+      "violations_total": 6,
+      "witness_node_fraction": 0.009036144578313253,
+      "witness_nodes": 6
+    },
+    "mode": "subset",
+    "resources": {
+      "bytes_per_edge": 379.8,
+      "peak_traced_bytes": 379808
+    },
+    "rounds": 1,
+    "routed_after": {
+      "constraints": 1,
+      "violations": 0
+    },
+    "routed_before": {
+      "constraints": 1,
+      "violations": 0
+    },
+    "slice": "real_wikidata_disease_1000",
+    "slice_content_hash": "3ce17f96acf1a8e2",
+    "source": "wikidata",
+    "stop_reason": "completed",
+    "target_edges": 1000,
+    "timings_s": {
+      "repair_loop": 0.0008
+    },
+    "variant": null
+  },
+  "summary": {
+    "consistent_after": true,
+    "constraint_provenance": "authored",
+    "engine": "subset",
+    "engine_ran": true
+  }
+}

@@ -1,0 +1,928 @@
+{
+ "changelog": [
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1074056"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q11426176"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1215575"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q18216"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1074056",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q11426176",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1215575",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q18216",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q186969",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q190875",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q244408",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q27106662",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q27107089",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q2823284",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q3837481",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q385370",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q408676",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q409231",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q416132",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q417222",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q419890",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q422252",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q4224007",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q424972",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q425207",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q425991",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q4376623",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q4713192",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q4742041",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q5134843",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q5275451",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q5462632",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q5462791",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q607349",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q7334443",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q904011",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q963093",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q12136",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1441305",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q169872",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q31836626",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1178507"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1284347"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q131742"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1433212"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2971524"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q3508753"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q539392"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q645363"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q101991",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77776"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q130753312",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101991"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q101991",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1131260",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1074056"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1641147",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1131260"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q18554972",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1131260"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q1131260",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q123750979",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q18936"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q18936",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q194974",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q19903515",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q27147976",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q413299",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q414143",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q415588",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q7448840",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q7833138",
+   "label": "wdt:P2176",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q172341",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q33525",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q7455058",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1147182",
+   "label": "wdt:P780",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q4927059",
+   "label": "wdt:P780",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q123750979"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q123750979",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1671685",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q18936"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q128581",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1671685"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q33525",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1671685"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q3658404",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1671685"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q55780068",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1671685"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q1671685",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q18478450",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q113368879"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q2047938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q18478450"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q18478450",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q242165",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1215575"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q242165",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q18216"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q112965645",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q242165"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q242165",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q5508825",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q11426176"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q2300099",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q5508825"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q5508825",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q6081223",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1215575"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q6081223",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q18216"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q133087",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q6081223"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q21286738",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q6081223"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q6081223",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q7514772",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q113368879"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q12202",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q7514772"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q7514772",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1215575"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P2175",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q18216"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q169872",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q47455774",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q5780945",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1088113"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q130313321"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1907986"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q3526279"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q424318"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q693058"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q7161805"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q126034916",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q130753312",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q1441305",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q2057971",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q42014143",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q60539481",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q639907",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q81938"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1088113"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "dst": "wd:Q81938",
+   "label": "wdt:P780",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q101896"
+  },
+  {
+   "constraint": "med.wd.rng.treats.v2",
+   "node": "wd:Q81938",
+   "op": "remove_node",
+   "round": 1
+  }
+ ]
+}

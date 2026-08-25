@@ -1,0 +1,39 @@
+{
+  "additions": [
+    [
+      "wd:Q1004647",
+      "wdt:P780",
+      "fresh:dis.wd.req.cause_or_symptom.v2:0"
+    ],
+    [
+      "wd:Q10267832",
+      "wdt:P780",
+      "fresh:dis.wd.req.cause_or_symptom.v2:0"
+    ],
+    [
+      "wd:Q10336461",
+      "wdt:P780",
+      "fresh:dis.wd.req.cause_or_symptom.v2:0"
+    ],
+    [
+      "wd:Q1188698",
+      "wdt:P780",
+      "fresh:dis.wd.req.cause_or_symptom.v2:0"
+    ],
+    [
+      "wd:Q1266890",
+      "wdt:P780",
+      "fresh:dis.wd.req.cause_or_symptom.v2:0"
+    ],
+    [
+      "wd:Q18965518",
+      "wdt:P780",
+      "fresh:dis.wd.req.cause_or_symptom.v2:0"
+    ]
+  ],
+  "additions_total": 6,
+  "minimum_for_a_proportion": 10,
+  "note": "a proportion over this many edges carries an interval so wide it states nothing; the additions are listed instead",
+  "source": "wikidata",
+  "status": "TOO-FEW-TO-SAMPLE"
+}

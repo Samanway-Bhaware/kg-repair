@@ -1,0 +1,59 @@
+{
+  "slice": "anatomy@wikidata",
+  "availability": "full",
+  "coverage": {
+    "ptime_core": 2,
+    "boundary": 1,
+    "total": 3
+  },
+  "constraints": [
+    {
+      "cid": "ana.wd.dom.partof",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "existential_domain",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< down(wdt:P361) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] >"
+      },
+      "note": "Subject of an anatomical part-of edge is an anatomical structure.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "ana.wd.rng.partof",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "existential_range",
+      "tier": "ptime_core",
+      "provenance": "compiled",
+      "direction": "subset",
+      "containment": {
+        "phi": "< up(wdt:P361) >",
+        "psi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q4936952\")] >"
+      },
+      "note": "Value of an anatomical part-of edge is an anatomical structure.",
+      "params": {},
+      "version": 1
+    },
+    {
+      "cid": "ana.wd.inv.part_haspart",
+      "domain": "anatomy",
+      "kg": "wikidata",
+      "kind": "inverse",
+      "tier": "boundary",
+      "provenance": "given",
+      "direction": "report",
+      "containment": {
+        "phi": "< down(wdt:P361) >",
+        "psi": "< up(wdt:P527) >"
+      },
+      "note": "P361 part-of is inverse of P527 has-part; report only.",
+      "params": {},
+      "version": 1
+    }
+  ]
+}

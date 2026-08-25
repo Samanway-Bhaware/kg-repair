@@ -1,0 +1,24 @@
+{"constraint_id": "syn.dom.country", "edit": "add synth:country from an untyped subject (existential_domain)", "injection": "existential_domain", "witness_node": "synth:viol/dom/0"}
+{"constraint_id": "syn.dom.country", "edit": "add synth:country from an untyped subject (existential_domain)", "injection": "existential_domain", "witness_node": "synth:viol/dom/1"}
+{"constraint_id": "syn.dom.country", "edit": "add synth:country from an untyped subject (existential_domain)", "injection": "existential_domain", "witness_node": "synth:viol/dom/2"}
+{"constraint_id": "syn.dom.country", "edit": "add synth:country from an untyped subject (existential_domain)", "injection": "existential_domain", "witness_node": "synth:viol/dom/3"}
+{"constraint_id": "syn.dom.country", "edit": "add synth:country from an untyped subject (existential_domain)", "injection": "existential_domain", "witness_node": "synth:viol/dom/4"}
+{"constraint_id": "syn.dom.country", "edit": "add synth:country from an untyped subject (existential_domain)", "injection": "existential_domain", "witness_node": "synth:viol/dom/5"}
+{"constraint_id": "syn.rng.country", "edit": "point synth:country at an untyped orphan target (existential_range)", "injection": "existential_range", "witness_node": "synth:viol/rngO/0"}
+{"constraint_id": "syn.rng.country", "edit": "point synth:country at an untyped orphan target (existential_range)", "injection": "existential_range", "witness_node": "synth:viol/rngO/1"}
+{"constraint_id": "syn.rng.country", "edit": "point synth:country at an untyped orphan target (existential_range)", "injection": "existential_range", "witness_node": "synth:viol/rngO/2"}
+{"constraint_id": "syn.rng.country", "edit": "point synth:country at an untyped orphan target (existential_range)", "injection": "existential_range", "witness_node": "synth:viol/rngO/3"}
+{"constraint_id": "syn.rng.country", "edit": "point synth:country at an untyped orphan target (existential_range)", "injection": "existential_range", "witness_node": "synth:viol/rngO/4"}
+{"constraint_id": "syn.rng.country", "edit": "point synth:country at an untyped orphan target (existential_range)", "injection": "existential_range", "witness_node": "synth:viol/rngO/5"}
+{"constraint_id": "syn.type.city", "edit": "country+locatedIn on a non-City geo node (typing_existence)", "injection": "typing_existence", "witness_node": "synth:viol/type/0"}
+{"constraint_id": "syn.type.city", "edit": "country+locatedIn on a non-City geo node (typing_existence)", "injection": "typing_existence", "witness_node": "synth:viol/type/1"}
+{"constraint_id": "syn.type.city", "edit": "country+locatedIn on a non-City geo node (typing_existence)", "injection": "typing_existence", "witness_node": "synth:viol/type/2"}
+{"constraint_id": "syn.type.city", "edit": "country+locatedIn on a non-City geo node (typing_existence)", "injection": "typing_existence", "witness_node": "synth:viol/type/3"}
+{"constraint_id": "syn.type.city", "edit": "country+locatedIn on a non-City geo node (typing_existence)", "injection": "typing_existence", "witness_node": "synth:viol/type/4"}
+{"constraint_id": "syn.type.city", "edit": "country+locatedIn on a non-City geo node (typing_existence)", "injection": "typing_existence", "witness_node": "synth:viol/type/5"}
+{"constraint_id": "syn.req.city_country", "edit": "a City with its required synth:country dropped (requires_statement)", "injection": "requires_statement", "witness_node": "synth:viol/req/0"}
+{"constraint_id": "syn.req.city_country", "edit": "a City with its required synth:country dropped (requires_statement)", "injection": "requires_statement", "witness_node": "synth:viol/req/1"}
+{"constraint_id": "syn.req.city_country", "edit": "a City with its required synth:country dropped (requires_statement)", "injection": "requires_statement", "witness_node": "synth:viol/req/2"}
+{"constraint_id": "syn.req.city_country", "edit": "a City with its required synth:country dropped (requires_statement)", "injection": "requires_statement", "witness_node": "synth:viol/req/3"}
+{"constraint_id": "syn.req.city_country", "edit": "a City with its required synth:country dropped (requires_statement)", "injection": "requires_statement", "witness_node": "synth:viol/req/4"}
+{"constraint_id": "syn.req.city_country", "edit": "a City with its required synth:country dropped (requires_statement)", "injection": "requires_statement", "witness_node": "synth:viol/req/5"}

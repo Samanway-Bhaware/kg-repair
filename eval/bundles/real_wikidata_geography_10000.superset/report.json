@@ -1,0 +1,248 @@
+{
+  "campaign_record": {
+    "attestations": {
+      "consistent_after": true,
+      "data_values_unmodified": true,
+      "fresh_values_within_bound": true,
+      "superset_only_added": true
+    },
+    "cache_generation_hash": "b5517c8202f32a08",
+    "cap": {
+      "aborted": false,
+      "cap": 0.3,
+      "denominator": 10000,
+      "fraction": 0.1586,
+      "mode": "superset",
+      "status": "OK",
+      "witness_count": 1586
+    },
+    "cell": "wikidata:geography:10000:superset",
+    "changes": {
+      "edges_added": 1586,
+      "edges_removed": 0,
+      "nodes_added": 0,
+      "nodes_removed": 0,
+      "pruned_edges": 0,
+      "pruned_nodes": 0
+    },
+    "code_revision": "770401d4b4f37f55318e24b3035a877869602da6",
+    "comparison": {
+      "class_property_pairs": {
+        "absolute": 7,
+        "after": 654,
+        "before": 647,
+        "relative": 0.010819165378670788
+      },
+      "classes": {
+        "absolute": 0,
+        "after": 275,
+        "before": 275,
+        "relative": 0.0
+      },
+      "classes_scored_for_coverage": {
+        "absolute": 0,
+        "after": 119,
+        "before": 119,
+        "relative": 0.0
+      },
+      "constraints_checked": {
+        "absolute": 0,
+        "after": 7,
+        "before": 7,
+        "relative": 0.0
+      },
+      "edges": {
+        "absolute": 1586,
+        "after": 11586,
+        "before": 10000,
+        "relative": 0.1586
+      },
+      "labels": {
+        "absolute": 0,
+        "after": 12,
+        "before": 12,
+        "relative": 0.0
+      },
+      "nodes": {
+        "absolute": 0,
+        "after": 3707,
+        "before": 3707,
+        "relative": 0.0
+      },
+      "property_coverage_mean": {
+        "absolute": -0.19465354932282586,
+        "after": 0.5153301326234729,
+        "before": 0.7099836819462988,
+        "relative": -0.27416622983392586
+      },
+      "redundant_type_edges": {
+        "absolute": 0,
+        "after": 52,
+        "before": 52,
+        "relative": 0.0
+      },
+      "satisfaction_mean": {
+        "absolute": 0.5835220917225951,
+        "after": 1.0,
+        "before": 0.41647790827740494,
+        "relative": 1.4010877410907625
+      },
+      "satisfaction_scored": {
+        "absolute": 0,
+        "after": 4,
+        "before": 4,
+        "relative": 0.0
+      },
+      "singleton_classes": {
+        "absolute": 0,
+        "after": 156,
+        "before": 156,
+        "relative": 0.0
+      },
+      "typed_node_fraction": {
+        "absolute": 0.013487995683841403,
+        "after": 0.24710008092797411,
+        "before": 0.2336120852441327,
+        "relative": 0.05773672055427261
+      },
+      "typed_nodes": {
+        "absolute": 50,
+        "after": 916,
+        "before": 866,
+        "relative": 0.057736720554272515
+      },
+      "valued_nodes": {
+        "absolute": 0,
+        "after": 372,
+        "before": 372,
+        "relative": 0.0
+      },
+      "violated_constraints": {
+        "absolute": -3,
+        "after": 2,
+        "before": 5,
+        "relative": -0.6
+      },
+      "violations_total": {
+        "absolute": -1586,
+        "after": 386,
+        "before": 1972,
+        "relative": -0.8042596348884381
+      },
+      "witness_node_fraction": {
+        "absolute": -0.13811707580253574,
+        "after": 0.10142972754248719,
+        "before": 0.23954680334502293,
+        "relative": -0.5765765765765766
+      },
+      "witness_nodes": {
+        "absolute": -512,
+        "after": 376,
+        "before": 888,
+        "relative": -0.5765765765765766
+      }
+    },
+    "constraint_set": "geography@wikidata",
+    "constraint_version_requested": 2,
+    "constraints_boundary": 3,
+    "constraints_core": 4,
+    "domain": "geography",
+    "metrics_after": {
+      "class_property_pairs": 654,
+      "classes": 275,
+      "classes_scored_for_coverage": 119,
+      "constraints_checked": 7,
+      "edges": 11586,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 12,
+      "nodes": 3707,
+      "property_coverage_mean": 0.5153301326234729,
+      "redundant_type_edges": 52,
+      "satisfaction_mean": 1.0,
+      "satisfaction_scored": 4,
+      "singleton_classes": 156,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.24710008092797411,
+      "typed_nodes": 916,
+      "valued_nodes": 372,
+      "violated_constraints": 2,
+      "violations_by_tier": {
+        "boundary": 386,
+        "ptime_core": 0
+      },
+      "violations_total": 386,
+      "witness_node_fraction": 0.10142972754248719,
+      "witness_nodes": 376
+    },
+    "metrics_before": {
+      "class_property_pairs": 647,
+      "classes": 275,
+      "classes_scored_for_coverage": 119,
+      "constraints_checked": 7,
+      "edges": 10000,
+      "instance_of": [
+        "rdf:type",
+        "wdt:P31"
+      ],
+      "labels": 12,
+      "nodes": 3707,
+      "property_coverage_mean": 0.7099836819462988,
+      "redundant_type_edges": 52,
+      "satisfaction_mean": 0.41647790827740494,
+      "satisfaction_scored": 4,
+      "singleton_classes": 156,
+      "subclass_of": [
+        "rdfs:subClassOf",
+        "schema:subClassOf",
+        "wdt:P279"
+      ],
+      "typed_node_fraction": 0.2336120852441327,
+      "typed_nodes": 866,
+      "valued_nodes": 372,
+      "violated_constraints": 5,
+      "violations_by_tier": {
+        "boundary": 386,
+        "ptime_core": 1586
+      },
+      "violations_total": 1972,
+      "witness_node_fraction": 0.23954680334502293,
+      "witness_nodes": 888
+    },
+    "mode": "superset",
+    "resources": {
+      "bytes_per_edge": 384.9,
+      "peak_traced_bytes": 3848952
+    },
+    "rounds": 2,
+    "routed_after": {
+      "constraints": 4,
+      "violations": 0
+    },
+    "routed_before": {
+      "constraints": 4,
+      "violations": 1586
+    },
+    "slice": "real_wikidata_geography_10000",
+    "slice_content_hash": "b33c68930d6d0cf3",
+    "source": "wikidata",
+    "stop_reason": "completed",
+    "target_edges": 10000,
+    "timings_s": {
+      "repair_loop": 1.4478
+    },
+    "variant": null
+  },
+  "summary": {
+    "consistent_after": true,
+    "constraint_provenance": "authored",
+    "engine": "superset",
+    "engine_ran": true
+  }
+}

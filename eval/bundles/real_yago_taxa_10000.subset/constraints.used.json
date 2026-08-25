@@ -1,0 +1,29 @@
+{
+  "constraints": [
+    {
+      "cid": "tax.yg.inherit.taxon",
+      "containment": {
+        "phi": "< down(rdf:type) . down(rdfs:subClassOf)* . [val(\"schema:Taxon\")] >",
+        "psi": "< down(rdf:type) . [val(\"schema:Taxon\")] >"
+      },
+      "direction": "superset",
+      "domain": "taxa",
+      "kg": "yago",
+      "kind": "typing_inheritance",
+      "note": "PARTIAL slice: class-level taxonomy only; confirm predicates from dump.",
+      "params": {
+        "confirm": "yago-4.5-dump",
+        "status": "partial"
+      },
+      "provenance": "compiled",
+      "tier": "ptime_core",
+      "version": 1
+    }
+  ],
+  "coverage": {
+    "boundary": 0,
+    "ptime_core": 1,
+    "total": 1
+  },
+  "slice": "taxa@yago[partial]"
+}

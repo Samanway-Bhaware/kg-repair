@@ -1,0 +1,5 @@
+- <dbr:Boston> <dbo:country> <dbr:United_States> .
+- <dbr:Chicago> <dbo:country> <dbr:United_States> .
+- <dbr:Gothenburg> <dbo:country> <dbr:Sweden> .
+- <dbr:New_York_City> <dbo:country> <dbr:United_States> .
+- <dbr:Stockholm> <dbo:country> <dbr:Sweden> .

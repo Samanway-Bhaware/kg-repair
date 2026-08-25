@@ -1,0 +1,22 @@
+{
+  "allowlist_id": "yago-geo-taxa-v1",
+  "source": "yago",
+  "note": "Level-0: whitelist. YAGO 4.5 is schema.org-based. Typing spine (rdf:type + rdfs:subClassOf) + schema geography/taxa predicates from the constraint files.",
+  "prefixes": {
+    "yago": "http://yago-knowledge.org/resource/",
+    "schema": "http://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "predicates": [
+    "rdf:type", "rdfs:subClassOf",
+    "schema:containedInPlace", "schema:location",
+    "schema:parentTaxon"
+  ],
+  "deny_predicates": [
+    "schema:parent", "schema:children", "schema:spouse", "schema:sibling",
+    "schema:founder", "schema:employee", "schema:author", "schema:director",
+    "schema:birthPlace", "schema:deathPlace", "schema:memberOf", "schema:affiliation"
+  ],
+  "deny_note": "person/org-pointing schema.org relations; any predicate whose object is a schema:Person must be dropped at fetch."
+}

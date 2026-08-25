@@ -1,0 +1,60 @@
+[build-system]
+# >=77 for PEP 639 SPDX `license` / `license-files` support.
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kgrepair"
+description = "Polynomial-time set repairs for knowledge graphs (Reg-GXPath_pos positive fragment)."
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["version"]
+authors = [
+    { name = "Samanway Bhaware" },
+    { name = "Nina Pardal" },
+]
+keywords = ["knowledge-graph", "rdf", "repair", "gxpath", "constraints"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# The toolkit's own source code and documentation are MIT-licensed. This covers
+# the CODE only: the knowledge-graph DATASETS the toolkit reads (Wikidata,
+# DBpedia, YAGO) carry their own separate terms and are not licensed here. See
+# the scope note at the bottom of LICENSE.
+license = "MIT"
+license-files = ["LICENSE"]
+
+# Core is stdlib-only, by project rule (README, "Design invariants"). Keep this
+# list EMPTY: matplotlib/streamlit/pytest are extras, never runtime dependencies.
+dependencies = []
+
+[project.scripts]
+kgrepair = "kgrepair.cli:main"
+
+[project.optional-dependencies]
+# Evaluation/reporting tooling (scripts/build_evaluation.py figures). Never
+# imported by anything under src/kgrepair.
+eval = ["matplotlib>=3.5"]
+# The Streamlit inspection viewer under app/. Never imported by src/kgrepair.
+viewer = ["streamlit>=1.30"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.dynamic]
+version = { attr = "kgrepair.__version__" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["kgrepair*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

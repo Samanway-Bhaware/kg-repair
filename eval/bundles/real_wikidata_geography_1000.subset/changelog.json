@@ -1,0 +1,7976 @@
+{
+ "changelog": [
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q1049",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q1049",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q1049",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q492430",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q11950568",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1219",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q145374",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1464580",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1534721",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1644",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1693",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2146155",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2225573",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2265712",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q316450",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q316958",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q317889",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q321993",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3339",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q430677",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q730662",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q827919",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q877543",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q882922",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1221156",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q133442",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15974307",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2264924",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42744322",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q57318",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q707813",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q85636199",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3969",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1194",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1197",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16104",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2980",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3000",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3003",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3006",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3928",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q508054",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q516405",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q542824",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q574242",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5906",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5907",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7084",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1055"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1055",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q213",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q213",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q213",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q11774092",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12047146",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q131574",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16957215",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2162612",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q339660",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q44039738",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q894740",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q108178728",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1200957",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12031379",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15978299",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q171441",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q192611",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38911",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5153359",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q548611",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q76007695",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q76009696",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7819319",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7841907",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8452914",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1322371",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1421441",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1630623",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q164457",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q169129",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1756968",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1857646",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q188399",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2030200",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2038198",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2053522",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2077582",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2081396",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2183926",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2192982",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2219017",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2249194",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2251197",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2301557",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2325178",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2377065",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2380033",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2562449",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2579171",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2625864",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2659639",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2659658",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2659866",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2661922",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2661964",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2697750",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2703980",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q302778",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q330653",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q339112",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q373414",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q386988",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q645376",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q775949",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q896274",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q936675",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1085"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1085",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q192232",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q941828",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q219060",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q801",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q219060",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q801",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q48",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1025294",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1026815",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q158119",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2130036",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q219200",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q246590",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2776340",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2907886",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5776",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q775087",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q803984",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1218"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1218",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1693",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q34640",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4918",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7270",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q90",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8932",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q155",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q228",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q235",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q29",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q29999",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q31",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q32",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q39",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q730",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1050483",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q142"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q142",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q145",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q145",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q145",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q145",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q112099",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20181813",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q84",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3324796",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q27",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q145"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q145",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q145",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q17",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q17",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q17",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q141017",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q48",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1025961",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1066984",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1200957",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q124313007",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q174844",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q208511",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q50337",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q179645",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1490",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1775108",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q328121",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q127513",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q128186",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q132720",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q80011",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1074185",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1138596",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1323122",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q308891",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7473516",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1490"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1490",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15348",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15348",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5705",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q81949",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q29",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q31424",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4918",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q765483",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q33146843",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q19942150",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q249489",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13922",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13927",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13936",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15470",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15471",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15473",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15619",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15621",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15624",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15639",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15641",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1492"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1492",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1224979",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q204772",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1224979",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q41",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q758056",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q41",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5500203",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1021592",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q218375",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1524"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1524",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q155",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q127892",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q142148",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3783",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q859563",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2844",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12585",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q236118",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q377916",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3769",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q414",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q419",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q717",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q730",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q733",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q734",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q739",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q750",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q77",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q155"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q155",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q155",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q17",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q159183",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q27092",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q41602",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q45341",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q98",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q48",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q112099",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q148",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q159",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q30",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q865",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q884",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q928",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1063689",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1063946",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q841336",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q905661",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q905991",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q17"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q17",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10562",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10544",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10562",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q980",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q106588",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1258092",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1673718",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1746458",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1746836",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q19250109",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q202655",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q258243",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q277974",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q527132",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1066984",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1180262",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1187811",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q134626",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1418640",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42744322",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q85631896",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10500",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10502",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10544",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q202116",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q220090",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q253881",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q254897",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q255796",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q258208",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q259597",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q261630",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q264501",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q264620",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q264899",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q267408",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q268707",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q503747",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q504820",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q504854",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q55278376",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q55278629",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1726"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1726",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1202",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1202",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1564654",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1644",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1721806",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1808492",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20282",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q546853",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q253030",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42744322",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q61708099",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1536876",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20274",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q571947",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5870",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6313",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6323",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6448",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6474",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6692",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6715",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1731"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1731",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q40",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12548",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q131964",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q153136",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16056854",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q176495",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q268970",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q28513",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624335",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q40",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42497",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q518101",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q533534",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q699964",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7309916",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q40",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1653",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1824337",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q701695",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q702289",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q133442",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13539802",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q171441",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q257391",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q261543",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q262882",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q667509",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q871419",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1741",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q254176",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42497",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q584543",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q694372",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q694393",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q694428",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q694442",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1741"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1741",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q26073",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q35",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q35",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q104662",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q108178728",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1392581",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1748"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1748",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1748",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183498",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q119983250",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q119983251",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q154401",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q171150",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1751495",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183498",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q187383",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q214",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q246934",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q253094",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q56273457",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6852023",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q214",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1653",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6784672",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1780"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1780",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7932",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q153080",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q154741",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18285930",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1670",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1066984",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1187811",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1375749",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q208511",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42744322",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q61980648",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16801822",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16082",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3042",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7908",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7909",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7910",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7911",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7912",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7914",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1794"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1794",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1693",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q545",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q64",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q213",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q31",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q32",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q35",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q36",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q39",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q40",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q55",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q183"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q183",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q212",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q212",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q212",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q40855",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1200957",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12131624",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7930989",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q170036",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1899"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1899",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q310385",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q541455",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5866728",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3392",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4814791",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q882739",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q257391",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q180921",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q310114",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q1963"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q1963",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1693",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1695",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q45823",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q47545",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q585",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q52062",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8932",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q159",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q33",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q34",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q458",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q34"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1585051",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q20"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q20",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18288148",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1273",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q148540",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q154849",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16172",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q172579",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18288148",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q223793",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2252973",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2567507",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3393334",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q115457",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4115680",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q747074",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q82612",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q82636",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q82670",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q82712",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q82842",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q82865",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3927247",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3927266",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q50188306",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q50188656",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2044"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q2044",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1202",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1323208",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15621861",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1787689",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q48079",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q481202",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1333897",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q162993",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q44729",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q253030",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42744322",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q61708099",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10745",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10750",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10760",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10770",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10773",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10779",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10782",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12050",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12058",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16047",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16049",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16063",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20230",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20242",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20256",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6301",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6308",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2079"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q2079",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q212",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q213",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q213",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q214",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q214",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q219060",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18288160",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1282",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18288160",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13712",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38882",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q546600",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q108178728",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1187811",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1200957",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3685476",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q747074",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q902814",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q220",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q140255",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q159605",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q190963",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q191115",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q19326",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q241693",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q241733",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q241911",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242105",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242120",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242513",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242558",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242637",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242645",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242661",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242703",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242710",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242926",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242942",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242954",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242965",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q242998",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q243133",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q243168",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q243172",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q243188",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q243311",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q243364",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q243497",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q220"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q220",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18241891",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1438",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15123",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q180393",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18241891",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q188586",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q48779892",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q201385",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q747074",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q71628",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q71945",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q71967",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72009",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72030",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72221",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72258",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72279",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72414",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72425",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72443",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72497",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72527",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q72783",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2634"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q2634",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q27",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q112099",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q127693126",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1761",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8932",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q26",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q27"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q27",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5756",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q29",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q5756",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q29",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16512",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q793529",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1200957",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2074737",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q116170766",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2807",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q111805205",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q10372",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q164197",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2046249",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q427505",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q484717",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q487679",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q542958",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q55480",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q592747",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q639422",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q644481",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q664769",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q77433",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q842211",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8802",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q910410",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2807"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q2807",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q29",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q199408",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2090594",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4918",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1250464",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q179671",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51576574",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8932",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1028",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1410",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q228",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q45",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q29"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q29",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q29",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q29999",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "dst": "wd:Q29999",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q29999",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q30",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q30",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q30",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q30",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q788",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q98",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q49",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q61",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q49",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q96",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q30"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q30",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q31",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1693",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q239",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q32",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q55",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q31"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q31",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q31",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q756617",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q756617",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1693",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q545",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q20181813",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q63791824",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q66724388",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q7275",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q21195",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q27479",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q458",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q52062",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q756617",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8932",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q34",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q35"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q35",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q34"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q35",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13924",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q37495",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38882",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42820",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4918",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8932",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q215",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q233",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q237",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q238",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q39",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q40",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q38"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q38",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q38",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q40",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q14369",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q152661",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1653",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q179251",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4127",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q584",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6396",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q660208",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q123480",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q127693126",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4209223",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q27509",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q8932",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q215",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q28",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q347",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q39",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q40"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q40",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q55934339",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q124661",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q55934339",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q68826097",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q77607750",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q183161",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q19721",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q202435",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q209142",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2746326",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q4093"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q4093",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q41",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q45",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q597",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2749444",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2914565",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2915956",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3032141",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q45"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q45",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1247",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1693",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q26080",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q4121",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q629864",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q939766",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15304003",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q727",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q55"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q55",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1384",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1064776",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1294277",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q212862",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3140",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q597451",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q867460",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q928157",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q49",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1093829",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15063611",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1549591",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q174844",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q208511",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2264924",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q112915",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q490505",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q502459",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q54064",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q54066",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q60"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q60",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1532109",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1538524",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q161455",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1646276",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1682",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1684",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q300875",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q316287",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q324404",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3908364",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q562206",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q671428",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q694789",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q697916",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q821135",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q114401982",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1221156",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q133442",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15974307",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1901835",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q257391",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q42744322",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q67123843",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q707813",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q15781847",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q648102",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1208",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q64"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q64",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q104994",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q104994",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q98",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q49",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13218391",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q127856",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1669280",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16739",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1898553",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1898611",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q2584592",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q290356",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q39561",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q47164",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q485176",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q485716",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q487119",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q487315",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q489197",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q493378",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q494690",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q621549",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q629088",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q655926",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q664503",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q690991",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q752681",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q846406",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q846409",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q846421",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q849619",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q851027",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q852581",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q913346",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q927213",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q934111",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q983859",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q984162",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q65"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q65",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q756617",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q77",
+   "label": "wdt:P17",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18278",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q35827",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q97",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q18",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1520223",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3624078",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q6256",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q859563",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1335",
+   "label": "wdt:P36",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12585",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q236118",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q66458647",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q414",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q77"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q77",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.rng.country",
+   "node": "wd:Q801",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q23306",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q21",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q19686",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q19914",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1048835",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1066984",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q108178728",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q174844",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q208511",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q515",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q23220",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q23229",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q23240",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q23276",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q23298",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q23346",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q3410",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q84"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q84",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16665915",
+   "label": "wdt:P131",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q16665915",
+   "label": "wdt:P1376",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q1471",
+   "label": "wdt:P206",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q46",
+   "label": "wdt:P30",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q108178728",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q174844",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q200250",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q208511",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q22923920",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q51929311",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q13917",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12543",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12761",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q12788",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q131575588",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "dst": "wd:Q135104",
+   "label": "wdt:P47",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q90"
+  },
+  {
+   "constraint": "geo.wd.dom.country",
+   "node": "wd:Q90",
+   "op": "remove_node",
+   "round": 1
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "real_wikidata_anatomy_1000_typed",
+  "namespace": "real",
+  "slice_source": "wikidata",
+  "source": "real",
+  "domain": "anatomy",
+  "target_edges": 1000,
+  "generation": "typed (T0 typing-completed)",
+  "supersedes": "real_wikidata_anatomy_1000",
+  "cache_generation_before": "a678d7568756c274",
+  "cache_generation_after": "722aaadf4f7cb390",
+  "closure_report": {
+    "source": "wikidata",
+    "domain": "anatomy",
+    "closure_rounds": 6,
+    "closure_requests": 5,
+    "cached_edges": 5037,
+    "fetcher_requests": 5
+  },
+  "typing_edges_added": 3180,
+  "V_before": 503,
+  "E_before": 1000,
+  "V": 1538,
+  "E": 4180,
+  "labels": 12,
+  "data_values": 1239,
+  "violations_original": {
+    "ana.wd.dom.partof": 69,
+    "ana.wd.rng.partof": 75,
+    "ana.wd.inv.part_haspart": 31
+  },
+  "violations": {
+    "ana.wd.dom.partof": 63,
+    "ana.wd.rng.partof": 71,
+    "ana.wd.inv.part_haspart": 31
+  }
+}

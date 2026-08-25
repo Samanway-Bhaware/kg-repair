@@ -1,0 +1,300 @@
+{
+ "changelog": [
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q37517",
+   "label": "wdt:P105",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q26214",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q1230015",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q1756633",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q2612572",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q55983715",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q58051350",
+   "label": "wdt:P31",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q152",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q132390"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q13147",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q132390",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q16642195",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q188488",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q212344",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q280969",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "dst": "wd:Q4162555",
+   "label": "wdt:P527",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q152"
+  },
+  {
+   "constraint": "tax.wd.dom.parent",
+   "node": "wd:Q152",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q18417702",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q157892"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q18417702",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q19806047",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q22724"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q19806047",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q25241",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q26214"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q25241",
+   "label": "wdt:P279",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q7377"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q25241",
+   "label": "wdt:P361",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q24060765"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q25241",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q27414",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q10262706"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q27414",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q28746016",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2082668"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q28746016",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q378080",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q22073013"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q378080",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q39275",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q2360683"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q39275",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q4687717",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q10281053"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q4687717",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q605457",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q171283"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q605457",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q7460384",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q19159"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q7460384",
+   "op": "remove_node",
+   "round": 1
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "dst": "wd:Q753853",
+   "label": "wdt:P171",
+   "op": "remove_edge",
+   "round": 1,
+   "src": "wd:Q42569"
+  },
+  {
+   "constraint": "tax.wd.rng.parent",
+   "node": "wd:Q753853",
+   "op": "remove_node",
+   "round": 1
+  }
+ ]
+}

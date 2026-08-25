@@ -1,0 +1,1382 @@
+[
+  {
+    "cid": "mined.geography.req.Q1048835.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1048835\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1048835 have wdt:P17 in 100.0% of 37 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "37",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q1048835.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1048835\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1048835 have wdt:P47 in 97.3% of 37 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9730",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "37",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q107390.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q107390\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q107390 have wdt:P131 in 100.0% of 21 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "21",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q107390.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q107390\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q107390 have wdt:P17 in 100.0% of 21 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "21",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q107390.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q107390\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q107390 have wdt:P47 in 100.0% of 21 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "21",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q10864048.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q10864048\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q10864048 have wdt:P131 in 100.0% of 26 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "26",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q10864048.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q10864048\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q10864048 have wdt:P17 in 100.0% of 26 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "26",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q10864048.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q10864048\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q10864048 have wdt:P47 in 100.0% of 26 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "26",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q1549591.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1549591\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1549591 have wdt:P131 in 100.0% of 28 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "28",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q1549591.P1376",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1549591\")] >",
+      "psi": "< down(wdt:P1376) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1549591 have wdt:P1376 in 100.0% of 28 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "28",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q1549591.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1549591\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1549591 have wdt:P17 in 100.0% of 28 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "28",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q1799794.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1799794\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1799794 have wdt:P131 in 97.7% of 44 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9773",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "44",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q1799794.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1799794\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1799794 have wdt:P17 in 100.0% of 44 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "44",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q1799794.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q1799794\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q1799794 have wdt:P47 in 97.7% of 44 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9773",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "44",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q23058.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q23058\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q23058 have wdt:P131 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q23058.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q23058\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q23058 have wdt:P17 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q23058.P36",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q23058\")] >",
+      "psi": "< down(wdt:P36) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q23058 have wdt:P36 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q23058.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q23058\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q23058 have wdt:P47 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q35657.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35657\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q35657 have wdt:P131 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q35657.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35657\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q35657 have wdt:P17 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q35657.P30",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35657\")] >",
+      "psi": "< down(wdt:P30) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q35657 have wdt:P30 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q35657.P36",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35657\")] >",
+      "psi": "< down(wdt:P36) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q35657 have wdt:P36 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q35657.P361",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35657\")] >",
+      "psi": "< down(wdt:P361) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q35657 have wdt:P361 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q35657.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q35657\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q35657 have wdt:P47 in 100.0% of 25 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "25",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q3624078.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q3624078\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q3624078 have wdt:P17 in 97.6% of 41 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9756",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "41",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q3624078.P30",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q3624078\")] >",
+      "psi": "< down(wdt:P30) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q3624078 have wdt:P30 in 100.0% of 41 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "41",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q3624078.P36",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q3624078\")] >",
+      "psi": "< down(wdt:P36) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q3624078 have wdt:P36 in 100.0% of 41 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "41",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q3624078.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q3624078\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q3624078 have wdt:P47 in 97.6% of 41 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9756",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "41",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q42744322.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q42744322\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q42744322 have wdt:P131 in 100.0% of 31 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "31",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q42744322.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q42744322\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q42744322 have wdt:P17 in 100.0% of 31 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "31",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q42744322.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q42744322\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q42744322 have wdt:P47 in 100.0% of 31 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "31",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q47168.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q47168\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q47168 have wdt:P131 in 100.0% of 47 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "47",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q47168.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q47168\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q47168 have wdt:P17 in 100.0% of 47 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "47",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q47168.P36",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q47168\")] >",
+      "psi": "< down(wdt:P36) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q47168 have wdt:P36 in 100.0% of 47 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "47",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q47168.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q47168\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q47168 have wdt:P47 in 100.0% of 47 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "47",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q484170.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q484170\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q484170 have wdt:P131 in 100.0% of 227 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "227",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q484170.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q484170\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q484170 have wdt:P17 in 100.0% of 227 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "227",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q484170.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q484170\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q484170 have wdt:P47 in 100.0% of 227 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "227",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q515.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q515\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q515 have wdt:P131 in 100.0% of 46 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "46",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q515.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q515\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q515 have wdt:P17 in 100.0% of 46 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "46",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q56061.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q56061\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q56061 have wdt:P131 in 95.7% of 47 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9574",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "47",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q56061.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q56061\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q56061 have wdt:P17 in 100.0% of 47 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "47",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q56061.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q56061\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q56061 have wdt:P47 in 97.9% of 47 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9787",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "47",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q6256.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6256\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q6256 have wdt:P17 in 97.7% of 43 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9767",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "43",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q6256.P30",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6256\")] >",
+      "psi": "< down(wdt:P30) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q6256 have wdt:P30 in 100.0% of 43 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "43",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q6256.P36",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6256\")] >",
+      "psi": "< down(wdt:P36) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q6256 have wdt:P36 in 100.0% of 43 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "43",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q6256.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6256\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q6256 have wdt:P47 in 97.7% of 43 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9767",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "43",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q6465.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6465\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q6465 have wdt:P17 in 100.0% of 67 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "67",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q6465.P36",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6465\")] >",
+      "psi": "< down(wdt:P36) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q6465 have wdt:P36 in 100.0% of 67 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "67",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q6465.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q6465\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q6465 have wdt:P47 in 98.5% of 67 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9851",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "67",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q7275.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q7275\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q7275 have wdt:P17 in 100.0% of 35 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "35",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q7275.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q7275\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q7275 have wdt:P47 in 97.1% of 35 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9714",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "35",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q82794.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q82794\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q82794 have wdt:P17 in 95.0% of 20 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9500",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "20",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q85482556.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q85482556\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q85482556 have wdt:P131 in 98.7% of 75 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9867",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "75",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q85482556.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q85482556\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q85482556 have wdt:P17 in 100.0% of 75 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "75",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q85482556.P36",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q85482556\")] >",
+      "psi": "< down(wdt:P36) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q85482556 have wdt:P36 in 98.7% of 75 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9867",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "75",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q85482556.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q85482556\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q85482556 have wdt:P47 in 98.7% of 75 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "0.9867",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "75",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q96196009.P131",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q96196009\")] >",
+      "psi": "< down(wdt:P131) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q96196009 have wdt:P131 in 100.0% of 21 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "21",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q96196009.P17",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q96196009\")] >",
+      "psi": "< down(wdt:P17) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q96196009 have wdt:P17 in 100.0% of 21 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "21",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  },
+  {
+    "cid": "mined.geography.req.Q96196009.P47",
+    "containment": {
+      "phi": "< down(wdt:P31) . down(wdt:P279)* . [val(\"wd:Q96196009\")] >",
+      "psi": "< down(wdt:P47) >"
+    },
+    "direction": "superset",
+    "domain": "geography",
+    "kg": "wikidata",
+    "kind": "requires_statement",
+    "note": "mined: instances of wd:Q96196009 have wdt:P47 in 100.0% of 21 cases",
+    "params": {
+      "min_support_floor": "20",
+      "miner": "prevalence_v1",
+      "prevalence": "1.0000",
+      "source_slice_hash": "b33c68930d6d0cf3",
+      "support": "21",
+      "threshold": "0.95"
+    },
+    "provenance": "mined",
+    "tier": "ptime_core",
+    "version": 1
+  }
+]
