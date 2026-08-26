@@ -15,12 +15,25 @@ validator, and both polynomial-time repair algorithms.
 
 ## Install
 
+From a release, no checkout needed:
+
+```bash
+pip install https://github.com/Samanway-Bhaware/kg-repair/releases/latest/download/kgrepair-0.5.0-py3-none-any.whl
+```
+
+From a checkout, for development:
+
 ```bash
 pip install -e .                # core, stdlib-only
 pip install -e ".[dev]"         # + pytest, to run the suite
-pip install -e ".[viewer]"      # + streamlit, for the inspection viewer
+pip install -e ".[viewer]"      # + streamlit/networkx/matplotlib, for the inspection viewer
 pip install -e ".[eval]"        # + matplotlib, for the evaluation figures
 ```
+
+Install **editable** (`-e`) if you intend to run the suite or the extraction
+pipeline: `kgrepair.pipeline` resolves `allowlists/*.json` relative to the
+checkout rather than to packaged data, so those parts need the source tree. The
+library, the CLI, and the repair engines work fine from a plain wheel.
 
 The test suite imports `kgrepair` from the installed package, so install before
 running it. The toolkit is **[MIT-licensed](LICENSE)**; the knowledge-graph

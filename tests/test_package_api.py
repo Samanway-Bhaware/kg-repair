@@ -94,7 +94,10 @@ def test_version_matches_the_installed_distribution():
 
 
 def test_pyproject_declares_no_third_party_core_dependencies():
-    import tomllib
+    try:
+        import tomllib                      # stdlib, Python 3.11+
+    except ModuleNotFoundError:             # 3.10, the declared floor
+        import tomli as tomllib
     with open(os.path.join(ROOT, "pyproject.toml"), "rb") as fh:
         cfg = tomllib.load(fh)
     assert cfg["project"]["dependencies"] == []

@@ -46,8 +46,12 @@ kgrepair = "kgrepair.cli:main"
 # imported by anything under src/kgrepair.
 eval = ["matplotlib>=3.5"]
 # The Streamlit inspection viewer under app/. Never imported by src/kgrepair.
-viewer = ["streamlit>=1.30"]
-dev = ["pytest>=7.0"]
+# app/viz.py draws neighbourhoods with networkx on a matplotlib Agg canvas, so
+# both are viewer runtime deps -- without them the neighbourhood screen crashes.
+viewer = ["streamlit>=1.30", "networkx>=3.0", "matplotlib>=3.5"]
+# tomli backfills stdlib tomllib (3.11+) so the packaging tests run on 3.10,
+# the floor this project declares in requires-python.
+dev = ["pytest>=7.0", "tomli>=2.0; python_version < '3.11'"]
 
 [tool.setuptools.dynamic]
 version = { attr = "kgrepair.__version__" }

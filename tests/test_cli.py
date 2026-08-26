@@ -382,7 +382,10 @@ def test_python_dash_m_kgrepair_runs():
 
 
 def test_console_script_is_declared():
-    import tomllib
+    try:
+        import tomllib                      # stdlib, Python 3.11+
+    except ModuleNotFoundError:             # 3.10, the declared floor
+        import tomli as tomllib
     with open(os.path.join(ROOT, "pyproject.toml"), "rb") as fh:
         cfg = tomllib.load(fh)
     assert cfg["project"]["scripts"] == {"kgrepair": "kgrepair.cli:main"}
